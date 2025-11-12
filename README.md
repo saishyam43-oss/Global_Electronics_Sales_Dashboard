@@ -9,9 +9,7 @@
 <img src="Images/Logo_GE.png" alt="Global Electronics Logo" width="150"/>
 
 <h1>
-  <span style="color : green;">Global</span>
-  <span style="color : gold;">Electronics</span>
-  $${\color{red}Welcome \space \color{lightblue}To \space \color{lightgreen}Github}$$
+  $${\color{green}Global \space \color{yellow}Electronics}$$
 </h1>
 <h3>Retail Sales Operations Dashboard</h3>
 
