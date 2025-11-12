@@ -90,9 +90,9 @@ This dashboard consolidates company-wide performance metrics into a single, inte
 |------|------:|-----------:|:---------------|
 | **Total Revenue (YTD)** | \$9.24M | 🔻 -49.2% | Demand contraction post-2019 peak |
 | **Total Profit (YTD)** | \$5.42M | 🔻 -49.2% | Margin pressure across categories |
-| **Average Order Value (AOV)** | \$2.00K | 🔻 -0.4% | Smaller purchase sizes |
+| **Average Order Value (AOV)** | \$2.00K | 🔻 -0.4% | Remained resilient despite sales decline |
 | **Customer Lifetime Value (CLV)** | \$2.40K | 🔻 -49.2% | Customer loyalty erosion |
-| **Revenue Growth (local)** | -49.23% | 🔻 | Decline across all regions |
+| **Revenue Growth (local)** | -49.23% | -0.00%🔻 | Minimal Currency impact |
 
 > 📉 **Insight:** 2020 marked a structural downturn, wiping nearly half of both revenue and profit compared to 2019.  
 > 💡 **Implication:** Leadership must shift focus from acquisition to retention and operational efficiency.
@@ -107,12 +107,11 @@ This dashboard consolidates company-wide performance metrics into a single, inte
 
 </div>
 
-📈 **Insight:**  
-Between 2016–2019, Global Electronics achieved consistent revenue growth, peaking at **\$5.7M** in Q4 2019.  
-However, revenue fell sharply by **60% over the next two years**, with average quarterly revenue dropping from **\$2.6M → \$1.0M**.
+📉 Insight:
+While overall revenue and profit nearly halved in 2020, average order value remained stable, suggesting that customer purchasing power or product pricing held steady.
 
-💡 **Implication:**  
-The business was overly reliant on volume-driven sales and lacked resilience in repeat purchases, exposing vulnerabilities when external shocks hit.
+💡 Implication:
+The decline was volume-driven, not price-driven — indicating lost customers rather than lower spend per transaction. Recovery efforts should therefore focus on retention and reactivation, not discounting.
 
 ---
 
@@ -143,12 +142,17 @@ Dependence on a narrow product mix and aging demographic poses long-term growth 
 
 📈 **Insight:**  
 Of the **15K customers**,  
-- **60.6%** are **Dormant**,  
-- **22.2%** are **Unacquired**,  
-- only **5%** remain **Active**.
+- **60.6%** are **Dormant** (no purchase in the last 12 months),
+- **12.1%** are **At-Risk** (declining frequency, low engagement),
+- **22.2%** are **Unacquired** (potential new market),  
+- only **5%** remain **Active** (generating the majority of current revenue).
 
 💡 **Implication:**  
-Reactivation campaigns and retention programs can yield the fastest recovery by focusing on dormant but high-value customers.
+Reactivating At-Risk and Dormant customers presents the fastest path to revenue recovery.
+Short-term focus should include:
+- **Personalized win-back email** campaigns targeting the At-Risk group
+- **Loyalty incentives** (e.g., tiered rewards) for Active customers to prevent churn
+- Using predictive churn models to identify early warning signals in repeat purchase behavior
 
 ---
 
