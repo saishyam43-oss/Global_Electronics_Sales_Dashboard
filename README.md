@@ -62,7 +62,7 @@ To provide actionable answers, the analysis was focused on a set of "North-Star"
 
 <div align="center">
 
-<img src="dashboard_screenshots/Executive_Summary_Full.jpg" alt="Executive Summary Dashboard" width="850"/>
+<img src="Images/Executive_Summary/Executive_Summary_Full.jpg" alt="Executive Summary Dashboard" width="850"/>
 
 </div>
 
@@ -82,7 +82,7 @@ This dashboard consolidates company-wide performance metrics into a single, inte
 
 <div align="center">
 
-<img src="dashboard_screenshots/KPIs_2020.jpg" alt="2020 KPI Cards" width="800"/>
+<img src="Images/Executive_Summary/KPIs_2020.jpg" alt="2020 KPI Cards" width="800"/>
 
 </div>
 
@@ -103,7 +103,7 @@ This dashboard consolidates company-wide performance metrics into a single, inte
 
 <div align="center">
 
-<img src="dashboard_screenshots/Sales_Peak.jpg" alt="Sales peaked in 2019" width="750"/>
+<img src="Images/Executive_Summary/Sales_Peak.jpg" alt="Sales peaked in 2019" width="750"/>
 
 </div>
 
@@ -120,7 +120,7 @@ The business was overly reliant on volume-driven sales and lacked resilience in 
 
 <div align="center">
 
-<img src="dashboard_screenshots/Top3.jpg" alt="Top Product Lines and Customer Segments" width="750"/>
+<img src="Images/Executive_Summary/Top3.jpg" alt="Top Product Lines and Customer Segments" width="750"/>
 
 </div>
 
@@ -137,7 +137,7 @@ Dependence on a narrow product mix and aging demographic poses long-term growth 
 
 <div align="center">
 
-<img src="dashboard_screenshots/Customer_Base.png" alt="Customer Lifecycle & Retention" width="500"/>
+<img src="Images/Executive_Summary/Customer_Base.png" alt="Customer Lifecycle & Retention" width="500"/>
 
 </div>
 
