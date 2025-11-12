@@ -94,10 +94,10 @@ This dashboard consolidates company-wide performance metrics into a single, inte
 | **Customer Lifetime Value (CLV)** | \$2.40K | 🔻 -49.2% | Customer loyalty erosion |
 | **Revenue Growth (local)** | -49.23% |🔻 -0.00% | Minimal Currency impact |
 
-📉 **Insight:**
+📉 **Insight:**  
 While overall revenue and profit nearly halved in 2020, average order value remained stable, suggesting that customer purchasing power or product pricing held steady.
 
-💡 **Implication:**
+💡 **Implication:**  
 The decline was volume-driven, not price-driven — indicating lost customers rather than lower spend per transaction. Recovery efforts should therefore focus on retention and reactivation, not discounting.
 
 ---
@@ -110,11 +110,11 @@ The decline was volume-driven, not price-driven — indicating lost customers ra
 
 </div>
 
-📈 **Insight:**
+📈 **Insight:**  
 Between 2016–2019, Global Electronics achieved consistent revenue growth, peaking at **\$5.7M** in Q4 2019.  
 However, revenue fell sharply by **60% over the next two years**, with average quarterly revenue dropping from **\$2.6M → \$1.0M**.
 
-💡 **Implication:**
+💡 **Implication:**  
 The business was overly reliant on volume-driven sales and lacked resilience in repeat purchases, exposing vulnerabilities when external shocks hit.
 
 ---
