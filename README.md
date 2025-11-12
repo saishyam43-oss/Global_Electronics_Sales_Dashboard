@@ -9,8 +9,8 @@
 <img src="Images/Logo_GE.png" alt="Global Electronics Logo" width="150"/>
 
 <h1>
-  <span style="color:#168820;">Global</span>
-  <span style="color:#93930C;">Electronics</span>
+  <span style="color:green;">Global</span>
+  <span style="color:yellow;">Electronics</span>
 </h1>
 <h3>Retail Sales Operations Dashboard</h3>
 
