@@ -11,6 +11,7 @@
 <h1>
   <span style="color : green;">Global</span>
   <span style="color : gold;">Electronics</span>
+  $${\color{red}Welcome \space \color{lightblue}To \space \color{lightgreen}Github}$$
 </h1>
 <h3>Retail Sales Operations Dashboard</h3>
 
