@@ -6,7 +6,7 @@
 
 ## 🏢 Client Background
 
-![Company Logo Placeholder](dashboard_screenshots/company_logo.png)
+GLOBAL ELECTRONICS (Images/Logo_GE.png)
 
 **Global Electronics** is a *hypothetical multinational retailer* specializing in consumer electronics and appliances, operating across **four continents** with **hundreds of stores**.  
 The company’s sales data was obtained from the **Maven Analytics Retail Sales dataset**, adapted for analysis.
