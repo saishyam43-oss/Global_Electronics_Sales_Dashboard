@@ -95,6 +95,7 @@ This dashboard consolidates company-wide performance metrics into a single, inte
 | **Revenue Growth (local)** | -49.23% |🔻 -0.00% | Minimal Currency impact |
 
 > 📉 **Insight:** While overall revenue and profit nearly halved in 2020, average order value remained stable, suggesting that customer purchasing power or product pricing held steady.
+
 > 💡 **Implication:** The decline was volume-driven, not price-driven — indicating lost customers rather than lower spend per transaction. Recovery efforts should therefore focus on retention and reactivation, not discounting.
 
 ---
