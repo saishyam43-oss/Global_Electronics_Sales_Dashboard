@@ -51,12 +51,3 @@ To provide actionable answers, the analysis was focused on a set of "North-Star"
 * **`Sales per Square Meter`**: To measure the efficiency of physical stores.
 
 ---
-
-### 4. Executive Summary Dashboard
-
-This dashboard serves as the "mission control" for the project, providing a high-level, interactive overview of the entire business. It is the first page of the 5-page Power BI report and summarizes the answers to the main business questions.
-
-<div align="center">
-
-![Executive Summary Dashboard](image_bf8c42.png)
-</div>
