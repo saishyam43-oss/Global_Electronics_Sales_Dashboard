@@ -51,3 +51,119 @@ To provide actionable answers, the analysis was focused on a set of "North-Star"
 * **`Sales per Square Meter`**: To measure the efficiency of physical stores.
 
 ---
+
+## 📈 4. Executive Summary
+
+> *A holistic overview of Global Electronics’ performance between 2016–2021, revealing a steep post-2019 decline in revenue and profitability, with retention challenges across key customer segments.*
+
+---
+
+### 🧭 Executive Dashboard Overview
+
+<div align="center">
+
+<img src="dashboard_screenshots/Executive_Summary_Full.jpg" alt="Executive Summary Dashboard" width="850"/>
+
+</div>
+
+**Purpose:**  
+This dashboard consolidates company-wide performance metrics into a single, interactive view — combining sales trends, profitability, customer segmentation, and product insights.
+
+**Key Components**
+- **5 KPI cards** tracking YTD revenue, profit, AOV, CLV, and growth.  
+- **Global sales distribution** by continent.  
+- **Revenue & profit trendline** across six years.  
+- **Product and customer segment overviews.**  
+- **Strategic recommendations** for decision-makers.
+
+---
+
+### 💼 KPI Snapshot — *2020 vs Prior Year*
+
+<div align="center">
+
+<img src="dashboard_screenshots/KPIs_2020.jpg" alt="2020 KPI Cards" width="800"/>
+
+</div>
+
+| KPI | 2020 | Δ vs 2019 | Interpretation |
+|------|------:|-----------:|:---------------|
+| **Total Revenue (YTD)** | \$9.24M | 🔻 -49.2% | Demand contraction post-2019 peak |
+| **Total Profit (YTD)** | \$5.42M | 🔻 -49.2% | Margin pressure across categories |
+| **Average Order Value (AOV)** | \$2.00K | 🔻 -0.4% | Smaller purchase sizes |
+| **Customer Lifetime Value (CLV)** | \$2.40K | 🔻 -49.2% | Customer loyalty erosion |
+| **Revenue Growth (local)** | -49.23% | 🔻 | Decline across all regions |
+
+> 📉 **Insight:** 2020 marked a structural downturn, wiping nearly half of both revenue and profit compared to 2019.  
+> 💡 **Implication:** Leadership must shift focus from acquisition to retention and operational efficiency.
+
+---
+
+### 📊 Growth Trend — *Revenue Peaked in 2019*
+
+<div align="center">
+
+<img src="dashboard_screenshots/Sales_Peak.jpg" alt="Sales peaked in 2019" width="750"/>
+
+</div>
+
+📈 **Insight:**  
+Between 2016–2019, Global Electronics achieved consistent revenue growth, peaking at **\$5.7M** in Q4 2019.  
+However, revenue fell sharply by **60% over the next two years**, with average quarterly revenue dropping from **\$2.6M → \$1.0M**.
+
+💡 **Implication:**  
+The business was overly reliant on volume-driven sales and lacked resilience in repeat purchases, exposing vulnerabilities when external shocks hit.
+
+---
+
+### 🧩 Product and Customer Revenue Drivers
+
+<div align="center">
+
+<img src="dashboard_screenshots/Top3.jpg" alt="Top Product Lines and Customer Segments" width="750"/>
+
+</div>
+
+📈 **Insight:**  
+- **Computers** and **Home Appliances** generated **>60% of total profit**.  
+- The **65+ age group** alone contributed **~50% of total revenue**, while younger cohorts (18-35) were underrepresented.
+
+💡 **Implication:**  
+Dependence on a narrow product mix and aging demographic poses long-term growth risks — diversification is essential.
+
+---
+
+### 👥 Customer Lifecycle Overview
+
+<div align="center">
+
+<img src="dashboard_screenshots/Customer_Base.png" alt="Customer Lifecycle & Retention" width="500"/>
+
+</div>
+
+📈 **Insight:**  
+Of the **15K customers**,  
+- **60.6%** are **Dormant**,  
+- **22.2%** are **Unacquired**,  
+- only **5%** remain **Active**.
+
+💡 **Implication:**  
+Reactivation campaigns and retention programs can yield the fastest recovery by focusing on dormant but high-value customers.
+
+---
+
+### 🧭 Strategic Summary
+
+| Focus Area | Key Takeaway | Business Action |
+|-------------|--------------|-----------------|
+| **Sales Trend** | Growth momentum collapsed post-2019 | Stabilize revenue base via customer retention |
+| **Product Mix** | Profit concentrated in few categories | Diversify portfolio into mid-margin products |
+| **Customer Base** | Aging, dormant customer segments | Launch reactivation & loyalty initiatives |
+| **Geographic Focus** | North America = 60% of profit | Expand Europe; localize offers in APAC |
+
+---
+
+> 🧩 *Next Section → Data Cleaning Summary: how five raw data sources were transformed into a 99.6 % reliable analytics model powering this dashboard.*
+
+---
+
