@@ -4,70 +4,64 @@
 
 ---
 
-## 🏢 Client Background
+<div align="center">
 
-GLOBAL ELECTRONICS (Images/Logo_GE.png)
+<img src="Images/Logo_GE.png" alt="Global Electronics Logo" width="150"/>
 
-**Global Electronics** is a *hypothetical multinational retailer* specializing in consumer electronics and appliances, operating across **four continents** with **hundreds of stores**.  
-The company’s sales data was obtained from the **Maven Analytics Retail Sales dataset**, adapted for analysis.
+Global Electronics: Retail Sales Operations Dashboard
 
-Over the past few years, leadership noticed signs of:
-- Slowing **revenue growth** in mature markets,  
-- **Margin compression** due to discount-driven strategies, and  
-- Declining **customer retention** in certain regions.
+</div>
 
-To address these challenges, the **Operations & Strategy team** partnered with the **Analytics Division** to build a unified *Sales Operations Dashboard* that would track performance from multiple angles — product, customer, time, and geography.
+Client Background & Project Context
 
----
+Global Electronics is a (fictional) multinational retailer specializing in high-end consumer electronics. Founded in 2010, the company expanded rapidly from its North American roots, establishing a significant physical presence across Europe and Australia with over 70 stores, complemented by a robust e-commerce ("Online") platform.
 
-## 🎯 Business Problem & Project Objectives
+For years, GE was a market leader, but following a record-breaking year in 2019, the company began to see a significant and worrying decline in sales. Leadership was unable to diagnose the root cause: was this a market-wide (e.g., pandemic) problem, a failure in customer retention, a shift in product demand, or regional underperformance?
 
-> **Goal:** Build a centralized reporting and analytics solution that enables leadership to make data-driven operational decisions.
-
-**Key Objectives**
-- Consolidate messy sales, product, store, and customer data into a **clean, reliable data model**.  
-- Deliver **real-time insights** on sales performance, profitability, and customer behavior.  
-- Identify **growth opportunities** and **operational inefficiencies** across product lines and regions.  
-- Enable **strategic decision-making** through interactive Power BI dashboards and clear KPIs.
-
-**Primary Stakeholders**
-| Role | Responsibility |
-|------|----------------|
-| Chief Revenue Officer | Define strategic sales KPIs & oversee global targets |
-| Operations Manager | Monitor daily sales, order volumes, and logistics |
-| Marketing Director | Track customer segments & campaign effectiveness |
-| Finance Analyst | Evaluate profit margins and currency impacts |
+The primary stakeholders—the VP of Sales and the Director of Marketing—initiated this project to transform 5+ years (2016-2021) of raw, messy, and siloed transactional data into a unified, reliable, and actionable analytics dashboard to guide their recovery strategy.
 
 ---
 
-## 🌟 North-Star Metrics
+Business Problem & Objective
 
-These are the guiding performance indicators that Global Electronics uses to measure success:
+The core business problem was a lack of visibility. The leadership team was "flying blind" and could not answer critical, data-driven questions:
 
-| Metric | Definition | Purpose |
-|--------|-------------|----------|
-| **Total Revenue (YTD)** | Sum of all product sales | Measure top-line performance |
-| **Total Profit (YTD)** | Revenue minus total cost | Track business health |
-| **Average Order Value (AOV)** | Revenue ÷ Orders | Gauge customer spending patterns |
-| **Customer Lifetime Value (CLTV)** | Avg. customer value × Avg. lifespan | Assess customer quality |
-| **Profit Margin (%)** | Profit ÷ Revenue | Monitor operational efficiency |
-| **Active Customer %** | Ratio of active vs dormant customers | Measure retention health |
+Why did our strong sales growth reverse after 2019?
 
----
+Are we failing to acquire new customers, or are we losing our loyal ones?
 
-## 🧾 Executive Summary Dashboard
+Which products and categories are our true profit drivers, and which are "cash cows" (high revenue, low margin)?
 
-> A high-level overview for business leaders — highlighting revenue growth, profitability, customer segmentation, and top product lines.
+Where are our most (and least) efficient stores and regions?
 
-![Executive Summary Dashboard](dashboard_screenshots/02_Executive_Summary.png)
-
-**Key Features**
-- Dynamic KPI cards showing **YTD performance vs previous year** (Revenue, Profit, AOV, CLTV, and Revenue Growth).  
-- **Global breakdown** of revenue and profit by continent.  
-- **Trendline visualization** showing multi-year growth trajectories.  
-- **Customer activity segmentation** (Active, At-Risk, Dormant).  
-- **Top product categories** and **high-value customer segments** driving sales.
+The objective of this project was to clean, model, and analyze five years of data (from 5 tables: Sales, Products, Customers, Stores, Exchange Rates) to build a "single source of truth" dashboard. This tool would diagnose the root causes of the sales decline and identify the most valuable opportunities for growth.
 
 ---
 
-> 🧩 *Next section: Data Cleaning Summary → showcasing how raw, inconsistent data was transformed into a 99.6% reliable analytics foundation.*
+North-Star Metrics (Key Business Goals)
+
+To provide actionable answers, the analysis was focused on a set of "North-Star" KPIs that measure the complete health of the business:
+
+Total Revenue & YoY Growth: To measure top-line performance.
+
+Total Profit & Profit Margin %: To measure bottom-line efficiency.
+
+New Customer Acquisition (YTD): To measure market expansion.
+
+Customer Retention (Recency): To measure customer loyalty and churn.
+
+Customer Lifetime Value (CLV): To measure the long-term value of a customer.
+
+Average Order Value (AOV): To measure the average basket size.
+
+Sales per Square Meter: To measure the efficiency of physical stores.
+
+---
+
+Executive Summary Dashboard
+
+This dashboard serves as the "mission control" for the project, providing a high-level, interactive overview of the entire business. It is the first page of the 5-page Power BI report and summarizes the answers to the main business questions.
+
+<div align="center">
+
+</div>
