@@ -86,7 +86,7 @@ This dashboard consolidates company-wide performance metrics into a single, inte
 
 </div>
 
-| KPI | 2020 | Δ vs 2019 | Interpretation |
+| KPI | 2020 | Δ vs 2019 |   Interpretation |
 |------|------:|-----------:|:---------------|
 | **Total Revenue (YTD)** | \$9.24M | 🔻 -49.2% | Demand contraction post-2019 peak |
 | **Total Profit (YTD)** | \$5.42M | 🔻 -49.2% | Margin pressure across categories |
@@ -94,8 +94,8 @@ This dashboard consolidates company-wide performance metrics into a single, inte
 | **Customer Lifetime Value (CLV)** | \$2.40K | 🔻 -49.2% | Customer loyalty erosion |
 | **Revenue Growth (local)** | -49.23% |🔻 -0.00% | Minimal Currency impact |
 
-> 📉 **Insight:** While overall revenue and profit nearly halved in 2020, average order value remained stable, suggesting that customer purchasing power or product pricing held steady. 
-> 💡 **Implication:** The decline was volume-driven, not price-driven — indicating lost customers rather than lower spend per transaction. Recovery efforts should therefore focus on retention and reactivation, not discounting.
+> 📉 **Insight:** While overall revenue and profit nearly halved in 2020, average order value remained stable, suggesting that customer purchasing power or product pricing held steady.
+> > 💡 **Implication:** The decline was volume-driven, not price-driven — indicating lost customers rather than lower spend per transaction. Recovery efforts should therefore focus on retention and reactivation, not discounting.
 
 ---
 
