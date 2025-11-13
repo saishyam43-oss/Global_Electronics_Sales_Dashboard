@@ -189,7 +189,7 @@ To ensure reproducibility and performance:
 - The cleaned outputs were exported to Power BI for modeling
 
 All SQL scripts are available in:  
-📁 [`/data_cleaning_sql`](data_cleaning_sql/)
+📁 [`/Data_Cleaning_SQL`](Data_Cleaning_SQL/)
 
 ---
 
@@ -269,9 +269,9 @@ Model notes:
 <details>
 <summary><strong>SQL Scripts, DAX Measures, and Cleaning Tables</strong></summary>
 
-- SQL Cleaning Scripts → [`/data_cleaning_sql`](data_cleaning_sql/)  
-- DAX Measures & Calculated Columns → [`/dax_measures`](dax_measures/)  
-- Data Audit Tables (Excel) → [`/data_cleaning_tables`](data_cleaning_tables/)  
+- SQL Cleaning Scripts → [`/Data_Cleaning_SQL`](Data_Cleaning_SQL/)  
+- DAX Measures & Calculated Columns → [`/DAX`](DAX/)  
+- Data Audit Tables (Excel) → [`/Data_Cleaning_Tables`](Data_Cleaning_Tables/)  
 
 </details>
 
