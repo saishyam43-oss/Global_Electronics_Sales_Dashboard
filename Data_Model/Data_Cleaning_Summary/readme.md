@@ -2,11 +2,7 @@
 
 This is a visual representation of the "data model" that powers the **Data Cleaning Summary** dashboard.
 
-<div align="center">
-
 <img src="Data_Model/Data_Cleaning_Summary/Data_Modeling.jpg" alt="Data Model" width="850"/>
-
-</div>
 
 ---
 
