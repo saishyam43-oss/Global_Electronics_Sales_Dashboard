@@ -40,5 +40,5 @@ Each sheet in the workbook corresponds to a specific dataset or visual in the Da
 ### Notes on Data Flow
 
 * **Static Snapshot:** The figures in this Excel file are a static snapshot taken *after* all SQL cleaning scripts were run. They are a "point-in-time" summary used to populate the cleaning dashboard.
-* **Auditability:** This file provides transparency. The numbers here can be independently verified by re-running the SQL scripts found in the `/sql_scripts` folder.
-* **Dashboard Logic:** The *final* analytical dashboards (Product, Time, Customer, Region) do not use this file. They are connected live to the clean `.db` file, and their logic is built using DAX measures (see `/dax_measures` folder).
+* **Auditability:** This file provides transparency. The numbers here can be independently verified by re-running the SQL scripts found in the `/Data_Cleaning_SQL` folder.
+* **Dashboard Logic:** The *final* analytical dashboards (Product, Time, Customer, Region) do not use this file. They are connected live to the clean `.db` file, and their logic is built using DAX measures (see `/DAX/Measures` folder).
