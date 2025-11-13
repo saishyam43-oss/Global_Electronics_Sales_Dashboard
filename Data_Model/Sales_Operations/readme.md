@@ -6,49 +6,36 @@ This file documents the data model used for the **Global Electronics Retail Sale
 
 ## 🧱 1. Model Overview
 
-The cleaned datasets were transformed into a **Star Schema** consisting of:
+The cleaned datasets were transformed into a Star Schema consisting of:
 
 ### **Fact Table**
 - **`sales_final`**
-  - Contains one row per transaction (line-item granularity)
-  - Includes fully validated:
-    - ProductKey
-    - CustomerKey
-    - StoreKey
-    - Order date & delivery data
-    - Normalized currency-adjusted revenue and costs
+  - One row per transaction (line-item granularity)
+  - Fully validated keys for Product, Customer, Store
+  - Currency-normalized revenue and cost
+  - Delivery data, recency, and time-based attributes
 
 ### **Dimension Tables**
-- **`products`**
-  - Brand, Category, Subcategory, Product attributes
-  - Product hierarchy used for matrix visuals & grouping
+- **`products`**  
+  Brand, Category, Subcategory, SKU-level attributes
 
-- **`customers`**
-  - Age, Age Groups, Geography, Cohort information
-  - Used for segmentation (RFM, retention, demographic analysis)
+- **`customers`**  
+  Demographics, cohorts, geography, recency fields
 
-- **`stores`**
-  - Country, State, geo flags, store metadata (size, open date)
-  - Basis for regional/store efficiency metrics
+- **`stores`**  
+  Store location metadata, size (sqm), open date
 
-- **`exchange_rates_final`**
-  - Monthly exchange rates used to convert all revenue and cost into USD
-  - Supports the *local currency vs global currency* analysis
+- **`exchange_rates_final`**  
+  Monthly conversion rates for USD normalization and currency impact analysis
 
-- **`Calendar`**
-  - Standard date table with:
-    - Year
-    - Quarter
-    - Month
-    - Day of week
-    - Day of year
-  - Drives all time-intelligence DAX (YTD, YoY, moving averages)
+- **`Calendar`**  
+  Official date table supporting all time-intelligence calculations
 
 ---
 
 ## 🕸 2. Relationship Structure
 
-The schema follows a **one-to-many relationship pattern**:
+The schema follows a **one-to-many** pattern across all major relationships:
 
 - `products` → `sales_final`  
 - `customers` → `sales_final`  
@@ -56,49 +43,88 @@ The schema follows a **one-to-many relationship pattern**:
 - `exchange_rates_final` → `sales_final`  
 - `Calendar` → `sales_final`
 
-**Relationship Notes**
-- All relationships are **single-directional (→)** from dimension → fact  
-- This avoids circular dependencies and ensures predictable DAX evaluation  
-- The Calendar table is marked as a **Date Table** for correct time intelligence
+All relationships are **single-directional** from dimensions to fact, ensuring predictable filtering and stable DAX evaluation.
+
+---
+
+## 🔄 2.1 Special Case: Many-to-Many Relationship  
+### **(Currency ↔ Currency_Code)**
+
+A **many-to-many** relationship exists between:
+
+- `exchange_rates_final[Currency]`  
+- `sales_final[Currency_Code]`
+
+This design is intentional because:
+
+- Multiple regions may share the same currency (e.g., USD used by several countries).  
+- Exchange rates are stored at a monthly grain, while transactions occur at a daily grain.  
+- Currency normalization is performed at the fact level using DAX measures and column logic.
+
+To avoid ambiguity:
+- The relationship is kept **single-directional**,  
+- No bidirectional filters are used,  
+- All conversion logic references the date relationship (one-to-many) as the primary driver.
+
+This ensures clean and deterministic evaluations.
 
 ---
 
 ## ⚙️ 3. Modeling Decisions & Best Practices Applied
 
 ### ✔ Single Fact Table  
-Keeping only one central fact table (`sales_final`) reduces model complexity and speeds up DAX calculations.
+Reduces complexity and improves DAX performance.
 
-### ✔ Normalized Revenue & Costs  
-All monetary fields were standardized to USD using the `exchange_rates_final` table to enable cross-region comparability.
+### ✔ Currency-Normalized Metrics  
+Revenue and cost values were standardized into USD using monthly exchange rates.
 
-### ✔ Geo-validated Dimensions  
-100% reliable City–State–Country mappings ensure accurate store- and region-level insights.
+### ✔ Geo-Validated Dimensions  
+100% clean City → State → Country mappings ensure accurate region-based reporting.
 
-### ✔ Clean Hierarchies  
-Product and customer dimensions include well-formed hierarchies for drilldowns:
+### ✔ Hierarchical Dimensions  
 - Category → Subcategory → Product  
 - Cohort → Age Group → Customer  
 
+These hierarchies power drill-downs and high-level segment analysis.
+
 ### ✔ Optimized Cardinality  
-Keys were deduplicated and validated in SQL, reducing high-cardinality joins that slow Power BI.
+All keys were de-duplicated during SQL cleaning, preventing slow, high-cardinality joins.
 
 ---
 
-## 🚀 4. Why a Star Schema?
+## 🧮 4. Calculated Columns (Power BI Transformations)
+
+Several important calculated columns were created **during analytical modeling (post-cleaning)** to enable richer business analysis.  
+These were intentionally added inside Power BI rather than SQL to support dynamic visuals and DAX behavior.
+
+### Key Calculated Columns
+- **Customer Age Group**
+- **Customer Cohort (Year–Month of first purchase)**
+- **Delivery Days & Delivery Speed Buckets**
+- **Recency Bins** (Active, Recent, Warm, Dormant)
+- **Product Hierarchy Fields** (Category → Subcategory → SKU)
+- **Sort-Order Columns** for age groups, months, and categories
+- **Normalized USD Revenue & Cost Columns**
+- **Months Since First Purchase**
+
+The full list of calculated columns and logic is documented here:  
+📁 [`/dax_measures/Shared_Calculations_and_CalculatedColumns.md`](../dax_measures/Shared_Calculations_and_CalculatedColumns.md)
+
+---
+
+## 🚀 5. Why a Star Schema?
 
 This model was chosen because it:
 
-- Improves performance in Power BI  
-- Simplifies DAX calculations (`CALCULATE`, `SAMEPERIODLASTYEAR`, YTD, YoY)  
-- Enables intuitive filtering and drilldowns  
-- Prevents many-to-many relationship ambiguity  
-- Keeps the model stable for time-series analysis
+- Improves query performance  
+- Supports clean & predictable DAX evaluation  
+- Eliminates many-to-many ambiguity  
+- Enables drilldown analysis across product, customer, and region  
+- Simplifies YTD, YoY, cohort, and retention calculations  
 
 ---
 
-## 📊 5. Image Reference
-
-Below is the visual representation of the final model:
+## 📊 6. Visual Model Reference
 
 <div align="center">
 
@@ -108,13 +134,13 @@ Below is the visual representation of the final model:
 
 ---
 
-## 📁 6. Related Files
+## 📁 7. Related Files
 
-- SQL cleaning scripts: [`/data_cleaning_sql`](../data_cleaning_sql/)
-- DAX measures: [`/dax_measures`](../dax_measures/)
-- Data audit tables: [`/data_cleaning_tables`](../data_cleaning_tables/)
-- README analysis section: see the main project README
+- SQL Cleaning Scripts → [`/data_cleaning_sql`](../data_cleaning_sql/)  
+- DAX Measures → [`/dax_measures`](../dax_measures/)  
+- Audit Tables → [`/data_cleaning_tables`](../data_cleaning_tables/)  
+- Main README → root of repository  
 
 ---
 
-*This model underpins all insights and dashboards in the project, ensuring accuracy, consistency, and high analytical performance in Power BI.*
+*This model is the analytical backbone of the Global Electronics project, ensuring accuracy, stability, and high-value insight generation.*
