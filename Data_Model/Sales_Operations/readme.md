@@ -147,7 +147,7 @@ This model was chosen because it:
 
 <div align="center">
 
-<img src="Star_Schema.png" alt="Star Schema Diagram" width="800"/>
+![Data Model](https://github.com/saishyam43-oss/Global_Electronics_Sales_Dashboard/blob/main/Data_Model/Sales_Operations/Data_Model.jpg?raw=True)
 
 </div>
 
@@ -155,9 +155,9 @@ This model was chosen because it:
 
 ## 📁 7. Related Files
 
-- SQL Cleaning Scripts → [`/data_cleaning_sql`](../data_cleaning_sql/)  
-- DAX Measures → [`/dax_measures`](../dax_measures/)  
-- Audit Tables → [`/data_cleaning_tables`](../data_cleaning_tables/)  
+- SQL Cleaning Scripts → [`/Data_Cleaning_SQL`](Data_Cleaning_SQL/)  
+- DAX Measures & Calculated Columns → [`/DAX`](DAX/)  
+- Data Audit Tables (Excel) → [`/Data_Cleaning_Tables`](Data_Cleaning_Tables/)
 - Main README → root of repository  
 
 ---
