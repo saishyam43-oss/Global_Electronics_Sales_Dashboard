@@ -2,7 +2,7 @@
 
 This is a visual representation of the "data model" that powers the **Data Cleaning Summary** dashboard.
 
-![Data Model](Data_Model/Data_Cleaning_Summary/Data_Modeling.jpg)
+![Data Model](https://github.com/saishyam43-oss/Global_Electronics_Sales_Dashboard/blob/main/Data_Model/Data_Cleaning_Summary/Data_Modeling.jpg?raw=True)
 
 ---
 
