@@ -22,18 +22,18 @@ Each sheet in the workbook corresponds to a specific dataset or visual in the Da
 
 | Sheet Name | Description | Dashboard Role |
 | :--- | :--- | :--- |
-| **`Sales Metrics`** | Aggregated cleaning stats for the `sales` table (rows removed, outliers, etc.). | Powers the "Invalid Sales Removed" KPI and "Removals per Reason" chart. |
-| **`Customers Metrics`** | Cleaning stats for `customers` (duplicates, nulls, geo flags). | Populates the "Issues by Table" chart and "Geo-Reliability" KPIs. |
-| **`Products Metrics`** | Cleaning stats for `products` (duplicates, nulls, re-mappings). | Populates the "Issues by Table" chart. |
-| **`Stores Metrics`** | Cleaning stats for `stores` (duplicates, dates). | Populates the "Issues by Table" chart and "Duplicate Keys Flagged" KPI. |
-| **`ExchangeRates Metrics`**| Cleaning stats for `exchange_rates` (outliers, formatting, nulls). | Populates the "Issues by Table" chart. |
+| **`Sales_Metrics`** | Aggregated cleaning stats for the `sales` table (rows removed, outliers, etc.). | Powers the "Invalid Sales Removed" KPI and "Removals per Reason" chart. |
+| **`Customers_Metrics`** | Cleaning stats for `customers` (duplicates, nulls, geo flags). | Populates the "Issues by Table" chart and "Geo-Reliability" KPIs. |
+| **`Products_Metrics`** | Cleaning stats for `products` (duplicates, nulls, re-mappings). | Populates the "Issues by Table" chart. |
+| **`Stores_Metrics`** | Cleaning stats for `stores` (duplicates, dates). | Populates the "Issues by Table" chart and "Duplicate Keys Flagged" KPI. |
+| **`Exchange_Rates_Metrics`**| Cleaning stats for `exchange_rates` (outliers, formatting, nulls). | Populates the "Issues by Table" chart. |
 | **`Aggregated`** | Top-line summary metrics (e.g., total dates formatted, total rows removed). | Powers the main KPI cards like "Dates Standardized." |
-| **`Summary Table`** | A master list of all 33 issues found and their final status (Corrected vs. Accepted). | Powers the "Corrected & Accepted" visual. |
-| **`BeforeCleaning`** | Schema snapshot (column names) of all raw tables. | Technical reference. |
-| **`AfterCleaning`** | Schema snapshot (column names) of all final clean tables. | Technical reference. |
-| **`GeoReliability`** | The final reliability scores (99.995%, 99.60%) for `State -> Country` and `City -> State`. | Powers the "Geo-Reliability" KPIs and map. |
-| **`Removal Reason`** | The count of sales rows removed, by specific reason. | Powers the "Removals per Reason" bar chart. |
-| **`CountrywiseReliability`**| The detailed breakdown of invalid records by country. | Source data for the "Geographic Data Quality" map/charts. |
+| **`Summary_Table`** | A master list of all 33 issues found and their final status (Corrected vs. Accepted). | Powers the "Corrected & Accepted" visual. |
+| **`Before_Cleaning`** | Schema snapshot (column names) of all raw tables. | Technical reference. |
+| **`After_Cleaning`** | Schema snapshot (column names) of all final clean tables. | Technical reference. |
+| **`Geo_Reliability`** | The final reliability scores (99.995%, 99.60%) for `State -> Country` and `City -> State`. | Powers the "Geo-Reliability" KPIs and map. |
+| **`Removal_Reason`** | The count of sales rows removed, by specific reason. | Powers the "Removals per Reason" bar chart. |
+| **`Countrywise_Reliability`**| The detailed breakdown of invalid records by country. | Source data for the "Geographic Data Quality" map/charts. |
 
 ---
 
