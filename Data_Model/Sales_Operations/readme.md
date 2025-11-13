@@ -158,7 +158,7 @@ This model was chosen because it:
 - SQL Cleaning Scripts → [`/Data_Cleaning_SQL`](Data_Cleaning_SQL/)  
 - DAX Measures & Calculated Columns → [`/DAX`](DAX/)  
 - Data Audit Tables (Excel) → [`/Data_Cleaning_Tables`](Data_Cleaning_Tables/)
-- Main README → [`/Readme`](https://github.com/saishyam43-oss/Global_Electronics_Sales_Dashboard/blob/main/README.md?raw=True)  
+- Main README → [`/Readme`](https://github.com/saishyam43-oss/Global_Electronics_Sales_Dashboard/blob/e994de40ce93ffb2b10012fc31459445f2994c54/README.md)  
 
 ---
 
