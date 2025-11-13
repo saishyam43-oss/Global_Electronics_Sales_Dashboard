@@ -29,7 +29,19 @@ The cleaned datasets were transformed into a Star Schema consisting of:
   Monthly conversion rates for USD normalization and currency impact analysis
 
 - **`Calendar`**  
-  Official date table supporting all time-intelligence calculations
+  This is a **DAX-generated calculated table**, created manually inside Power BI using a continuous date range (2016–2021).  
+  It includes:
+  - Date
+  - Year / Quarter / Month / Day
+  - Day of Week (name + number)
+  - Day of Year
+  - Sort-order columns for correct chronological visuals
+
+  The Calendar table is explicitly marked as the **Date Table**, ensuring correct and predictable behavior for all time-intelligence DAX functions such as:
+  - `DATESYTD`
+  - `DATEADD`
+  - `SAMEPERIODLASTYEAR`
+  - Rolling averages
 
 ---
 
@@ -90,6 +102,13 @@ These hierarchies power drill-downs and high-level segment analysis.
 ### ✔ Optimized Cardinality  
 All keys were de-duplicated during SQL cleaning, preventing slow, high-cardinality joins.
 
+### ✔ Custom Date Table (DAX Calculated)
+A dedicated Calendar table was created using DAX, rather than relying on Power BI’s auto date table.  
+This ensures:
+- Full control over time granularity  
+- Accurate time-intelligence calculations  
+- Consistent sorting and hierarchical drilldowns (Year → Month → Day)  
+
 ---
 
 ## 🧮 4. Calculated Columns (Power BI Transformations)
@@ -108,7 +127,7 @@ These were intentionally added inside Power BI rather than SQL to support dynami
 - **Months Since First Purchase**
 
 The full list of calculated columns and logic is documented here:  
-📁 [`/dax_measures/Shared_Calculations_and_CalculatedColumns.md`](../dax_measures/Shared_Calculations_and_CalculatedColumns.md)
+📁 [`/DAX/Columns/Sales_Operations/readme.md`](/DAX/Columns/Sales_Operations/readme.md)
 
 ---
 
