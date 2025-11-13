@@ -4,7 +4,7 @@ This is a visual representation of the "data model" that powers the **Data Clean
 
 <div align="center">
 
-<img src="Data_Model/Data_Cleaning_Summary/Data_Modeling.jpg" alt="Data_Model"/>
+<img src="Data_Model/Data_Cleaning_Summary/Data_Modeling.jpg"/>
 
 </div>
 
