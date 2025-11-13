@@ -171,7 +171,115 @@ Short-term focus should include:
 
 ---
 
-> 🧩 *Next Section → Data Cleaning Summary: how five raw data sources were transformed into a 99.6 % reliable analytics model powering this dashboard.*
+## 🧹 5. Data Cleaning Summary
+
+> *Before analysis, over 5 years of raw data (2016–2021) from five independent CSV files were audited, cleaned, and standardized in SQL.  
+This process transformed the dataset from inconsistent and unreliable into a **99.6% geo-validated, analytics-ready model**.*
+
+---
+
+### 🧭 Why SQL Instead of Excel?
+
+The Sales table alone contained **60,000+ rows**, and joining multiple tables in Excel led to slow processing and inconsistent transformations.  
+To ensure reproducibility and performance:
+
+- A **SQLite database** was created  
+- All raw CSVs were imported into SQL  
+- Cleaning, validation, and reconstruction of each table was done using structured queries  
+- The cleaned outputs were exported to Power BI for modeling
+
+All SQL scripts are available in:  
+📁 [`/data_cleaning_sql`](data_cleaning_sql/)
+
+---
+
+### 📄 Page 1 — Data Quality Overview
+
+<div align="center">
+
+<img src="Dashboard_Screenshots/02_Data_Cleaning_Summary/Data_Cleaning_Summary_1.jpg"  
+     alt="Data Cleaning Summary Page 1" width="850"/>
+
+</div>
+
+#### 🔍 Key Insights
+
+- **461 invalid sales rows removed**, including duplicates, missing keys, impossible dates, and outliers.  
+- **100% clean City → State → Country mappings** achieved using SQL lookup tables.  
+- **19.54% duplicate keys** initially existed in the Sales table; all duplicates were flagged and resolved.  
+- **32k+ inconsistent date values** standardized from mixed formats (`DD-MM-YYYY`, `MM/DD/YYYY`, text dates).  
+- The **Sales and Customers tables accounted for over 70%** of all detected data issues.  
+- Primary error categories: invalid geography, impossible dates, duplicate rows, and product-key mismatches.
+
+---
+
+### 🌍 Page 2 — Geographic Data Quality & Validation
+
+<div align="center">
+
+<img src="Dashboard_Screenshots/02_Data_Cleaning_Summary/Data_Cleaning_Summary_2.jpg"  
+     alt="Data Cleaning Summary Page 2" width="850"/>
+
+</div>
+
+#### 🔍 Key Insights
+
+- Early validation identified **255+ geographic mismatches** across 5 countries.  
+- After standardization, the dataset reached **100% state–country consistency**.  
+- **76.32%** of all detected issues were **correctable**, minimizing data loss.  
+- **Ambiguous or corrupted date formats** were documented and isolated as a final limitation.  
+- Cleaned and validated tables were exported into Power BI for modeling.
+
+---
+
+### 📊 Cleaning Impact Summary
+
+| Cleaning Metric | Result |
+|-----------------|--------|
+| Invalid Sales Removed | **461 records** |
+| Geographic Mappings Corrected | **100% clean** (state → country) |
+| Duplicate Keys Flagged | **19.54% of Sales**, **3.25% of Products** |
+| Dates Standardized | **32,054 → 91,993** usable date values |
+| Data Reliability Score | **99.6%** |
+
+---
+
+### 🧱 Final Output — Clean Data Model (Star Schema)
+
+<div align="center">
+
+<img src="images/data_model/Star_Schema.png"  
+     alt="Power BI Star Schema" width="750"/>
+
+</div>
+
+The cleaned SQL tables were transformed into a **Power BI star schema**:
+
+- **FactSales** (central fact table)  
+- **DimProducts**, **DimCustomers**, **DimStores**, **DimExchangeRates**  
+- Optimized for DAX performance, filtering, and drilldowns
+
+Model notes:  
+📁 [`/data_model/model_notes.md`](data_model/model_notes.md)
+
+---
+
+### 📘 Technical Appendix
+
+<details>
+<summary><strong>SQL Scripts, DAX Measures, and Cleaning Tables</strong></summary>
+
+- SQL Cleaning Scripts → [`/data_cleaning_sql`](data_cleaning_sql/)  
+- DAX Measures & Calculated Columns → [`/dax_measures`](dax_measures/)  
+- Data Audit Tables (Excel) → [`/data_cleaning_tables`](data_cleaning_tables/)  
+
+</details>
+
+---
+
+> 🧩 *Next: Analytical Story & Insights — how cleaned and validated data led to actionable insights across products, time, customers, and regions.*
+
+---
 
 ---
 
