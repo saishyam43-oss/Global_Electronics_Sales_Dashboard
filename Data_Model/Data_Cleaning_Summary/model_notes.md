@@ -4,7 +4,7 @@ This is a visual representation of the "data model" that powers the **Data Clean
 
 <div align="center">
 
-<img src="Data_Model/Data_Cleaning_Summary/Data_Model.jpg" alt="Data_Model_Cleaning" width="150"/>
+<img src="Data_Model/Data_Cleaning_Summary/Data_Model.jpg" alt="Data_Model" width="150"/>
 
 </div>
 
@@ -27,17 +27,17 @@ Each table in the model corresponds to a sheet in the `Data_Cleaning_Tables.xlsx
 
 | Table / Sheet Name | Description |
 | :--- | :--- |
-| **`Sales Metrics`** | Aggregated cleaning stats for the `sales` table (rows removed, outliers, etc.). |
-| **`Customers Metrics`** | Cleaning stats for `customers` (duplicates, nulls, geo flags). |
-| **`Products Metrics`** | Cleaning stats for `products` (duplicates, nulls, re-mappings). |
-| **`Stores Metrics`** | Cleaning stats for `stores` (duplicates, dates). |
-| **`ExchangeRates Metrics`**| Cleaning stats for `exchange_rates` (outliers, formatting, nulls). |
-| **`GeoReliability`** | The final, high-level reliability scores (e.g., 99.60%) for key hierarchies. |
-| **`CountrywiseReliability`**| A detailed breakdown of invalid records by country, for both customers and sales. |
-| **`Removal Reason`** | The specific count of sales rows removed, by reason (e.g., "Invalid ProductKey"). |
-| **`Summary Table`** | A master list of all 33 issues found and their final status (`Corrected` vs. `Accepted`). |
-| **`BeforeCleaning`** | Schema snapshot (column names) of all 5 raw tables. |
-| **`AfterCleaning`** | Schema snapshot (column names) of all 5 final clean tables. |
+| **`Sales_Metrics`** | Aggregated cleaning stats for the `sales` table (rows removed, outliers, etc.). |
+| **`Customers_Metrics`** | Cleaning stats for `customers` (duplicates, nulls, geo flags). |
+| **`Products_Metrics`** | Cleaning stats for `products` (duplicates, nulls, re-mappings). |
+| **`Stores_Metrics`** | Cleaning stats for `stores` (duplicates, dates). |
+| **`Exchange_Rates_Metrics`**| Cleaning stats for `exchange_rates` (outliers, formatting, nulls). |
+| **`Geo_Reliability`** | The final, high-level reliability scores (e.g., 99.60%) for key hierarchies. |
+| **`Countrywise_Reliability`**| A detailed breakdown of invalid records by country, for both customers and sales. |
+| **`Removal_Reason`** | The specific count of sales rows removed, by reason (e.g., "Invalid ProductKey"). |
+| **`Summary_Table`** | A master list of all 33 issues found and their final status (`Corrected` vs. `Accepted`). |
+| **`Before_Cleaning`** | Schema snapshot (column names) of all 5 raw tables. |
+| **`After_Cleaning`** | Schema snapshot (column names) of all 5 final clean tables. |
 
 ---
 
