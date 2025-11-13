@@ -248,8 +248,7 @@ All SQL scripts are available in:
 
 <div align="center">
 
-<img src="images/data_model/Star_Schema.png"  
-     alt="Power BI Star Schema" width="750"/>
+![Data Model](https://github.com/saishyam43-oss/Global_Electronics_Sales_Dashboard/blob/main/Data_Model/Sales_Operations/Data_Model.jpg?raw=True)
 
 </div>
 
