@@ -260,7 +260,7 @@ The cleaned SQL tables were transformed into a **Power BI star schema**:
 - Optimized for DAX performance, filtering, and drilldowns
 
 Model notes:  
-📁 [`/data_model/model_notes.md`](data_model/model_notes.md)
+📁 [`/Data_Model/Sales_Operations/readme.md`](/Data_Model/Sales_Operations/readme.md)
 
 ---
 
