@@ -158,7 +158,7 @@ This model was chosen because it:
 - SQL Cleaning Scripts → [`/Data_Cleaning_SQL`](Data_Cleaning_SQL/)  
 - DAX Measures & Calculated Columns → [`/DAX`](DAX/)  
 - Data Audit Tables (Excel) → [`/Data_Cleaning_Tables`](Data_Cleaning_Tables/)
-- Main README → (main/README.md)  
+- Main README → [`/Readme`](main/README.md)  
 
 ---
 
