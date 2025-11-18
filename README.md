@@ -325,7 +325,7 @@ Global Electronics needed clarity on which product lines truly drive the busines
 ### 📸 Dashboard Overview (Bottom / Low Performers View)
 
 <p align="center">
-  <img src=Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_2.jpg" width="900">
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_2.jpg" width="900">
 </p>
 
 **Key Insights**
