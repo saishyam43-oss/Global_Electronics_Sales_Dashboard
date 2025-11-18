@@ -309,7 +309,7 @@ Global Electronics needed clarity on which product lines drive the business, whe
 # Main Product Dashboard
 
 <p align="center">
-  <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_1.jpg" width="900">
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_1.png" width="900">
 </p>
 
 ---
