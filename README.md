@@ -325,7 +325,7 @@ Global Electronics needed clarity on which product lines drive the business, whe
 
 ---
 
-# Detailed Insights (Graph-by-Graph)
+# 🔍 Detailed Insights (Graph-by-Graph)
 
 ---
 
