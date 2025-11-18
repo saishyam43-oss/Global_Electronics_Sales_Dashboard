@@ -276,9 +276,90 @@ Model notes:
 
 ---
 
-> 🧩 *Next: Analytical Story & Insights — how cleaned and validated data led to actionable insights across products, time, customers, and regions.*
+# 📘 6. Analytical Insights & Business Narrative
+
+With the data now cleaned, validated, and modeled into a reliable star schema, the next section focuses on extracting **business-ready insights**.  
+Each dashboard has been designed to answer a specific strategic question faced by Global Electronics, moving from product health to customer behavior and regional performance.
+
+The analysis is structured into four “Acts,” each representing a pillar of the business:
 
 ---
 
+## 📑 Analysis Table of Contents
+
+- **Act 1: Product Performance Overview**  
+  How categories, brands, and SKUs contribute to revenue, profit, and margin.  
+- **Act 2: Sales Trends & Time Performance**  
+  How revenue, profit, orders, and seasonality evolved across 2016–2021.  
+- **Act 3: Customer Insights & Retention**  
+  How different customer segments behave across value, recency, and cohorts.  
+- **Act 4: Regional & Store Performance**  
+  Which regions and stores drive growth, efficiency, and margin.
+
 ---
 
+# 🟦 Act 1: Product Performance Overview
+
+Global Electronics needed clarity on which product lines truly drive the business, which ones silently drain margin, and where SKU-level inefficiencies are concentrated. This analysis breaks down category contribution, brand profitability, and SKU movement to reveal the underlying product dynamics.
+
+---
+
+### 📸 Dashboard Overview (Primary View)
+
+<p align="center">
+  <img src="Images/03_Product_Dashboard/Product_Performance_1.jpg" width="900">
+</p>
+
+**Key Insights**
+
+1. Computers and Home Appliances together contribute **~54% of total revenue**, creating dependency on a small cluster of categories.  
+2. Several mid-tier categories show stable demand but remain under-leveraged in both marketing and supply planning.
+
+**Action Items**
+
+1. Develop mid-tier categories (Audio, Phones, Cameras) to reduce dependence on top categories.  
+2. Build category lifecycle strategies that improve balance across revenue streams.
+
+---
+
+### 📸 Dashboard Overview (Bottom / Low Performers View)
+
+<p align="center">
+  <img src="Images/03_Product_Dashboard/Product_Performance_2.jpg" width="900">
+</p>
+
+**Key Insights**
+
+1. The **bottom 5 brands** show structurally weak margins despite adequate volume in some cases.  
+2. Multiple subcategories generate high sales volume but underperform sharply on margin, indicating pricing or supplier cost pressure.
+
+**Action Items**
+
+1. Reprice or renegotiate consistently low-margin brands. Reduce shelf exposure for underperformers.  
+2. Address margin leakage in high-volume subcategories through targeted price corrections or vendor negotiation.
+
+---
+
+### 📸 Dashboard Overview (Detailed Metrics & Regional Breakdown)
+
+<p align="center">
+  <img src="Images/03_Product_Dashboard/Product_Performance_3.jpg" width="900">
+</p>
+
+**Key Insights**
+
+1. SKU-level performance is heavily skewed. A small set of top-selling SKUs drives most unit movement.  
+2. Category profitability varies significantly by region, hinting at differing cost structures and price sensitivity.
+
+**Action Items**
+
+1. Retire or bundle low-rotation SKUs. Increase visibility and promotion for high-performing SKUs.  
+2. Apply region-specific pricing strategies and product bundles based on profitability differences.
+
+---
+
+### 📝 Summary
+
+The product portfolio is heavily reliant on a few strong categories and a small group of SKUs. Mid-tier categories remain untapped, margin leakage is significant in a few high-volume categories, and the long tail of slow-moving SKUs drags inventory productivity. A more balanced product strategy requires diversifying demand, improving brand-level profitability, and tailoring category focus by region.
+
+---
