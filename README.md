@@ -298,109 +298,211 @@ The analysis is structured into four “Acts,” each representing a pillar of t
 
 ---
 
-# 🟦 Act 1: Product Performance Overview
+---
 
-Global Electronics needed clarity on which product lines truly drive the business, which ones silently drain margin, and where SKU-level inefficiencies are concentrated. This analysis breaks down category contribution, brand profitability, and SKU movement to reveal the underlying product dynamics.
+## 🟦 Act 1: Product Performance Overview
+
+Global Electronics needed clarity on which product lines drive the business, where margin leakage occurs, and how SKU-level movement shapes category performance. This section analyzes revenue concentration, brand profitability, category economics, and regional product performance.
 
 ---
 
-### 📸 Dashboard Overview (Primary View)
+# 📸 Screenshot 1 — Main Product Dashboard
 
 <p align="center">
   <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_1.jpg" width="900">
 </p>
 
-### **Key Insights**
+---
 
-1. **Category Revenue (Top 5 Pie Chart):**  
-   The top 5 categories contribute **\$48.57M out of \$55.55M** total revenue (~87%).  
-   Within this top-5 slice, **Computers + Home Appliances account for >60%**, showing severe over-concentration.
+### 📊 KPI Summary
 
-2. **Category Revenue (All Categories – Flip View):**  
-   When looking at the full category distribution, the top two categories still hold **~54%** of total revenue.  
-   Even smaller categories show minimal movement, highlighting an unbalanced product mix.
-
-3. **Brand Profitability (Top 5):**  
-   Among the highest-margin brands, margins are consistently above the portfolio average, proving strong pricing power in a small cluster of brands.
-
-4. **Brand Profitability (Bottom 5):**  
-   Bottom-performing brands show **significantly lower margins**, even when unit movement is reasonable—indicating supplier contract or cost issues.
-
-5. **KPI Cards:**  
-   - **Profit Margin is healthy** but heavily skewed toward a few categories and brands.  
-   - **Units Sold (YTD)** shows a sharp drop outside top categories, exposing weak depth in the catalog.
-
-### **Action Items**
-
-1. **Reduce dependency** on Computers and Home Appliances. Build volume in 3–4 mid-tier categories (Audio, Phones, Cameras).  
-2. **Re-negotiate vendor contracts** for low-margin brands. If improvement isn’t possible, reduce shelf exposure.  
-3. **Introduce price optimization** for underperforming high-volume subcategories.  
-4. **Expand margin-positive brands** with targeted promotions and preferred placement.  
+| **KPI** | **Value / Insight** | **Recommended Action** |
+|--------|----------------------|-------------------------|
+| **Total Revenue (YTD)** | **$1.04M**, with **1.9% YoY growth** | Reduce category dependency and expand diversified growth areas |
+| **Total Profit (YTD)** | **$606.57K**, **58.59% margin** | Maintain margin discipline; optimize weaker segments |
+| **Units Sold (YTD)** | **196,932 units** | Support high-volume SKUs; rationalize laggards |
+| **Most Profitable Category** | **Computers ($11.23M)** | Expand and innovate within Computers; protect lead |
 
 ---
 
-## 📸 Dashboard Overview (Alternate View – All Categories + Brand Margin Flip)
+# 🔍 Screenshot 1 — Detailed Insights (Graph-by-Graph)
+
+---
+
+### **1. Revenue Share of Top 5 Categories** *(Pie Chart)*  
+**Business Question:**  
+*Which product categories contribute most to the company’s revenue?*
+
+**Answer:**  
+- Top 5 categories generate **$48.57M of $55.55M (~87%)**  
+- **Computers + Home Appliances exceed 60%** of top-5 revenue  
+- Indicates **major revenue concentration risk**
+
+---
+
+### **2. Profit Margin % by Brand (Top 5)** *(Bar Chart)*  
+**Business Question:**  
+*Which brands deliver the strongest margins?*
+
+**Answer:**  
+- Top brands deliver **>60% margin consistently**  
+- Shows strong pricing power and operational efficiency  
+- Highlights best-in-class category–brand combinations
+
+---
+
+### **3. Revenue vs Profit Margin (Subcategory Scatter Plot)** *(Scatter Chart)*  
+**Business Question:**  
+*How do subcategories perform in terms of revenue and profitability?*
+
+**Answer:**  
+Subcategories fall into clear BCG quadrants:
+
+#### ⭐ Stars — *High Revenue, High Margin*  
+- **Computers**, **Home Appliances**  
+- Strong value drivers and core business pillars  
+
+#### 💰 Cash Cows — *High Revenue, Moderate Margin*  
+- **TV & Video**  
+- Reliable performers but sensitive to margin pressure  
+
+#### ❓ Question Marks — *High Margin, Low Revenue*  
+- **Cameras & Camcorders**, **Cell Phones**  
+- Good profitability but limited market scale  
+
+#### 🐶 Dogs — *Low Revenue, Low Margin*  
+- **Audio**, **Games & Toys**, **Music/Movies/Audiobooks**  
+- Inventory drag and poor ROI  
+
+---
+
+### **4. Top 8 Products by Units Sold** *(Bar Chart)*  
+**Business Question:**  
+*Which SKUs drive volume?*
+
+**Answer:**  
+- All top SKUs are **Computers**, confirming extremely concentrated volume  
+- Customer demand is heavily skewed toward limited product families  
+- Implies high inventory dependency risk
+
+---
+
+### 🎯 Action Items for Screenshot 1
+
+- Develop mid-tier categories to reduce reliance on Computers + Home Appliances  
+- Apply high-margin brand strategies to mid-tier brands  
+- Fix low-margin, high-revenue subcategories (Cash Cows) through pricing or cost work  
+- Expand top-performing Computer SKUs and secure inventory depth  
+- Build new category growth engines to diversify revenue
+
+---
+
+# 📸 Screenshot 2 — Alternate Product Dashboard
 
 <p align="center">
   <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_2.jpg" width="900">
 </p>
 
-### **Key Insights**
+---
 
-1. **All Categories Pie Chart:**  
-   The category mix is top-heavy. Four categories combined contribute **nearly 75%** of revenue, leaving a small long-tail.
-
-2. **Bottom 5 Brands (Margin Flip):**  
-   These brands drag overall profitability and fail to meet even the portfolio’s median margin.
-
-3. **Top 5 Brands:**  
-   High-performing brands demonstrate stable margin consistency and lower volatility over months.
-
-4. **KPI Cards:**  
-   Category margin variability indicates **pricing and cost inconsistencies**, especially in mixed subcategories.
-
-### **Action Items**
-
-1. **Cut back on bottom-tier brands** or move them to a limited availability model.  
-2. **Increase visibility for top brands** with store displays, ads, or bundling.  
-3. **Rebalance supply chain costs** for categories showing high revenue but low realized profit.  
+# 🔍 Screenshot 2 — Detailed Insights (Graph-by-Graph)
 
 ---
 
-### 📸 Dashboard Overview (Detailed Metrics & Regional Breakdown)
+### **1. Revenue Share Across All Categories** *(Pie Chart – Full View)*  
+**Business Question:**  
+*What does revenue concentration look like across the full category range?*
+
+**Answer:**  
+- **Computers + Home Appliances = ~54%** of total revenue  
+- Smaller categories contribute only marginally  
+- Portfolio breadth is limited, reflecting heavy top-end dependence
+
+---
+
+### **2. Profit Margin % by Brand (Bottom 5)** *(Bar Chart)*  
+**Business Question:**  
+*Which brands underperform on margin?*
+
+**Answer:**  
+- Bottom 5 brands average **~54.65% margin**  
+- Reasonable but materially below top-tier brands (60%+)  
+- Signals inefficiencies in:  
+  - Cost structure  
+  - Supplier terms  
+  - Discount dependency  
+  - Market alignment  
+
+---
+
+### **3. Least Sold Products** *(Bar Chart)*  
+**Business Question:**  
+*Which SKUs reduce inventory efficiency?*
+
+**Answer:**  
+- Home Appliances dominate the slow-moving SKU list  
+- SKU saturation and misaligned assortment  
+- Long-tail products increase storage and handling costs
+
+---
+
+### 🎯 Action Items for Screenshot 2
+
+- Promote under-indexed categories to rebalance revenue  
+- Audit low-margin brands for supply chain, pricing, or assortment issues  
+- Rationalize or delist weak Home Appliance SKUs  
+- Push high-performing brands through placement and bundling initiatives  
+
+---
+
+# 📸 Screenshot 3 — Detailed Product Metrics & Regional Breakdown
 
 <p align="center">
   <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_3.jpg" width="900">
 </p>
 
-### **Key Insights**
+---
 
-1. **Top 8 Products (Bar Chart):**  
-   A small set of SKUs dominates unit movement, driving the majority of product-level revenue.
-
-2. **Least Selling Products:**  
-   A long tail of products shows **extremely low rotation**, tying up inventory and shelf space.
-
-3. **Revenue vs Margin Scatter (Subcategories):**  
-   Several subcategories appear in the **high-revenue but low-margin quadrant**—a classic sign of pricing inefficiency.
-
-4. **Regional Category Breakdown (Matrix):**  
-   Some categories that look strong globally underperform drastically in certain regions due to logistics cost and price sensitivity.
-
-5. **Detailed Product Metrics Matrix:**  
-   Margin variation between products within the same subcategory suggests differences in cost structure and discount patterns.
-
-### **Action Items**
-
-1. **Retire or bundle low-rotation SKUs** to increase inventory turnover.  
-2. **Introduce regional pricing** where margin gaps appear due to cost/price mismatch.  
-3. **Boost promotional focus** on high-performing SKUs to capitalize on natural demand.  
-4. **Review discounting strategy** within subcategories showing volatile margin behavior.  
+# 🔍 Screenshot 3 — Detailed Insights (Matrix-by-Matrix)
 
 ---
 
-### 📝 Summary
+### **1. Detailed Product Metrics Matrix** *(Matrix Table)*  
+**Business Question:**  
+*How do revenue, cost, margin, and units vary across products?*
 
-The product portfolio is heavily reliant on a small number of strong categories and SKUs. While top sellers perform exceptionally, mid-tier categories remain under-developed and the long tail of low-rotation products weakens inventory efficiency. Margin leakage is persistent across bottom-tier brands and high-volume subcategories. A more balanced product strategy requires diversifying demand, optimizing brand-level profitability, addressing regional pricing gaps, and rationalizing slow-moving SKUs.
+**Answer:**  
+- Computers lead on revenue, profit, and margin  
+- Home Appliances perform well but inconsistently at SKU level  
+- Categories like Games, Audio, Toys lag severely  
+- High margin variation within categories suggests inconsistent procurement or discounting practices
+
+---
+
+### **2. Regional Product Revenue Breakdown** *(Drillable Matrix)*  
+**Business Question:**  
+*Which categories perform best in different regions?*
+
+**Answer:**  
+- Developed markets: Computers & Home Appliances dominate  
+- Emerging markets: Audio, Games, and niche categories show stronger relative traction  
+- Uniform assortment strategy will underperform globally
+
+---
+
+### 🎯 Action Items for Screenshot 3
+
+- **Stars:** Expand variants, protect availability, increase marketing  
+- **Cash Cows:** Maintain pricing discipline and optimize costs  
+- **Question Marks:** Test for scalability before deeper investment  
+- **Dogs:** Reduce exposure via SKU rationalization, bundling, or clearance  
+- Tailor assortments and pricing to each region’s strengths  
+- Fix internal margin variability by improving procurement and discount policies  
+
+---
+
+# 📝 Act 1 Summary
+
+Act 1 reveals a product portfolio heavily concentrated in two categories and driven by a limited set of SKUs. While profitability is strong, margin leakage and inventory inefficiencies persist across several subcategories and brands. Balanced growth requires diversification, regional tailoring, SKU rationalization, and scaling high-performing product families.
 
 ---
