@@ -1,0 +1,93 @@
+🔵 BASE FX CONVERSION MEASURES
+/*
+    Measure: Revenue (Local Currency)
+    Old Name: Revenue (Local)
+    Purpose: Returns revenue converted into local currency using the exchange rate table.
+*/
+Revenue (Local Currency) :=
+SUMX(
+    'sales_final',
+    'sales_final'[Revenue] * RELATED('exchange_rates'[Rate])
+)
+
+/*
+    Measure: Revenue (USD Adjusted)
+    Old Name: Adjusted Revenue (USD)
+    Purpose: Normalizes revenue back into USD for comparison across countries.
+*/
+Revenue (USD Adjusted) :=
+SUMX(
+    'sales_final',
+    'sales_final'[Revenue] / RELATED('exchange_rates'[Rate])
+)
+
+
+🔵 LOCAL CURRENCY NORMALIZATION
+/*
+    Measure: Adjusted Revenue (Local)
+    Old Name: Adjusted Revenue (Local)
+    Purpose: Recalculates revenue using local-country exchange rates for FX-adjusted trend charts.
+*/
+Adjusted Revenue (Local) :=
+CALCULATE(
+    SUMX(
+        'sales_final',
+        'sales_final'[Revenue] * RELATED('exchange_rates'[Rate])
+    )
+)
+
+
+🔵 CURRENCY IMPACT MEASURES
+/*
+    Measure: Local Revenue YoY % Change
+    Old Name: Revenue Growth (Local) %
+    Purpose: Shows underlying revenue growth unaffected by USD-foreign currency fluctuations.
+*/
+Local Revenue YoY % Change :=
+VAR CurrentLocal = [Adjusted Revenue (Local)]
+VAR PreviousLocal =
+    CALCULATE([Adjusted Revenue (Local)], SAMEPERIODLASTYEAR('Calendar'[Date]))
+RETURN
+DIVIDE(CurrentLocal - PreviousLocal, PreviousLocal, 0)
+
+/*
+    Measure: USD Revenue YoY % Change
+    Old Name: Revenue Growth (USD) %
+    Purpose: Measures YoY growth using USD-denominated revenue, including FX effects.
+*/
+USD Revenue YoY % Change :=
+DIVIDE(
+    [Revenue Total] - [Revenue Last Year],
+    [Revenue Last Year],
+    0
+)
+
+/*
+    Measure: USD Revenue YoY % Change
+    Old Name: Revenue Growth (USD) %
+    Purpose: Measures YoY growth using USD-denominated revenue, including FX effects.
+*/
+USD Revenue YoY % Change :=
+DIVIDE(
+    [Revenue Total] - [Revenue Last Year],
+    [Revenue Last Year],
+    0
+)
+
+
+🔵 FX DIAGNOSTIC MEASURES
+/*
+    Measure: Exchange Rate (Selected)
+    Old Name: Exchange Rate Selected
+    Purpose: Returns the exchange rate relevant to the selected currency/country.
+*/
+Exchange Rate (Selected) :=
+SELECTEDVALUE('exchange_rates'[Rate])
+
+/*
+    Measure: Revenue FX Difference
+    Old Name: Revenue FX Diff
+    Purpose: Shows the absolute difference between USD revenue and FX-adjusted revenue.
+*/
+Revenue FX Difference :=
+[Revenue Total] - [Adjusted Revenue (Local)]

@@ -1,0 +1,149 @@
+🔵 REVENUE MEASURES
+/*
+    Measure: Revenue Total
+    Old Name: Total Revenue
+    Purpose: Returns total revenue across all transactions in the dataset.
+*/
+Revenue Total :=
+SUM('sales_final'[Revenue])
+
+/*
+    Measure: Revenue Total (Formatted)
+    Old Name: Total Revenue (Formatted)
+    Purpose: Same as Revenue Total but formatted as a dollar value for card visuals.
+*/
+Revenue Total (Formatted) :=
+FORMAT([Revenue Total], "$#,0")
+
+
+🔵 COST & PROFIT MEASURES
+
+/*
+    Measure: Cost Total
+    Old Name: Total Cost
+    Purpose: Returns total cost of goods sold across all transactions.
+*/
+Cost Total :=
+SUM('sales_final'[Cost])
+
+/*
+    Measure: Profit Total
+    Old Name: Total Profit
+    Purpose: Basic profit measure used across most dashboards.
+*/
+Profit Total :=
+[Revenue Total] - [Cost Total]
+
+/*
+    Measure: Profit Margin Percentage
+    Old Name: Profit Margin %
+    Purpose: Measures how efficiently revenue converts into profit.
+*/
+Profit Margin Percentage :=
+DIVIDE([Profit Total], [Revenue Total])
+
+
+🔵 ORDER & UNIT MEASURES
+
+/*
+    Measure: Orders Total
+    Old Name: Total Orders
+    Purpose: Counts the total number of orders in the dataset.
+*/
+Orders Total :=
+COUNTROWS('sales_final')
+
+/*
+    Measure: Units Sold Total
+    Old Name: Total Units
+    Purpose: Sums all product units sold across transactions.
+*/
+Units Sold Total :=
+SUM('sales_final'[Quantity])
+
+
+🔵 AOV, CLV & CUSTOMER VALUE MEASURES
+
+/*
+    Measure: Average Order Value
+    Old Name: AOV
+    Purpose: Shows the average revenue per order. Core customer value metric.
+*/
+Average Order Value :=
+DIVIDE([Revenue Total], [Orders Total])
+
+/*
+    Measure: Customer Lifetime Value
+    Old Name: CLTV
+    Purpose: Captures total revenue contribution from each customer.
+    Note: Customer table must be filtered appropriately in visuals.
+*/
+Customer Lifetime Value :=
+SUMX(VALUES('customers'[CustomerKey]), [Revenue Total])
+
+
+🔵 CORE PRODUCTIVITY MEASURES
+
+/*
+    Measure: Revenue Per Unit
+    Old Name: Revenue Per Unit
+    Purpose: Helps compare SKUs with different unit volumes.
+*/
+Revenue Per Unit :=
+DIVIDE([Revenue Total], [Units Sold Total])
+
+/*
+    Measure: Cost Per Unit
+    Old Name: Cost Per Unit
+    Purpose: Useful for unit economics analysis.
+*/
+Cost Per Unit :=
+DIVIDE([Cost Total], [Units Sold Total])
+
+/*
+    Measure: Profit Per Unit
+    Old Name: Profit Per Unit
+    Purpose: SKU-level profitability indicator.
+*/
+Profit Per Unit :=
+DIVIDE([Profit Total], [Units Sold Total])
+
+
+🔵 BASIC RECORD COUNTING MEASURES
+
+/*
+    Measure: Distinct Customers
+    Old Name: Distinct Customers
+    Purpose: Counts unique customers contributing to revenue.
+*/
+Distinct Customers :=
+DISTINCTCOUNT('sales_final'[CustomerKey])
+
+/*
+    Measure: Distinct Products
+    Old Name: Distinct Products
+    Purpose: Counts unique products sold.
+*/
+Distinct Products :=
+DISTINCTCOUNT('sales_final'[ProductKey])
+
+
+🔵 CORE FILTERMEASURE
+
+/*
+    Measure: Revenue Without Filters
+    Old Name: Revenue (Ignore Filters)
+    Purpose: Provides a filter-agnostic version of revenue, useful for % share calculations.
+*/
+Revenue Without Filters :=
+CALCULATE([Revenue Total], ALL('sales_final'))
+
+🔵 SHARE & CONTRIBUTION MEASURES
+
+/*
+    Measure: Revenue Contribution Percentage
+    Old Name: Revenue Contribution %
+    Purpose: Shows category or region share of total revenue.
+*/
+Revenue Contribution Percentage :=
+DIVIDE([Revenue Total], [Revenue Without Filters])

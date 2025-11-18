@@ -1,0 +1,195 @@
+/*
+    Measure: Revenue Last Year
+    Old Name: Revenue Last Year
+    Purpose: Retrieves prior-year revenue for YoY and delta calculations.
+*/
+Revenue Last Year :=
+CALCULATE([Revenue Total], SAMEPERIODLASTYEAR('Calendar'[Date]))
+
+/*
+    Measure: Orders Last Year
+    Old Name: Orders Last Year
+    Purpose: Returns the previous year's total order count.
+*/
+Orders Last Year :=
+CALCULATE([Orders Total], SAMEPERIODLASTYEAR('Calendar'[Date]))
+
+/*
+    Measure: AOV Last Year
+    Old Name: Average Order Value Last Year
+    Purpose: Pulls last year's Average Order Value for YoY comparisons.
+*/
+AOV Last Year :=
+CALCULATE([Average Order Value], SAMEPERIODLASTYEAR('Calendar'[Date]))
+
+/*
+    Measure: CLTV Last Year
+    Old Name: Customer Lifetime Value Last Year
+    Purpose: Gives last year's CLV to support retention and YoY customer value analysis.
+*/
+CLTV Last Year :=
+CALCULATE([Customer Lifetime Value], SAMEPERIODLASTYEAR('Calendar'[Date]))
+
+/*
+    Measure: Revenue YTD
+    Old Name: Revenue YTD
+    Purpose: Calculates year-to-date revenue based on the selected year.
+*/
+Revenue YTD :=
+TOTALYTD([Revenue Total], 'Calendar'[Date])
+
+/*
+    Measure: Orders YTD
+    Old Name: Total Orders YTD
+    Purpose: Computes total YTD orders for operational tracking.
+*/
+Orders YTD :=
+CALCULATE([Orders Total], DATESYTD('Calendar'[Date]))
+
+/*
+    Measure: Profit YTD
+    Old Name: Profit YTD
+    Purpose: Year-to-date profit, respecting selected filters.
+*/
+Profit YTD :=
+TOTALYTD([Profit Total], 'Calendar'[Date])
+
+/*
+    Measure: Profit Margin YTD
+    Old Name: Profit Margin % YTD
+    Purpose: YTD profitability percentage for executive tracking.
+*/
+Profit Margin YTD :=
+CALCULATE([Profit Margin Percentage], DATESYTD('Calendar'[Date]))
+
+/*
+    Measure: Active Customers YTD
+    Old Name: Active Customers YTD
+    Purpose: Counts distinct customers who made a purchase in the YTD window.
+*/
+Active Customers YTD :=
+TOTALYTD(
+    DISTINCTCOUNT('sales_final'[CustomerKey]),
+    'Calendar'[Date]
+)
+
+/*
+    Measure: New Customers YTD
+    Old Name: New Customers YTD
+    Purpose: Identifies customers whose first purchase date falls within the YTD period.
+*/
+New Customers YTD :=
+CALCULATE(
+    DISTINCTCOUNT('customers'[CustomerKey]),
+    FILTER(
+        'customers',
+        'customers'[First Purchase Date (Column)]
+            >= MINX(DATESYTD('Calendar'[Date]), 'Calendar'[Date])
+            &&
+        'customers'[First Purchase Date (Column)]
+            <= MAXX(DATESYTD('Calendar'[Date]), 'Calendar'[Date])
+    )
+)
+
+/*
+    Measure: Revenue YoY % Change
+    Old Name: Revenue YoY %
+    Purpose: Percentage change in revenue versus the same period last year.
+*/
+Revenue YoY % Change :=
+DIVIDE([Revenue Total] - [Revenue Last Year], [Revenue Last Year])
+
+/*
+    Measure: Orders YoY % Change
+    Old Name: Orders YoY %
+    Purpose: Tracks YoY change in total orders for operational insight.
+*/
+Orders YoY % Change :=
+DIVIDE([Orders Total] - [Orders Last Year], [Orders Last Year])
+
+/*
+    Measure: Profit YoY % Change
+    Old Name: Profit Growth YoY %
+    Purpose: Measures YoY change in total profit.
+*/
+Profit YoY % Change :=
+DIVIDE([Profit Total] - CALCULATE([Profit Total], SAMEPERIODLASTYEAR('Calendar'[Date])),
+       CALCULATE([Profit Total], SAMEPERIODLASTYEAR('Calendar'[Date])))
+
+/*
+    Measure: AOV YoY % Change
+    Old Name: Average Order Value YoY %
+    Purpose: Shows YoY movement in average order size.
+*/
+AOV YoY % Change :=
+DIVIDE([Average Order Value] - [AOV Last Year], [AOV Last Year])
+
+/*
+    Measure: New Customer YoY % Change
+    Old Name: New Customers YoY %
+    Purpose: Measures YoY change in new customer acquisitions.
+*/
+New Customer YoY % Change :=
+DIVIDE([New Customers YTD] - [New Customers Last Year], [New Customers Last Year])
+
+/*
+    Measure: CLTV YoY % Change
+    Old Name: Customer Lifetime Value YoY %
+    Purpose: YoY % change in customer lifetime value.
+*/
+CLTV YoY % Change :=
+DIVIDE([Customer Lifetime Value] - [CLTV Last Year], [CLTV Last Year])
+
+/*
+    Measure: Average Delivery Days Last Year
+    Old Name: Average Delivery Days Last Year
+    Purpose: Pulls prior-year average delivery days for operations analysis.
+*/
+Average Delivery Days Last Year :=
+CALCULATE([Average Delivery Days], SAMEPERIODLASTYEAR('Calendar'[Date]))
+
+/*
+    Measure: Delivery Days YoY % Change
+    Old Name: Delivery Days YoY %
+    Purpose: Tracks YoY change in shipping speed.
+*/
+Delivery Days YoY % Change :=
+DIVIDE(
+    [Average Delivery Days] - [Average Delivery Days Last Year],
+    [Average Delivery Days Last Year]
+)
+
+/*
+    Measure: Local Revenue YoY % Change
+    Old Name: Revenue Growth (Local) %
+    Purpose: Shows underlying revenue performance without currency distortion.
+*/
+Local Revenue YoY % Change :=
+VAR CurrentLocal = [Adjusted Revenue (Local)]
+VAR PreviousLocal =
+    CALCULATE([Adjusted Revenue (Local)], SAMEPERIODLASTYEAR('Calendar'[Date]))
+RETURN
+DIVIDE(CurrentLocal - PreviousLocal, PreviousLocal, 0)
+
+/*
+    Measure: USD Revenue YoY % Change
+    Old Name: Revenue Growth (USD) %
+    Purpose: Tracks YoY revenue growth including currency effects.
+*/
+USD Revenue YoY % Change :=
+DIVIDE(
+    [Revenue Total] - [Revenue Last Year],
+    [Revenue Last Year],
+    0
+)
+
+/*
+    Measure: Currency Impact on Growth %
+    Old Name: Currency Impact on Growth %
+    Purpose: Quantifies the gap between USD YoY growth and local-currency YoY growth.
+*/
+Currency Impact on Growth % :=
+VAR GrowthUSD = [USD Revenue YoY % Change]
+VAR GrowthLocal = [Local Revenue YoY % Change]
+RETURN
+GrowthUSD - GrowthLocal

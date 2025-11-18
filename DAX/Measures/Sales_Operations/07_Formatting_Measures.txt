@@ -1,0 +1,159 @@
+🔵 COLOR INDICATORS (GOOD / BAD / NEUTRAL)
+/*
+    Measure: KPI Color (YoY Growth)
+    Old Name: Color (YoY Growth)
+    Purpose: Returns green for positive YoY change, red for negative. Used in cards and tables.
+*/
+KPI Color (YoY Growth) :=
+IF(
+    [Revenue YoY % Change] > 0,
+    "#2ECC71",      -- green
+    "#E74C3C"       -- red
+)
+
+/*
+    Measure: KPI Color (Margin)
+    Old Name: Margin Color
+    Purpose: Highlights margin performance using green (good) and red (poor).
+*/
+KPI Color (Margin) :=
+IF(
+    [Profit Margin Percentage] >= 0.15,
+    "#2ECC71",
+    "#E74C3C"
+)
+
+/*
+    Measure: KPI Color (Delivery Days)
+    Old Name: Delivery Speed Color
+    Purpose: Green if delivery speed improved YoY, red if it slowed down.
+*/
+KPI Color (Delivery Days) :=
+IF(
+    [Delivery Days YoY % Change] < 0,
+    "#2ECC71",
+    "#E74C3C"
+)
+
+
+🔵 ARROW / TREND INDICATORS
+/*
+    Measure: Trend Arrow (YoY)
+    Old Name: Arrow (YoY Growth)
+    Purpose: Returns ▲ for positive YoY change, ▼ for negative, used in KPI cards.
+*/
+Trend Arrow (YoY) :=
+IF(
+    [Revenue YoY % Change] > 0,
+    "▲",
+    "▼"
+)
+
+/*
+    Measure: Trend Arrow (Margin)
+    Old Name: Margin Arrow
+    Purpose: Up or down arrow based on margin movement YoY.
+*/
+Trend Arrow (Margin) :=
+IF(
+    [Profit YoY % Change] > 0,
+    "▲",
+    "▼"
+)
+
+/*
+    Measure: Trend Arrow (Delivery)
+    Old Name: Delivery Arrow
+    Purpose: Delivery days improving = ▲, worsening = ▼.
+*/
+Trend Arrow (Delivery) :=
+IF(
+    [Delivery Days YoY % Change] < 0,
+    "▲",
+    "▼"
+)
+
+
+🔵 LABEL / TEXT MEASURES
+/*
+    Measure: Customer Segment Label
+    Old Name: Segment Label
+    Purpose: Returns a readable label for segment breakdown visuals.
+*/
+Customer Segment Label :=
+SELECTEDVALUE('customers'[Recency Bin], "Unclassified")
+
+/*
+    Measure: Profitability Label (Category)
+    Old Name: Category Profit Label
+    Purpose: Converts margin % into high/medium/low text groups for quick interpretation.
+*/
+Profitability Label (Category) :=
+VAR m = [Profit Margin Percentage]
+RETURN
+SWITCH(
+    TRUE(),
+    m >= 0.20, "High Margin",
+    m >= 0.10, "Medium Margin",
+    "Low Margin"
+)
+
+
+🔵 FORMATTED OUTPUT MEASURES
+/*
+    Measure: Revenue YoY % Change (Formatted)
+    Old Name: Revenue YoY % (Formatted)
+    Purpose: YoY % displayed as a formatted text string with arrow and color applied.
+*/
+Revenue YoY % Change (Formatted) :=
+FORMAT([Revenue YoY % Change], "0.0%")
+
+/*
+    Measure: Profit Margin Percentage (Formatted)
+    Old Name: Margin % (Formatted)
+    Purpose: Clean formatted margin % for cards and matrices.
+*/
+Profit Margin Percentage (Formatted) :=
+FORMAT([Profit Margin Percentage], "0.0%")
+
+/*
+    Measure: AOV YoY % Change (Formatted)
+    Old Name: AOV YoY % (Formatted)
+    Purpose: Easy-to-read YoY % change for AOV.
+*/
+AOV YoY % Change (Formatted) :=
+FORMAT([AOV YoY % Change], "0.0%")
+
+/*
+    Measure: CLTV YoY % Change (Formatted)
+    Old Name: CLTV YoY % (Formatted)
+    Purpose: Used in customer value KPI cards.
+*/
+CLTV YoY % Change (Formatted) :=
+FORMAT([CLTV YoY % Change], "0.0%")
+
+
+🔵 BOOL / FLAG MEASURES
+/*
+    Measure: Is Top Performing Category
+    Old Name: Top Category Flag
+    Purpose: Used in conditional formatting to highlight strong performing categories.
+*/
+Is Top Performing Category :=
+IF(
+    [Category Revenue Percentage] >= 0.15,
+    TRUE(),
+    FALSE()
+)
+
+/*
+    Measure: Is Low Rotation SKU
+    Old Name: Low Rotation Flag
+    Purpose: Flags SKUs in the bottom performance percentile for unit sales.
+*/
+Is Low Rotation SKU :=
+IF(
+    [Units Sold (Product)] < PERCENTILEX.INC(ALL('products'), [Units Sold (Product)], 0.25),
+    TRUE(),
+    FALSE()
+)

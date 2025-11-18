@@ -1,0 +1,180 @@
+🔵 CATEGORY-LEVEL METRICS
+/*
+    Measure: Category Revenue
+    Old Name: Revenue by Category
+    Purpose: Returns total revenue for the selected category or categories.
+*/
+Category Revenue :=
+SUM('sales_final'[Revenue])
+
+/*
+    Measure: Category Revenue (All Categories)
+    Old Name: Revenue (All Categories)
+    Purpose: Computes revenue across all product categories, ignoring slicers.
+*/
+Category Revenue (All Categories) :=
+CALCULATE([Revenue Total], ALL('products'[Category]))
+
+/*
+    Measure: Category Revenue Percentage
+    Old Name: Category Revenue %
+    Purpose: Shows a category’s revenue share out of the total revenue.
+*/
+Category Revenue Percentage :=
+DIVIDE([Category Revenue], [Revenue Without Filters])
+
+
+🔵 SUBCATEGORY-LEVEL METRICS
+/*
+    Measure: Subcategory Revenue
+    Old Name: Revenue by Subcategory
+    Purpose: Total revenue for the selected subcategory, used in the scatter and matrix visuals.
+*/
+Subcategory Revenue :=
+SUM('sales_final'[Revenue])
+
+/*
+    Measure: Subcategory Profit Margin Percentage
+    Old Name: Profit Margin % (SubCategory)
+    Purpose: Returns margin percentage at the subcategory level.
+*/
+Subcategory Profit Margin Percentage :=
+DIVIDE([Profit Total], [Revenue Total])
+
+
+🔵 BRAND-LEVEL MEASURES
+/*
+    Measure: Brand Profit Margin Percentage
+    Old Name: Brand Profit Margin %
+    Purpose: Calculates average profit margin at the brand level for ranking visuals.
+*/
+Brand Profit Margin Percentage :=
+AVERAGEX(
+    VALUES('products'[Brand]),
+    [Profit Margin Percentage]
+)
+
+/*
+    Measure: Top 5 Brands by Margin
+    Old Name: Top 5 Brands (Margin)
+    Purpose: Restricts visuals to show only the five highest-margin brands.
+*/
+Top 5 Brands by Margin :=
+TOPN(5, VALUES('products'[Brand]), [Brand Profit Margin Percentage], DESC)
+
+/*
+    Measure: Bottom 5 Brands by Margin
+    Old Name: Bottom 5 Brands (Margin)
+    Purpose: Restricts visuals to the five lowest-margin brands for comparison.
+*/
+Bottom 5 Brands by Margin :=
+TOPN(5, VALUES('products'[Brand]), [Brand Profit Margin Percentage], ASC)
+
+
+🔵 SKU-LEVEL MEASURES
+/*
+    Measure: Units Sold (Product)
+    Old Name: Units Sold
+    Purpose: Sums quantity sold at SKU level for ranking charts.
+*/
+Units Sold (Product) :=
+SUM('sales_final'[Quantity])
+
+/*
+    Measure: Top Products by Units Sold
+    Old Name: Top 8 Products
+    Purpose: Returns the top SKUs by unit sales.
+*/
+Top Products by Units Sold :=
+TOPN(8, VALUES('products'[ProductKey]), [Units Sold (Product)], DESC)
+
+/*
+    Measure: Least Selling Products
+    Old Name: Bottom Products by Units
+    Purpose: Identifies low-rotation SKUs to support inventory decisions.
+*/
+Least Selling Products :=
+TOPN(8, VALUES('products'[ProductKey]), [Units Sold (Product)], ASC)
+
+
+🔵 REVENUE–MARGIN SCATTER MEASURES
+/*
+    Measure: Average Revenue (Subcategory)
+    Old Name: Avg Revenue (Scatter)
+    Purpose: Used as the horizontal reference line in the revenue–margin scatterplot.
+*/
+Average Revenue (Subcategory) :=
+AVERAGEX(VALUES('products'[SubCategory]), [Revenue Total])
+
+/*
+    Measure: Average Profit Margin (Subcategory)
+    Old Name: Avg Profit Margin Line
+    Purpose: Vertical reference line in the product scatter visual.
+*/
+Average Profit Margin (Subcategory) :=
+AVERAGEX(VALUES('products'[SubCategory]), [Profit Margin Percentage])
+
+
+🔵 PRODUCT-LEVEL PROFITABILITY
+/*
+    Measure: Total Profit (Product)
+    Old Name: Product Profit
+    Purpose: Granular profit measure used in matrices and ranking visuals.
+*/
+Total Profit (Product) :=
+[Profit Total]
+
+/*
+    Measure: Product Profit Margin Percentage
+    Old Name: Product Profit Margin %
+    Purpose: SKU-level profitability indicator.
+*/
+Product Profit Margin Percentage :=
+DIVIDE([Total Profit (Product)], [Revenue Total])
+
+
+🔵 REGIONAL PRODUCT BREAKDOWN
+/*
+    Measure: Category Revenue by Country
+    Old Name: Category Revenue (Country Matrix)
+    Purpose: Returns category revenue filtered by country for the drillable matrix.
+*/
+Category Revenue by Country :=
+CALCULATE([Revenue Total], ALLEXCEPT('products', 'products'[Category], 'stores'[Country]))
+
+/*
+    Measure: Category Profit by Country
+    Old Name: Category Profit (Country Matrix)
+    Purpose: Category profit shown per country in the regional product matrix.
+*/
+Category Profit by Country :=
+CALCULATE([Profit Total], ALLEXCEPT('products', 'products'[Category], 'stores'[Country]))
+
+/*
+    Measure: Category Margin Percentage by Country
+    Old Name: Margin % (Category × Country)
+    Purpose: Used to display margin intensity in regional product breakdowns.
+*/
+Category Margin Percentage by Country :=
+DIVIDE([Category Profit by Country], [Category Revenue by Country])
+
+
+🔵 PRODUCT PAGE CARD METRICS
+/*
+    Measure: Most Profitable Category
+    Old Name: Most Profitable Category (Card)
+    Purpose: Returns the name of the highest-margin product category.
+*/
+Most Profitable Category :=
+CALCULATE(
+    VALUES('products'[Category]),
+    TOPN(1, VALUES('products'[Category]), [Profit Total], DESC)
+)
+
+/*
+    Measure: Most Profitable Category (Value)
+    Old Name: Category Profit (Card)
+    Purpose: Displays profit of the top category for the card visual.
+*/
+Most Profitable Category (Value) :=
+CALCULATE([Profit Total], KEEPFILTERS(VALUES('products'[Category])))
