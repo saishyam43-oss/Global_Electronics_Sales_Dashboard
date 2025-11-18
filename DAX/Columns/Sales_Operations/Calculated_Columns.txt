@@ -1,0 +1,181 @@
+🔵 CUSTOMER DIMENSION COLUMNS
+/*
+    Column: Age Group
+    Old Name: Age Group
+    Purpose: Categorizes customers into age brackets for demographic analysis.
+*/
+Age Group =
+SWITCH(
+    TRUE(),
+    'customers'[Age] < 25, "18-24",
+    'customers'[Age] < 35, "25-34",
+    'customers'[Age] < 45, "35-44",
+    'customers'[Age] < 55, "45-54",
+    'customers'[Age] < 65, "55-64",
+    "65+"
+)
+
+/*
+    Column: Gender Label
+    Old Name: Gender Label
+    Purpose: Provides a clean gender label for visuals and tooltips.
+*/
+Gender Label =
+IF('customers'[Gender] = "M", "Male",
+IF('customers'[Gender] = "F", "Female", "Unknown"))
+
+/*
+    Column: First Purchase Date (Column)
+    Old Name: First Purchase Date (Column)
+    Purpose: Captures each customer's first purchase date for cohort/retention logic.
+*/
+First Purchase Date (Column) =
+CALCULATE(
+    MIN('sales_final'[OrderDate]),
+    ALLEXCEPT('sales_final', 'sales_final'[CustomerKey])
+)
+
+/*
+    Column: Cohort Month
+    Old Name: Cohort Month
+    Purpose: Groups customers into month-level cohorts based on their first purchase.
+*/
+Cohort Month =
+FORMAT('customers'[First Purchase Date (Column)], "YYYY-MM")
+
+
+🔵 RECENCY / ENGAGEMENT COLUMNS
+/*
+    Column: Last Purchase Date (Column)
+    Old Name: Last Purchase Date
+    Purpose: Captures the most recent order date for each customer.
+*/
+Last Purchase Date (Column) =
+CALCULATE(
+    MAX('sales_final'[OrderDate]),
+    ALLEXCEPT('sales_final', 'sales_final'[CustomerKey])
+)
+
+/*
+    Column: Days Since Last Purchase
+    Old Name: Recency Days
+    Purpose: Used for recency scoring and RFM segmentation.
+*/
+Days Since Last Purchase =
+DATEDIFF('customers'[Last Purchase Date (Column)], TODAY(), DAY)
+
+/*
+    Column: Recency Bin
+    Old Name: Recency Bin
+    Purpose: Buckets customers into Active / Recent / At-Risk / Dormant groups based on recency.
+*/
+Recency Bin =
+SWITCH(
+    TRUE(),
+    'customers'[Days Since Last Purchase] <= 30, "Active",
+    'customers'[Days Since Last Purchase] <= 90, "Recent",
+    'customers'[Days Since Last Purchase] <= 180, "At-Risk",
+    "Dormant"
+)
+
+
+🔵 ORDER / DELIVERY COLUMNS
+/*
+    Column: Delivery Days
+    Old Name: Delivery Days
+    Purpose: Calculates time taken between order date and delivery date.
+*/
+Delivery Days =
+DATEDIFF('sales_final'[OrderDate], 'sales_final'[DeliveryDate], DAY)
+
+/*
+    Column: Delivery Speed Bucket
+    Old Name: Delivery Speed (Bucket)
+    Purpose: Groups delivery durations for operational analysis.
+*/
+Delivery Speed Bucket =
+SWITCH(
+    TRUE(),
+    'sales_final'[Delivery Days] <= 3, "Fast",
+    'sales_final'[Delivery Days] <= 7, "Normal",
+    'sales_final'[Delivery Days] <= 14, "Slow",
+    "Very Slow"
+)
+
+
+🔵 PRODUCT DIMENSION COLUMNS
+/*
+    Column: Product Full Name
+    Old Name: Product Full Name
+    Purpose: Combines brand and product name for easier matrix readability.
+*/
+Product Full Name =
+'products'[Brand] & " - " & 'products'[ProductName]
+
+/*
+    Column: Category-Subcategory Label
+    Old Name: Category/SubCategory Label
+    Purpose: Clean combined label for drill-down visuals.
+*/
+Category-Subcategory Label :=
+'products'[Category] & " / " & 'products'[SubCategory]
+
+
+🔵 STORE DIMENSION COLUMNS
+/*
+    Column: Store Location Label
+    Old Name: Store Location (Label)
+    Purpose: Combines city and state for map and tooltip clarity.
+*/
+Store Location Label =
+'stores'[City] & ", " & 'stores'[State]
+
+
+🔵 CURRENCY / EXCHANGE RATE COLUMNS
+/*
+    Column: Currency Code Cleaned
+    Old Name: Currency Code Cleaned
+    Purpose: Ensures currency codes are consistent for joining to exchange rate tables.
+*/
+Currency Code Cleaned =
+UPPER('sales_final'[CurrencyCode])
+
+
+🔵 SORTING COLUMNS
+/*
+    Column: Age Group Sort
+    Old Name: Age Group Sort
+    Purpose: Numeric sort key for correct age group ordering in visuals.
+*/
+Age Group Sort =
+SWITCH(
+    'customers'[Age Group],
+    "18-24", 1,
+    "25-34", 2,
+    "35-44", 3,
+    "45-54", 4,
+    "55-64", 5,
+    "65+", 6
+)
+
+/*
+    Column: Recency Bin Sort
+    Old Name: Recency Bin Sort
+    Purpose: Ensures the recency buckets appear in the correct logical order.
+*/
+Recency Bin Sort =
+SWITCH(
+    'customers'[Recency Bin],
+    "Active", 1,
+    "Recent", 2,
+    "At-Risk", 3,
+    "Dormant", 4
+)
+
+/*
+    Column: Month Sort (Calendar Table)
+    Old Name: Month Sort
+    Purpose: Sorts Month Name correctly in visuals (Jan, Feb, Mar...).
+*/
+Month Sort =
+MONTH('Calendar'[Date])
