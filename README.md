@@ -425,8 +425,8 @@ Subcategories fall into clear BCG quadrants:
 *Which brands underperform on margin?*
 
 **Answer:**  
-- Bottom 5 brands average **~54.65% margin**  
-- Reasonable but materially below top-tier brands (60%+)  
+- The bottom 2 brands (**Tailspin Toys** and **The Phone Company**) fall considerably below the average of **~58.59% margin**  
+- Reasonable but materially below top-tier brands (60%+) 
 - Signals inefficiencies in:  
   - Cost structure  
   - Supplier terms  
@@ -472,7 +472,7 @@ Subcategories fall into clear BCG quadrants:
 *How do revenue, cost, margin, and units vary across products?*
 
 **Answer:**  
-- Computers lead on revenue, profit, and margin  
+- Computers lead on revenue and profit but fall a little behind the average profit margin. 
 - Home Appliances perform well but inconsistently at SKU level  
 - Categories like Games, Audio, Toys lag severely  
 - High margin variation within categories suggests inconsistent procurement or discounting practices
@@ -485,7 +485,7 @@ Subcategories fall into clear BCG quadrants:
 
 **Answer:**  
 - Developed markets: Computers & Home Appliances dominate  
-- Emerging markets: Audio, Games, and niche categories show stronger relative traction  
+- Emerging markets: TV and Video, Cameras and camcoders,and Cell phones show stronger relative traction  
 - Uniform assortment strategy will underperform globally
 
 ---
