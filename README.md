@@ -318,10 +318,10 @@ Global Electronics needed clarity on which product lines drive the business, whe
 
 | **KPI** | **Value / Insight** | **Recommended Action** |
 |--------|----------------------|-------------------------|
-| **Total Revenue (YTD)** | **$1.04M**, with **1.9% YoY growth** | Reduce category dependency and expand diversified growth areas |
-| **Total Profit (YTD)** | **$606.57K**, **58.59% margin** | Maintain margin discipline; optimize weaker segments |
-| **Units Sold (YTD)** | **196,932 units** | Support high-volume SKUs; rationalize laggards |
-| **Most Profitable Category** | **Computers ($11.23M)** | Expand and innovate within Computers; protect lead |
+| **Total Revenue (YTD)** | **$1.04M**, with **1.9% YoY growth** | ​Leverage early-year growth to drive a broader revenue rebound |
+| **Total Profit (YTD)** | **$606.57K**, **58.59% margin** | Maintain margin discipline and cost controls |
+| **Units Sold (YTD)** | **3,770 units** | Use top-selling SKUs as benchmarks for future strategies |
+| **Most Profitable Category** | **Computers ($11.23M)** | Invest in leaders and nurture other categories for balance. |
 
 ---
 
