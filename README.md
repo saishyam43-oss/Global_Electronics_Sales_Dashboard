@@ -345,7 +345,7 @@ Global Electronics needed clarity on which product lines drive the business, whe
 *Which brands deliver the strongest margins?*
 
 **Answer:**  
-- Top brands deliver **~60% margin consistently**  
+- Top brands like **Proseware**, **Fabrikam** and **A. Datum** deliver **~60% margin consistently**  
 - Shows strong pricing power and operational efficiency  
 - Highlights best-in-class category–brand combinations
 
