@@ -310,33 +310,60 @@ Global Electronics needed clarity on which product lines truly drive the busines
   <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_1.jpg" width="900">
 </p>
 
-**Key Insights**
+### **Key Insights**
 
-1. Computers and Home Appliances together contribute **~54% of total revenue**, creating dependency on a small cluster of categories.  
-2. Several mid-tier categories show stable demand but remain under-leveraged in both marketing and supply planning.
+1. **Category Revenue (Top 5 Pie Chart):**  
+   The top 5 categories contribute **\$48.57M out of \$55.55M** total revenue (~87%).  
+   Within this top-5 slice, **Computers + Home Appliances account for >60%**, showing severe over-concentration.
 
-**Action Items**
+2. **Category Revenue (All Categories – Flip View):**  
+   When looking at the full category distribution, the top two categories still hold **~54%** of total revenue.  
+   Even smaller categories show minimal movement, highlighting an unbalanced product mix.
 
-1. Develop mid-tier categories (Audio, Phones, Cameras) to reduce dependence on top categories.  
-2. Build category lifecycle strategies that improve balance across revenue streams.
+3. **Brand Profitability (Top 5):**  
+   Among the highest-margin brands, margins are consistently above the portfolio average, proving strong pricing power in a small cluster of brands.
+
+4. **Brand Profitability (Bottom 5):**  
+   Bottom-performing brands show **significantly lower margins**, even when unit movement is reasonable—indicating supplier contract or cost issues.
+
+5. **KPI Cards:**  
+   - **Profit Margin is healthy** but heavily skewed toward a few categories and brands.  
+   - **Units Sold (YTD)** shows a sharp drop outside top categories, exposing weak depth in the catalog.
+
+### **Action Items**
+
+1. **Reduce dependency** on Computers and Home Appliances. Build volume in 3–4 mid-tier categories (Audio, Phones, Cameras).  
+2. **Re-negotiate vendor contracts** for low-margin brands. If improvement isn’t possible, reduce shelf exposure.  
+3. **Introduce price optimization** for underperforming high-volume subcategories.  
+4. **Expand margin-positive brands** with targeted promotions and preferred placement.  
 
 ---
 
-### 📸 Dashboard Overview (Bottom / Low Performers View)
+## 📸 Dashboard Overview (Alternate View – All Categories + Brand Margin Flip)
 
 <p align="center">
   <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_2.jpg" width="900">
 </p>
 
-**Key Insights**
+### **Key Insights**
 
-1. The **bottom 5 brands** show structurally weak margins despite adequate volume in some cases.  
-2. Multiple subcategories generate high sales volume but underperform sharply on margin, indicating pricing or supplier cost pressure.
+1. **All Categories Pie Chart:**  
+   The category mix is top-heavy. Four categories combined contribute **nearly 75%** of revenue, leaving a small long-tail.
 
-**Action Items**
+2. **Bottom 5 Brands (Margin Flip):**  
+   These brands drag overall profitability and fail to meet even the portfolio’s median margin.
 
-1. Reprice or renegotiate consistently low-margin brands. Reduce shelf exposure for underperformers.  
-2. Address margin leakage in high-volume subcategories through targeted price corrections or vendor negotiation.
+3. **Top 5 Brands:**  
+   High-performing brands demonstrate stable margin consistency and lower volatility over months.
+
+4. **KPI Cards:**  
+   Category margin variability indicates **pricing and cost inconsistencies**, especially in mixed subcategories.
+
+### **Action Items**
+
+1. **Cut back on bottom-tier brands** or move them to a limited availability model.  
+2. **Increase visibility for top brands** with store displays, ads, or bundling.  
+3. **Rebalance supply chain costs** for categories showing high revenue but low realized profit.  
 
 ---
 
@@ -346,20 +373,34 @@ Global Electronics needed clarity on which product lines truly drive the busines
   <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_3.jpg" width="900">
 </p>
 
-**Key Insights**
+### **Key Insights**
 
-1. SKU-level performance is heavily skewed. A small set of top-selling SKUs drives most unit movement.  
-2. Category profitability varies significantly by region, hinting at differing cost structures and price sensitivity.
+1. **Top 8 Products (Bar Chart):**  
+   A small set of SKUs dominates unit movement, driving the majority of product-level revenue.
 
-**Action Items**
+2. **Least Selling Products:**  
+   A long tail of products shows **extremely low rotation**, tying up inventory and shelf space.
 
-1. Retire or bundle low-rotation SKUs. Increase visibility and promotion for high-performing SKUs.  
-2. Apply region-specific pricing strategies and product bundles based on profitability differences.
+3. **Revenue vs Margin Scatter (Subcategories):**  
+   Several subcategories appear in the **high-revenue but low-margin quadrant**—a classic sign of pricing inefficiency.
+
+4. **Regional Category Breakdown (Matrix):**  
+   Some categories that look strong globally underperform drastically in certain regions due to logistics cost and price sensitivity.
+
+5. **Detailed Product Metrics Matrix:**  
+   Margin variation between products within the same subcategory suggests differences in cost structure and discount patterns.
+
+### **Action Items**
+
+1. **Retire or bundle low-rotation SKUs** to increase inventory turnover.  
+2. **Introduce regional pricing** where margin gaps appear due to cost/price mismatch.  
+3. **Boost promotional focus** on high-performing SKUs to capitalize on natural demand.  
+4. **Review discounting strategy** within subcategories showing volatile margin behavior.  
 
 ---
 
 ### 📝 Summary
 
-The product portfolio is heavily reliant on a few strong categories and a small group of SKUs. Mid-tier categories remain untapped, margin leakage is significant in a few high-volume categories, and the long tail of slow-moving SKUs drags inventory productivity. A more balanced product strategy requires diversifying demand, improving brand-level profitability, and tailoring category focus by region.
+The product portfolio is heavily reliant on a small number of strong categories and SKUs. While top sellers perform exceptionally, mid-tier categories remain under-developed and the long tail of low-rotation products weakens inventory efficiency. Margin leakage is persistent across bottom-tier brands and high-volume subcategories. A more balanced product strategy requires diversifying demand, optimizing brand-level profitability, addressing regional pricing gaps, and rationalizing slow-moving SKUs.
 
 ---
