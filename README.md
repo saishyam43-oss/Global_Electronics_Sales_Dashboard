@@ -306,7 +306,7 @@ Global Electronics needed clarity on which product lines drive the business, whe
 
 ---
 
-# 📸 Screenshot 1 — Main Product Dashboard
+# Main Product Dashboard
 
 <p align="center">
   <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_1.jpg" width="900">
@@ -325,7 +325,7 @@ Global Electronics needed clarity on which product lines drive the business, whe
 
 ---
 
-# 🔍 Screenshot 1 — Detailed Insights (Graph-by-Graph)
+# Detailed Insights (Graph-by-Graph)
 
 ---
 
@@ -387,7 +387,7 @@ Subcategories fall into clear BCG quadrants:
 
 ---
 
-### 🎯 Action Items for Screenshot 1
+### 🎯 Action Items
 
 - Develop mid-tier categories to reduce reliance on Computers + Home Appliances  
 - Apply high-margin brand strategies to mid-tier brands  
@@ -397,7 +397,7 @@ Subcategories fall into clear BCG quadrants:
 
 ---
 
-# 📸 Screenshot 2 — Alternate Product Dashboard
+# 📸 Alternate Product Dashboard
 
 <p align="center">
   <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_2.jpg" width="900">
@@ -405,7 +405,7 @@ Subcategories fall into clear BCG quadrants:
 
 ---
 
-# 🔍 Screenshot 2 — Detailed Insights (Graph-by-Graph)
+# 🔍 Detailed Insights (Graph-by-Graph)
 
 ---
 
@@ -446,7 +446,7 @@ Subcategories fall into clear BCG quadrants:
 
 ---
 
-### 🎯 Action Items for Screenshot 2
+### 🎯 Action Items
 
 - Promote under-indexed categories to rebalance revenue  
 - Audit low-margin brands for supply chain, pricing, or assortment issues  
@@ -455,7 +455,7 @@ Subcategories fall into clear BCG quadrants:
 
 ---
 
-# 📸 Screenshot 3 — Detailed Product Metrics & Regional Breakdown
+# 📸 Detailed Product Metrics & Regional Breakdown
 
 <p align="center">
   <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_3.jpg" width="900">
@@ -463,7 +463,7 @@ Subcategories fall into clear BCG quadrants:
 
 ---
 
-# 🔍 Screenshot 3 — Detailed Insights (Matrix-by-Matrix)
+# 🔍 Detailed Insights (Matrix-by-Matrix)
 
 ---
 
@@ -490,7 +490,7 @@ Subcategories fall into clear BCG quadrants:
 
 ---
 
-### 🎯 Action Items for Screenshot 3
+### 🎯 Action Items
 
 - **Stars:** Expand variants, protect availability, increase marketing  
 - **Cash Cows:** Maintain pricing discipline and optimize costs  
