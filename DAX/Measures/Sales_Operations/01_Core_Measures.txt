@@ -61,6 +61,22 @@ COUNTROWS('sales_final')
 Units Sold Total :=
 SUM('sales_final'[Quantity])
 
+/*
+    Measure: Units Sold YTD
+    Old Name: Units Sold YTD
+    Purpose: Sums all product units sold across transactions for the current year.
+*/
+Units Sold YTD = 
+VAR CurrentYTD = TOTALYTD([Units Sold], 'Calendar'[Date])
+VAR DailySales = [Units Sold] 
+
+RETURN
+    IF(
+        ISBLANK(DailySales),
+        BLANK(),
+        CurrentYTD
+    )
+
 
 🔵 AOV, CLV & CUSTOMER VALUE MEASURES
 
@@ -147,3 +163,4 @@ CALCULATE([Revenue Total], ALL('sales_final'))
 */
 Revenue Contribution Percentage :=
 DIVIDE([Revenue Total], [Revenue Without Filters])
+
