@@ -565,7 +565,7 @@ Increase focus on cost reduction and product mix optimization to improve margins
 ## ⭐ **Insights — Regional Product Matrix**
 
 ### **1. U.S. Drives the Business**
-Dominates Computers, Cell Phones, Home Appliances, TV & Video.
+Dominates in all the categories.
 
 ### **2. UK, Germany & Canada Are Strong Secondary Markets**
 Good performance across major categories.
