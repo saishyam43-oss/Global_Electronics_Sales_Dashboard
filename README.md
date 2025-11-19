@@ -626,24 +626,24 @@ This narrative exposes the true drivers behind GE’s rise to a 2019 peak and it
 ## ⭐ **Insights**
 
 ### **1. Revenue Growth and Collapse**
-- Revenue grew from **$6.9M (2016)** to a peak of **$18.2M (2019)**.  
-- Post-2019, revenue **halved to $9M in 2020**, then crashed to **$1.0M in 2021**.  
-- This indicates a **severe disruption**, likely from external shocks (pandemic, supply constraints, demand shock).
+- Revenue grew from **$6.9M (2016)** to a peak of **$18.2M (2019)**.
+- It then dropped sharply to **$9M in 2020**, and shows **$1.0M in 2021**, but **2021 contains only Jan–Feb data**, so annual comparisons should consider this limitation.
 
-### **2. Profit Mirrors Revenue but with Higher Volatility**
-- Profit rose from **$4.1M → $10.7M (2019)** before collapsing to **$0.4M (2021)**.  
-- Profit fell **faster than revenue**, implying sharp volume loss.
+### **2. Profit Decline Was Slower Than Revenue Decline**
+- Profit rose from **$4.1M → $10.7M (2019)**.
+- It declined to **$5.3M in 2020**, which is *less severe* than the revenue drop.
+- The 2021 profit line also looks extremely low due to only two months of data.
 
-### **3. Profit Margin Is Remarkably Stable**
-- Despite revenue meltdown, margins hold between **58.38%–58.56%** post-2017.  
-- This confirms **strong pricing discipline** and **tight cost control** even at low volumes.
+### **3. Profit Margin Remains Highly Stable**
+- Despite volume shocks, margin stays between **58.38%–58.56%** after 2017.
+- This consistency indicates **strong cost control and pricing discipline**, even during revenue collapse.
 
-### **4. 2019 Represents Peak Operational Health**
-- Best combination of:
-  - Highest revenue  
-  - Highest profit  
-  - Strong margin  
-  - Strong order volume (see next charts)  
+### **4. 2019 Remains the Operational Benchmark**
+- Highest revenue  
+- Highest profit  
+- Strong margin  
+- Strong order volume  
+- Best alignment of demand + operational performance
 
 ---
 
@@ -718,20 +718,23 @@ This narrative exposes the true drivers behind GE’s rise to a 2019 peak and it
 
 ## ⭐ **Insights**
 
-### **1. Orders Grew Consistently Until 2019**
-- Orders increased from **2.8K → 9.0K**, confirming strong demand momentum.
+### **1. Orders Increased Until 2019, Then Collapsed**
+- Orders grew from **2.8K → 9.0K (2016–2019)**.
+- They then fell dramatically to **5.9K (2020)** and **0.5K (2021)**.
 
-### **2. Orders Collapsed With Revenue**
-- **2020: 5.9K → 2021: just ~0.5K**  
-- Same post-2019 shock clearly visible.
+### **2. Delivery Speed Improved Even as Orders Increased**
+- Average delivery time improved from **7.3 days → 4.1 days**, even during years of rising demand.
+- This indicates strong process efficiency and scalable fulfillment capability.
 
-### **3. Delivery Speed Improved Dramatically**
-- **7.3 days (2016) → 3.9 days (2021)**.  
-- Fulfillment quality improved every year, even during downturn.
+### **3. Post-2019, Delivery Speed Stayed Good but Didn’t Accelerate Further**
+- Even as volume plunged in 2020–21, delivery days stayed around **4 days**, not dropping significantly below the historical range.
+- This means:
+  - Operations remained stable.
+  - But the system didn’t capitalize on the lower workload to become even faster.
 
-### **4. Operational Efficiency Held Up During Crisis**
-- Delivery times stayed strong in 2020–21 despite volatility.  
-- Suggests a highly resilient logistics pipeline.
+### **4. Efficiency Was Maintained Through Volatility**
+- No operational degradation during the downturn.
+- But no meaningful additional acceleration either.
 
 ---
 
