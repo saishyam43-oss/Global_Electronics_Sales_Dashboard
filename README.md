@@ -320,7 +320,7 @@ This section analyzes **what Global Electronics sells**, **which categories driv
 
 <p align="center">
   <img src="Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_1.png" width="45%">
-  <img src="Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_2.png" width="45%">
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_2.png" width="44%">
 </p>
 
 
@@ -340,9 +340,6 @@ This section analyzes **what Global Electronics sells**, **which categories driv
 ### **3. Long-Tail Categories Matter Collectively**
 - Audio, Games, Toys, Music, Movies, etc. contribute **\$6.98M (~12.5%)**.
 - Individually small but collectively worth nurturing.
-
-### **4. Better Portfolio Depth in Full View**
-- Full-category distribution reveals incremental revenue opportunities hidden in a Top-5-only view.
 
 ---
 
@@ -365,9 +362,6 @@ Focus forecasting, funding, and stock allocation on:
 - Promote high-margin underdogs  
 - Repackage poor performers  
 - Retire unviable SKUs  
-
-### **4. Maintain Dynamic Category Toggling**
-Keep the **Top 5 ↔ All Categories** toggle in Power BI for clearer prioritization conversations.
 
 ---
 
@@ -403,7 +397,7 @@ Keep the **Top 5 ↔ All Categories** toggle in Power BI for clearer prioritizat
 - Fabrikam, A. Datum, Southridge Video also exceed average
 
 ### **4. Bottom Performers Are Only Slightly Below Average**
-- Brands like Wide World Importers, Litware, Northwind remain close to average margins.
+- Brands like **Wide World Importers, Litware, Northwind Traders** remain close to average margins.
 
 ---
 
@@ -430,26 +424,28 @@ Track margins quarterly for trend shifts and early warnings.
 
 # ## **C. Subcategory Positioning — Revenue vs Profit Margin (BCG Quadrant)**
 
+<p align="center">
 ![Scatter Plot](Dashboard_Screenshots/03_Product_Dashboard/Scatter_Plot.png)
+</p>
 
 ---
 
 ## ⭐ **Insights**
 
 ### **⭐ Stars — High Revenue, High Margin**
-- **Computers, Home Appliances**  
+- **Camcoders, Televisions, Projectors & Screens, Movie DVD**  
 Backbone of the business.
 
 ### **💰 Cash Cows — High Revenue, Moderate Margin**
-- **TV & Video**  
+- **Desktops, Water Heaters, Laptops, Touch Screen Phones**  
 Volume-heavy but moderate margins.
 
 ### **❓ Question Marks — High Margin, Low Revenue**
-- **Cameras & Camcorders, Cell Phones**  
+- **Coffee Machines, Microwaves, Cellphone Accessories**  
 Great margins, limited scale.
 
 ### **🐶 Dogs — Low Revenue, Low Margin**
-- **Audio, Games & Toys, Music/Movies/Audiobooks**  
+- **Boxed Games, Fans, Home & Office Phones**  
 Portfolio drag; low ROI.
 
 ---
@@ -538,7 +534,9 @@ The PC segment shows repeatable demand across variants.
 
 # ## **E. Detailed Metrics & Regional Product Performance**
 
+<p align="center">
 ![Detailed Matrix](Dashboard_Screenshots/03_Product_Dashboard/Matrix_1.png)  
+</p>
 
 ---
 
@@ -556,18 +554,20 @@ High margins but small-scale → expansion potential.
 ### **3. Laggards Needing Review**
 - Cell Phones: **56.58%**  
 - Games & Toys: **54.73%**  
-Lower margin, lower impact.
+Increase focus on cost reduction and product mix optimization to improve margins.
 
 ---
 
+<p align="center">
 ![Regional Matrix](Dashboard_Screenshots/03_Product_Dashboard/Matrix_2.png)
+</p>
 
 ## ⭐ **Insights — Regional Product Matrix**
 
 ### **1. U.S. Drives the Business**
 Dominates Computers, Cell Phones, Home Appliances, TV & Video.
 
-### **2. UK & Canada Are Strong Secondary Markets**
+### **2. UK, Germany & Canada Are Strong Secondary Markets**
 Good performance across major categories.
 
 ### **3. France, Italy, Netherlands Underperform**
@@ -578,7 +578,7 @@ Low revenue and weak category penetration.
 ## 💡 **Action Items**
 
 ### **1. Scale Strength Markets**
-- U.S., UK, Canada  
+- U.S., UK, Germany, Canada  
 - Allocate inventory & promotions accordingly  
 
 ### **2. Grow High-Margin Categories**
