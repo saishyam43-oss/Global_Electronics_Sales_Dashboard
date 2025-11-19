@@ -425,7 +425,7 @@ Track margins quarterly for trend shifts and early warnings.
 # **C. Subcategory Positioning — Revenue vs Profit Margin (BCG Quadrant)**
 
 <p align="center">
-![Scatter Plot](Dashboard_Screenshots/03_Product_Dashboard/Scatter_Plot.png)
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Scatter_Plot.png">
 </p>
 
 ---
@@ -535,7 +535,7 @@ The PC segment shows repeatable demand across variants.
 # **E. Detailed Metrics & Regional Product Performance**
 
 <p align="center">
-![Detailed Matrix](Dashboard_Screenshots/03_Product_Dashboard/Matrix_1.png)  
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Matrix_1.png">
 </p>
 
 ---
@@ -559,7 +559,7 @@ Increase focus on cost reduction and product mix optimization to improve margins
 ---
 
 <p align="center">
-![Regional Matrix](Dashboard_Screenshots/03_Product_Dashboard/Matrix_2.png)
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Matrix_2.png">
 </p>
 
 ## ⭐ **Insights — Regional Product Matrix**
