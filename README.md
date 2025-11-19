@@ -307,8 +307,8 @@ This section analyzes **what Global Electronics sells**, **which categories driv
 # 📸 **Product Dashboard — Full View**
 
 ![Product Dashboard Performance 1](Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_1.png)  
-![Product Dashboard Performance 2](Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_2.png)  
-![Product Dashboard Performance 3](Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_3.png)
+![Product Dashboard Performance 2](Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_2.jpg)  
+![Product Dashboard Performance 3](Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_3.jpg)
 
 ---
 
