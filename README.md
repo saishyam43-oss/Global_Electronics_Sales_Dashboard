@@ -591,7 +591,6 @@ Conduct market research, adjust channels, run pilot campaigns.
 
 # **Act 1 Summary**
 
-Global Electronics’ product portfolio demonstrates **strong concentration in Computers and Home Appliances**, excellent margin stability, and consistent category performance.  
-However, low-volume SKUs, underpenetrated regions, and long-tail inefficiencies offer clear opportunities for strategic optimization and future growth.
+Global Electronics’ product portfolio shows strong revenue and margin concentration in Computers and Home Appliances, with these categories serving as core business drivers. While overall margin stability is maintained, performance across categories is mixed: some segments (like Cameras, Audio, Games, and Media) deliver lower volume or profit margins and require targeted intervention. In addition, underpenetrated regions and long-tail SKUs present clear opportunities for strategic portfolio optimization and international growth.
 
 ---
