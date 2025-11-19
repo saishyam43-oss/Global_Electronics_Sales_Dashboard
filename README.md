@@ -314,6 +314,23 @@ This section analyzes **what Global Electronics sells**, **which categories driv
 
 ---
 
+### 📌 KPI Summary
+
+Below is a snapshot of the key product-level performance indicators that anchor the Product dashboard. These KPIs set the context before diving into category- and brand-level visuals.
+
+<p align="center">
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_1.png" width="45%">
+</p>
+
+| **KPI** | **Value / Insight** | **Recommended Action** |
+|--------|----------------------|--------------------------|
+| **Total Revenue (YTD)** | **$1.04M**, showing **+1.9% YoY** growth. | Strengthen early-year momentum through targeted product pushes and stock alignment. |
+| **Total Profit (YTD)** | **$606.57K**, with a healthy **58.59% margin**. | Maintain margin discipline; replicate high-margin tactics across weaker categories. |
+| **Units Sold (YTD)** | **3770** sold so far in 2021. | Support high-volume SKUs with inventory priority; evaluate low-volume SKUs for rationalisation. |
+| **Most Profitable Category** | **Computers** with **$11.23M** in total profit historically. | Expand strategic investment in Computers: product extensions, bundles, accessories. |
+
+---
+
 # **A. Category Revenue Contribution (Pie Charts)**
 
 ### 📊 **Top 5 Categories vs All Categories**
@@ -613,6 +630,22 @@ This narrative exposes the true drivers behind GE’s rise to a 2019 peak and it
 - **📄 Page 4:** [Open Image](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_4.jpg)
 
 ---
+
+### 📌 KPI Summary
+
+These operational KPIs provide a top-level view of business health across revenue, profitability, customer experience, and order volume before drilling into multi-year trends.
+
+<p align="center">
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_1.png" width="45%">
+</p>
+
+| **KPI** | **Value / Insight** | **Recommended Action** |
+|--------|----------------------|--------------------------|
+| **Total Revenue (YTD)** | **$1.04M**, with **+1.9% YoY** growth. | Use early-year traction to fuel a broader recovery plan across channels. |
+| **Total Profit (YTD)** | **$606.57K**, margin at **58.59%**, consistent with historical levels. | Preserve margin stability; focus on volume recovery without discount-driven erosion. |
+| **Average Delivery Days (YTD)** | **4.6 days**, **0.4% faster YoY**. | Maintain delivery performance; treat fulfillment speed as a competitive differentiator. |
+| **Total Orders (YTD)** | **494 orders** so far this year. | Increase order velocity via campaigns, retention improvements, and channel activations. |
+
 ---
 
 # **A. Revenue, Profit & Margin Over Time**
