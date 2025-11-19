@@ -314,7 +314,7 @@ This section analyzes **what Global Electronics sells**, **which categories driv
 
 ---
 
-# ## **A. Category Revenue Contribution (Pie Charts)**
+# **A. Category Revenue Contribution (Pie Charts)**
 
 ### 📊 **Top 5 Categories vs All Categories**
 
@@ -367,7 +367,7 @@ Focus forecasting, funding, and stock allocation on:
 
 ---
 
-# ## **B. Profit Margin Distribution by Brand (Top 5 & Bottom 5)**
+# **B. Profit Margin Distribution by Brand (Top 5 & Bottom 5)**
 
 ### 📊 **Brand Margin Charts**
 
@@ -422,7 +422,7 @@ Track margins quarterly for trend shifts and early warnings.
 
 ---
 
-# ## **C. Subcategory Positioning — Revenue vs Profit Margin (BCG Quadrant)**
+# **C. Subcategory Positioning — Revenue vs Profit Margin (BCG Quadrant)**
 
 <p align="center">
 ![Scatter Plot](Dashboard_Screenshots/03_Product_Dashboard/Scatter_Plot.png)
@@ -475,7 +475,7 @@ Portfolio drag; low ROI.
 
 ---
 
-# ## **D. SKU-Level Performance — Top vs Least Selling Products**
+# **D. SKU-Level Performance — Top vs Least Selling Products**
 
 <p align="center">
   <img src="Dashboard_Screenshots/03_Product_Dashboard/Bar_Chart_1.png" width="45%">
@@ -532,7 +532,7 @@ The PC segment shows repeatable demand across variants.
 
 ---
 
-# ## **E. Detailed Metrics & Regional Product Performance**
+# **E. Detailed Metrics & Regional Product Performance**
 
 <p align="center">
 ![Detailed Matrix](Dashboard_Screenshots/03_Product_Dashboard/Matrix_1.png)  
