@@ -594,3 +594,374 @@ Conduct market research, adjust channels, run pilot campaigns.
 Global Electronics’ product portfolio shows strong revenue and margin concentration in Computers and Home Appliances, with these categories serving as core business drivers. While overall margin stability is maintained, performance across categories is mixed: some segments (like Cameras, Audio, Games, and Media) deliver lower volume or profit margins and require targeted intervention. In addition, underpenetrated regions and long-tail SKUs present clear opportunities for strategic portfolio optimization and international growth.
 
 ---
+
+# **ACT 2 — Sales Performance Over Time**
+
+This section analyzes the **trajectory of Global Electronics’ business from 2016–2021**.  
+We break down how revenue, profit, margin, order volume, delivery speed, category mix, and regional profit contributions evolved over time.  
+This narrative exposes the true drivers behind GE’s rise to a 2019 peak and its sharp contraction afterward.
+
+---
+
+# 📸 **Sales Performance Dashboard — Full View**
+
+Click below to view the full dashboard pages:
+
+- **Page 1:**  
+  [View Screenshot](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_1.jpg)
+
+- **Page 2:**  
+  [View Screenshot](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_2.jpg)
+
+- **Page 3:**  
+  [View Screenshot](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_3.jpg)
+
+- **Page 4:**  
+  [View Screenshot](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_4.jpg)
+
+---
+
+# **A. Revenue, Profit & Margin Over Time**
+
+<p align="center">
+  <img src="Dashboard_Screenshots/04_Time_Dashboard/RPM_Over_Time.png">
+</p>
+
+---
+
+## ⭐ **Insights**
+
+### **1. Revenue Growth and Collapse**
+- Revenue grew from **$6.9M (2016)** to a peak of **$18.2M (2019)**.  
+- Post-2019, revenue **halved to $9M in 2020**, then crashed to **$1.0M in 2021**.  
+- This indicates a **severe disruption**, likely from external shocks (pandemic, supply constraints, demand shock).
+
+### **2. Profit Mirrors Revenue but with Higher Volatility**
+- Profit rose from **$4.1M → $10.7M (2019)** before collapsing to **$0.4M (2021)**.  
+- Profit fell **faster than revenue**, implying sharp volume loss.
+
+### **3. Profit Margin Is Remarkably Stable**
+- Despite revenue meltdown, margins hold between **58.38%–58.56%** post-2017.  
+- This confirms **strong pricing discipline** and **tight cost control** even at low volumes.
+
+### **4. 2019 Represents Peak Operational Health**
+- Best combination of:
+  - Highest revenue  
+  - Highest profit  
+  - Strong margin  
+  - Strong order volume (see next charts)  
+
+---
+
+## 💡 **Action Items**
+
+### **1. Diagnose the 2020–21 Downturn**
+- Identify root causes: supply chain, macro-economic shocks, lost customer cohorts, category failures, or channel issues.
+
+### **2. Use Margin Stability to Fuel Recovery**
+- Since margin integrity is intact, the focus should be on **volume recovery, not margin repair**.
+
+### **3. Recreate 2016–2019 Playbook**
+- Review campaigns, product launches, regional pushes, or assortment strategies that drove the rise to 2019.
+
+### **4. Strengthen Early Warning Systems**
+- Build automated checks for sudden volume dips or channel disruptions.
+
+---
+
+---
+
+# **B. Year-over-Year Revenue Growth (%)**
+
+<p align="center">
+  <img src="Dashboard_Screenshots/04_Time_Dashboard/YoY_Revenue_Growth.png">
+</p>
+
+---
+
+## ⭐ **Insights**
+
+### **1. Explosive Expansion (2018–2019)**
+- **2018: +71.97% growth — breakout year**  
+- **2019: +42.65% growth**  
+- Back-to-back exceptional years showing strong scalability.
+
+### **2. Severe Contraction in 2020**
+- Revenue **plunged –49.23%**, the largest drop in the dataset.  
+- Confirms a major disruption rather than natural market ebbing.
+
+### **3. High Volatility**
+- YoY growth swings from +72% → +43% → –49%.  
+- Indicates dependence on key categories/regions and vulnerability to shocks.
+
+---
+
+## 💡 **Action Items**
+
+### **1. Conduct a Deep Dive on 2020**
+- Which categories collapsed?  
+- Which regions declined first?  
+- Any customer churn patterns?
+
+### **2. Diversify & Reduce Dependence**
+- Expand product and region footprint.  
+- Build resilience against category-specific or region-specific shocks.
+
+### **3. Build Leading Indicator Dashboards**
+- Monitor forecast pipeline, order backlog, search demand, promo uplift, supply health.
+
+---
+
+---
+
+# **C. Order Volume & Delivery Speed Over Time**
+
+<p align="center">
+  <img src="Dashboard_Screenshots/04_Time_Dashboard/Order_Volume_Delivery_Speed.png">
+</p>
+
+---
+
+## ⭐ **Insights**
+
+### **1. Orders Grew Consistently Until 2019**
+- Orders increased from **2.8K → 9.0K**, confirming strong demand momentum.
+
+### **2. Orders Collapsed With Revenue**
+- **2020: 5.9K → 2021: just ~0.5K**  
+- Same post-2019 shock clearly visible.
+
+### **3. Delivery Speed Improved Dramatically**
+- **7.3 days (2016) → 3.9 days (2021)**.  
+- Fulfillment quality improved every year, even during downturn.
+
+### **4. Operational Efficiency Held Up During Crisis**
+- Delivery times stayed strong in 2020–21 despite volatility.  
+- Suggests a highly resilient logistics pipeline.
+
+---
+
+## 💡 **Action Items**
+
+### **1. Diagnose Order Volume Loss**
+- Identify category-level order drivers.  
+- Evaluate lost customer segments.
+
+### **2. Protect Fast Delivery SLAs**
+- Fast delivery is a competitive advantage for recapturing demand.
+
+### **3. Reactivate Channels**
+- Use fulfillment strength as a marketing message ("fast delivery guaranteed").
+
+---
+
+---
+
+# **D. Operational Health Trends (Orders, AOV, Margin)**
+
+<p align="center">
+  <img src="Dashboard_Screenshots/04_Time_Dashboard/Operational_Health_Trends.png">
+</p>
+
+---
+
+## ⭐ **Insights**
+
+### **1. Orders Show High Volatility**
+- Strong multi-year rise → catastrophic drop after 2019.
+
+### **2. AOV Remains Surprisingly Stable**
+- AOV stays flat across all years, even during the crisis.  
+- Customers who remained continued to spend **similar amounts per transaction**.
+
+### **3. Margin Discipline Is Outstanding**
+- Margins stay within a narrow band (~58.4%–59.1%).  
+- Confirms superior operational control.
+
+### **4. Profitability Held Despite Volume Loss**
+- Margin stability + stable AOV = strong core operating model.  
+- Volume loss is the primary issue.
+
+---
+
+## 💡 **Action Items**
+
+### **1. Focus on Volume Recovery**
+- Not margin repair. The fundamentals are sound.
+
+### **2. Use Bundling to Lift AOV**
+- Accessories, warranties, cross-category pairings.
+
+### **3. Monitor Order Value Mix**
+- Ensure high-margin SKUs still lead in recovery.
+
+---
+
+---
+
+# **E. Cumulative Sales Progress by Year**
+
+<p align="center">
+  <img src="Dashboard_Screenshots/04_Time_Dashboard/Cumulative_Sales_Progress.png">
+</p>
+
+---
+
+## ⭐ **Insights**
+
+### **1. 2019 Is the Benchmark Peak**
+- Fastest revenue accumulation curve.  
+- Outperforms all other years by a large margin.
+
+### **2. Healthy Momentum in 2017–2018**
+- Consistent upward trajectories.  
+- Shows predictable seasonal and campaign uplift.
+
+### **3. 2020 Started Strong, Then Collapsed**
+- Early months track above 2019  
+- Mid-year plateau indicates sudden disruption.
+
+### **4. 2021 Is the Lowest Curve on Record**
+- Almost flat, reflecting near-zero business activity.
+
+---
+
+## 💡 **Action Items**
+
+### **1. Study 2019 Drivers**
+- Campaigns, category mix, region strategy, promotions.
+
+### **2. Develop Recovery Playbooks**
+- Based on past acceleration points (e.g., March uplift, Q4 surge).
+
+### **3. Forecasting Enhancements**
+- Integrate pattern recognition from past high-performing years.
+
+---
+
+---
+
+# **F. Product Category Profit Contribution Over Time**
+
+<p align="center">
+  <img src="Dashboard_Screenshots/04_Time_Dashboard/Stacked_Area_Category.png">
+</p>
+
+---
+
+## ⭐ **Insights**
+
+### **1. Computers & Home Appliances Dominate**
+- Consistently the two widest bands → the business foundation.
+
+### **2. Secondary Categories Provide Meaningful Support**
+- Cell Phones, Cameras & Camcorders provide stable secondary contributions.
+
+### **3. Small Categories Are Predictable and Low Impact**
+- Audio, Games, Music/Movies/Audiobooks contribute minimally but consistently.
+
+### **4. Mix Remains Stable Even During 2020 Shock**
+- No major shifts in category share → disruption affected all categories equally.
+
+---
+
+## 💡 **Action Items**
+
+### **1. Protect Core Categories**
+- Maintain investment, marketing, availability.
+
+### **2. Grow Secondary Profit Drivers**
+- Push cell phones, cameras, TV & video through targeted campaigns.
+
+### **3. Rationalize Long-Tail Categories**
+- Evaluate low-performing subcategories for phase-out or repositioning.
+
+---
+
+---
+
+# **G. Regional Profit Contribution Over Time**
+
+<p align="center">
+  <img src="Dashboard_Screenshots/04_Time_Dashboard/Stacked_Area_Region.png">
+</p>
+
+---
+
+## ⭐ **Insights**
+
+### **1. The U.S. Is the Profit Engine**
+- Largest profit contributor across all years by a large margin.
+
+### **2. UK & Germany Form a Solid Second Tier**
+- Consistent mid-level contributions.
+
+### **3. Smaller Regions Are Volatile and Low Impact**
+- Netherlands, Italy, Australia show fluctuating thin bands.
+
+### **4. No Significant New Emerging Markets**
+- Mix remains structurally similar throughout the years.
+
+---
+
+## 💡 **Action Items**
+
+### **1. Defend the U.S. Market**
+- It's the anchor for total profitability.  
+- Prioritize retention, inventory, promotions.
+
+### **2. Expand UK/Germany**
+- Leverage stable performance to unlock incremental gains.
+
+### **3. Pilot in Smaller Regions Before Investing**
+- Validate product-market fit with small bets.
+
+---
+
+---
+
+# **H. Monthly Sales Heatmap**
+
+<p align="center">
+  <img src="Dashboard_Screenshots/04_Time_Dashboard/Monthly_Sales_Heatmap.png">
+</p>
+
+---
+
+## ⭐ **Insights**
+
+### **1. Strong Seasonality**
+- **Jan–Feb** and **Nov–Dec** are consistently high-performing months.
+
+### **2. Mid-Year Variability**
+- 2018–19 show mid-year surges (May–Sep).
+
+### **3. 2020 Collapses After March**
+- Early success abruptly reverses due to external disruptions.
+
+### **4. 2021 Shows Systemic Weakness**
+- Almost all months below $650K.
+
+---
+
+## 💡 **Action Items**
+
+### **1. Double Down on Peak Seasons**
+- Match inventory, promos, staffing to Jan–Feb and holiday periods.
+
+### **2. Mitigate Spring Slowdowns**
+- Launch mid-year promos or category spikes.
+
+### **3. Rebuild Post-2020 Momentum**
+- Understand what worked in early 2020 and duplicate in recovery.
+
+---
+
+# **Act 2 Summary**
+
+GE experienced a **strong rise to a 2019 peak** driven by solid category mix and operational efficiency.  
+A severe downturn in 2020–21 hit volume and revenue hard, but **margins, AOV, and cost control held steady**, proving strong internal resilience.  
+Future strategy must prioritize **volume recovery**, **regional expansion**, and **seasonal optimization** while safeguarding the profitable core categories.
+
+---
+
