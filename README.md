@@ -306,9 +306,9 @@ This section analyzes **what Global Electronics sells**, **which categories driv
 
 # 📸 **Product Dashboard — Full View**
 
-![Product Dashboard Page 1](Dashboard_Screenshots/03_Product_Dashboard/Product_Page_1.png)  
-![Product Dashboard Page 2](Dashboard_Screenshots/03_Product_Dashboard/Product_Page_2.png)  
-![Product Dashboard Page 3](Dashboard_Screenshots/03_Product_Dashboard/Product_Page_3.png)
+![Product Dashboard Performance 1](Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_1.png)  
+![Product Dashboard Performance 2](Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_2.png)  
+![Product Dashboard Performance 3](Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_3.png)
 
 ---
 
@@ -316,8 +316,8 @@ This section analyzes **what Global Electronics sells**, **which categories driv
 
 ### 📊 **Top 5 Categories vs All Categories**
 
-![Top 5 Pie](Dashboard_Screenshots/03_Product_Dashboard/Pie_Top5.png)  
-![All Categories Pie](Dashboard_Screenshots/03_Product_Dashboard/Pie_All.png)
+![Top 5 Pie](Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_1.png)  
+![All Categories Pie](Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_2.png)
 
 ---
 
@@ -372,8 +372,8 @@ Keep the **Top 5 ↔ All Categories** toggle in Power BI for clearer prioritizat
 
 ### 📊 **Brand Margin Charts**
 
-![Brand Top 5](Dashboard_Screenshots/03_Product_Dashboard/Brand_Top5.png)  
-![Brand Bottom 5](Dashboard_Screenshots/03_Product_Dashboard/Brand_Bottom5.png)
+![Brand Top 5](Dashboard_Screenshots/03_Product_Dashboard/Column_Chart_1.png)  
+![Brand Bottom 5](Dashboard_Screenshots/03_Product_Dashboard/Column_Chart_2.png)
 
 ---
 
@@ -422,7 +422,7 @@ Track margins quarterly for trend shifts and early warnings.
 
 # ## **C. Subcategory Positioning — Revenue vs Profit Margin (BCG Quadrant)**
 
-![Scatter Plot](Dashboard_Screenshots/03_Product_Dashboard/Scatter.png)
+![Scatter Plot](Dashboard_Screenshots/03_Product_Dashboard/Scatter_Plot.png)
 
 ---
 
@@ -473,8 +473,8 @@ Portfolio drag; low ROI.
 
 # ## **D. SKU-Level Performance — Top vs Least Selling Products**
 
-![Top Products](Dashboard_Screenshots/03_Product_Dashboard/Top_Products.png)  
-![Least Products](Dashboard_Screenshots/03_Product_Dashboard/Least_Products.png)
+![Top Products](Dashboard_Screenshots/03_Product_Dashboard/Bar_Chart_1.png)  
+![Least Products](Dashboard_Screenshots/03_Product_Dashboard/Bar_Chart_2.png)
 
 ---
 
@@ -528,8 +528,8 @@ The PC segment shows repeatable demand across variants.
 
 # ## **E. Detailed Metrics & Regional Product Performance**
 
-![Detailed Matrix](Dashboard_Screenshots/03_Product_Dashboard/Detailed_Matrix.png)  
-![Regional Matrix](Dashboard_Screenshots/03_Product_Dashboard/Regional_Matrix.png)
+![Detailed Matrix](Dashboard_Screenshots/03_Product_Dashboard/Matrix_1.png)  
+![Regional Matrix](Dashboard_Screenshots/03_Product_Dashboard/Matrix_2.png)
 
 ---
 
