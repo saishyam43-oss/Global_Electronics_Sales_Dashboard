@@ -318,8 +318,11 @@ This section analyzes **what Global Electronics sells**, **which categories driv
 
 ### 📊 **Top 5 Categories vs All Categories**
 
-![Top 5 Pie](Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_1.png)  
-![All Categories Pie](Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_2.png)
+<p align="center">
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_1.png" width="45%">
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_2.png" width="45%">
+</p>
+
 
 ---
 
@@ -374,8 +377,11 @@ Keep the **Top 5 ↔ All Categories** toggle in Power BI for clearer prioritizat
 
 ### 📊 **Brand Margin Charts**
 
-![Brand Top 5](Dashboard_Screenshots/03_Product_Dashboard/Column_Chart_1.png)  
-![Brand Bottom 5](Dashboard_Screenshots/03_Product_Dashboard/Column_Chart_2.png)
+<p align="center">
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Column_Chart_1.png" width="45%">
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Column_Chart_2.png" width="45%">
+</p>
+
 
 ---
 
@@ -475,8 +481,10 @@ Portfolio drag; low ROI.
 
 # ## **D. SKU-Level Performance — Top vs Least Selling Products**
 
-![Top Products](Dashboard_Screenshots/03_Product_Dashboard/Bar_Chart_1.png)  
-![Least Products](Dashboard_Screenshots/03_Product_Dashboard/Bar_Chart_2.png)
+<p align="center">
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Bar_Chart_1.png" width="45%">
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Bar_Chart_2.png" width="45%">
+</p>
 
 ---
 
@@ -531,7 +539,6 @@ The PC segment shows repeatable demand across variants.
 # ## **E. Detailed Metrics & Regional Product Performance**
 
 ![Detailed Matrix](Dashboard_Screenshots/03_Product_Dashboard/Matrix_1.png)  
-![Regional Matrix](Dashboard_Screenshots/03_Product_Dashboard/Matrix_2.png)
 
 ---
 
@@ -552,6 +559,8 @@ High margins but small-scale → expansion potential.
 Lower margin, lower impact.
 
 ---
+
+![Regional Matrix](Dashboard_Screenshots/03_Product_Dashboard/Matrix_2.png)
 
 ## ⭐ **Insights — Regional Product Matrix**
 
