@@ -319,7 +319,7 @@ This section analyzes **what Global Electronics sells**, **which categories driv
 Below is a snapshot of the key product-level performance indicators that anchor the Product dashboard. These KPIs set the context before diving into category- and brand-level visuals.
 
 <p align="center">
-  <img src="Dashboard_Screenshots/03_Product_Dashboard/KPI_Cards.png" width="45%">
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/KPI_Cards.png">
 </p>
 
 | **KPI** | **Value / Insight** | **Recommended Action** |
@@ -636,7 +636,7 @@ This narrative exposes the true drivers behind GE’s rise to a 2019 peak and it
 These operational KPIs provide a top-level view of business health across revenue, profitability, customer experience, and order volume before drilling into multi-year trends.
 
 <p align="center">
-  <img src="Dashboard_Screenshots/04_Time_Dashboard/KPI_Cards.png" width="45%">
+  <img src="Dashboard_Screenshots/04_Time_Dashboard/KPI_Cards.png">
 </p>
 
 | **KPI** | **Value / Insight** | **Recommended Action** |
