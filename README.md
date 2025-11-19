@@ -605,20 +605,14 @@ This narrative exposes the true drivers behind GE’s rise to a 2019 peak and it
 
 # 📸 **Sales Performance Dashboard — Full View**
 
-Click below to view the full dashboard pages:
+> **🔎 Click a link below to view each full dashboard page:**
 
-- **Page 1:**  
-  [View Screenshot](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_1.jpg)
+- **📄 Page 1:** [Open Image](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_1.jpg)
+- **📄 Page 2:** [Open Image](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_2.jpg)
+- **📄 Page 3:** [Open Image](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_3.jpg)
+- **📄 Page 3:** [Open Image](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_4.jpg)
 
-- **Page 2:**  
-  [View Screenshot](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_2.jpg)
-
-- **Page 3:**  
-  [View Screenshot](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_3.jpg)
-
-- **Page 4:**  
-  [View Screenshot](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_4.jpg)
-
+---
 ---
 
 # **A. Revenue, Profit & Margin Over Time**
