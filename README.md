@@ -298,395 +298,289 @@ The analysis is structured into four “Acts,” each representing a pillar of t
 
 ---
 
----
+# 🟦 **ACT 1 — Product Performance & Portfolio Diagnosis**
 
-## 🟦 Act 1: Product Performance Overview
-
-Global Electronics needed clarity on which product lines drive the business, where margin leakage occurs, and how SKU-level movement shapes category performance. This section analyzes revenue concentration, brand profitability, category economics, and regional product performance.
+This section analyzes **what Global Electronics sells**, **which categories drive growth**, and **which product segments drain performance**. The goal is to understand portfolio strengths and weaknesses through a combination of **revenue concentration**, **margin distribution**, **SKU performance**, and **subcategory positioning**.
 
 ---
 
-# Main Product Dashboard
+# 📸 **Product Dashboard — Full View**
 
-<p align="center">
-  <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_1.png" width="900">
-</p>
-
----
-
-### 📊 KPI Summary
-
-| **KPI** | **Value / Insight** | **Recommended Action** |
-|--------|----------------------|-------------------------|
-| **Total Revenue (YTD)** | **$1.04M**, with **1.9% YoY growth** | ​Leverage early-year growth to drive a broader revenue rebound |
-| **Total Profit (YTD)** | **$606.57K**, **58.59% margin** | Maintain margin discipline and cost controls |
-| **Units Sold (YTD)** | **3,770 units** | Use top-selling SKUs as benchmarks for future strategies |
-| **Most Profitable Category** | **Computers ($11.23M)** | Invest in leaders and nurture other categories for balance. |
+![Product Dashboard Page 1](Dashboard_Screenshots/03_Product_Dashboard/Product_Page_1.png)  
+![Product Dashboard Page 2](Dashboard_Screenshots/03_Product_Dashboard/Product_Page_2.png)  
+![Product Dashboard Page 3](Dashboard_Screenshots/03_Product_Dashboard/Product_Page_3.png)
 
 ---
 
-# 🔍 Detailed Insights (Graph-by-Graph)
+# ## **A. Category Revenue Contribution (Pie Charts)**
+
+### 📊 **Top 5 Categories vs All Categories**
+
+![Top 5 Pie](Dashboard_Screenshots/03_Product_Dashboard/Pie_Top5.png)  
+![All Categories Pie](Dashboard_Screenshots/03_Product_Dashboard/Pie_All.png)
 
 ---
 
-### **1. Revenue Share of Top 5 Categories** *(Pie Chart)*  
-**Business Question:**  
-*Which product categories contribute most to the company’s revenue?*
+## ⭐ **Insights**
 
-**Answer:**  
-- Top 5 categories generate **$48.57M of $55.55M (~87%)**  
-- **Computers + Home Appliances exceed 60%** of top-5 revenue  
-- Indicates **major revenue concentration risk**
+### **1. Extreme Revenue Concentration**
+- The **Top 5 categories generate \$48.57M**, accounting for **~87.5% of total revenue (\$55.55M)**.
+- This reflects a **tightly concentrated portfolio** and strong reliance on a few key categories.
 
----
+### **2. “Computers” Is the Dominant Driver**
+- Top 5 view: **Computers = 39.56%**  
+- All Categories: **Computers = 34.59%**
+- Slight decline in share after adding long-tail categories, but the category remains the unchallenged leader.
 
-### **2. Profit Margin % by Brand (Top 5)** *(Bar Chart)*  
-**Business Question:**  
-*Which brands deliver the strongest margins?*
+### **3. Long-Tail Categories Matter Collectively**
+- Audio, Games, Toys, Music, Movies, etc. contribute **\$6.98M (~12.5%)**.
+- Individually small but collectively worth nurturing.
 
-**Answer:**  
-- Top brands like **Proseware**, **Fabrikam** and **A. Datum** deliver **~60% margin consistently**  
-- Shows strong pricing power and operational efficiency  
-- Highlights best-in-class category–brand combinations
+### **4. Better Portfolio Depth in Full View**
+- Full-category distribution reveals incremental revenue opportunities hidden in a Top-5-only view.
 
 ---
 
-### **3. Revenue vs Profit Margin (Subcategory Scatter Plot)** *(Scatter Chart)*  
-**Business Question:**  
-*How do subcategories perform in terms of revenue and profitability?*
+## 💡 **Action Items**
 
-**Answer:**  
-Subcategories fall into clear BCG quadrants:
+### **1. Strengthen High-Performing Segments**
+Focus forecasting, funding, and stock allocation on:
+- **Computers**
+- **Home Appliances**
+- **Cameras & Camcorders**
+- **Cell Phones**
+- **TV & Video**
 
-#### ⭐ Stars — *High Revenue, High Margin*  
-- **Computers**, **Home Appliances**  
-- Strong value drivers and core business pillars  
+### **2. Grow the Long Tail**
+- Targeted digital ads for niche categories  
+- Bundle low-volume items with Computers or Home Appliances  
+- Adjust pricing/positioning for slow movers  
 
-#### 💰 Cash Cows — *High Revenue, Moderate Margin*  
+### **3. Optimize Pricing & Assortment**
+- Promote high-margin underdogs  
+- Repackage poor performers  
+- Retire unviable SKUs  
+
+### **4. Maintain Dynamic Category Toggling**
+Keep the **Top 5 ↔ All Categories** toggle in Power BI for clearer prioritization conversations.
+
+---
+
+---
+
+# ## **B. Profit Margin Distribution by Brand (Top 5 & Bottom 5)**
+
+### 📊 **Brand Margin Charts**
+
+![Brand Top 5](Dashboard_Screenshots/03_Product_Dashboard/Brand_Top5.png)  
+![Brand Bottom 5](Dashboard_Screenshots/03_Product_Dashboard/Brand_Bottom5.png)
+
+---
+
+## ⭐ **Insights**
+
+### **1. Strong Margin Portfolio**
+- Average margin: **58.59%**
+- Even the weakest brand, **Tailspin Toys**, posts **54.6%**, which is very profitable for retail.
+
+### **2. Very Narrow Margin Spread**
+- Range: **54.6% → 60.2%**  
+- Indicates:
+  - Stable pricing power  
+  - Standardized cost efficiency  
+  - Low performance risk  
+
+### **3. Top Performers Lead with Discipline**
+- Proseware: **60.2%**  
+- Fabrikam, A. Datum, Southridge Video also exceed average
+
+### **4. Bottom Performers Are Only Slightly Below Average**
+- Brands like Wide World Importers, Litware, Northwind remain close to average margins.
+
+---
+
+## 💡 **Action Items**
+
+### **1. Extract Best Practices from Leaders**
+Study:
+- Pricing strategies  
+- Cost structures  
+- Vendor terms  
+- SKU mixes  
+
+### **2. Margin Lift for Laggards**
+- Evaluate underperforming SKUs  
+- Improve merchandising  
+- Adjust pricing or packaging  
+
+### **3. Continuous Monitoring**
+Track margins quarterly for trend shifts and early warnings.
+
+---
+
+---
+
+# ## **C. Subcategory Positioning — Revenue vs Profit Margin (BCG Quadrant)**
+
+![Scatter Plot](Dashboard_Screenshots/03_Product_Dashboard/Scatter.png)
+
+---
+
+## ⭐ **Insights**
+
+### **⭐ Stars — High Revenue, High Margin**
+- **Computers, Home Appliances**  
+Backbone of the business.
+
+### **💰 Cash Cows — High Revenue, Moderate Margin**
 - **TV & Video**  
-- Reliable performers but sensitive to margin pressure  
+Volume-heavy but moderate margins.
 
-#### ❓ Question Marks — *High Margin, Low Revenue*  
-- **Cameras & Camcorders**, **Cell Phones**  
-- Good profitability but limited market scale  
+### **❓ Question Marks — High Margin, Low Revenue**
+- **Cameras & Camcorders, Cell Phones**  
+Great margins, limited scale.
 
-#### 🐶 Dogs — *Low Revenue, Low Margin*  
-- **Audio**, **Games & Toys**, **Music/Movies/Audiobooks**  
-- Inventory drag and poor ROI  
-
----
-
-### **4. Top 8 Products by Units Sold** *(Bar Chart)*  
-**Business Question:**  
-*Which SKUs drive volume?*
-
-**Answer:**  
-- All top SKUs are **Computers**, confirming extremely concentrated volume  
-- Customer demand is heavily skewed toward limited product families  
-- Implies high inventory dependency risk
+### **🐶 Dogs — Low Revenue, Low Margin**
+- **Audio, Games & Toys, Music/Movies/Audiobooks**  
+Portfolio drag; low ROI.
 
 ---
 
-### 🎯 Action Items
-
-- Develop mid-tier categories to reduce reliance on Computers + Home Appliances  
-- Apply high-margin brand strategies to mid-tier brands  
-- Fix low-margin, high-revenue subcategories (Cash Cows) through pricing or cost work  
-- Expand top-performing Computer SKUs and secure inventory depth  
-- Build new category growth engines to diversify revenue
-
----
-
-# 📸 Alternate Product Dashboard
-
-<p align="center">
-  <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_2.jpg" width="900">
-</p>
-
----
-
-# 🔍 Detailed Insights (Graph-by-Graph)
-
----
-
-### **1. Revenue Share Across All Categories** *(Pie Chart – Full View)*  
-**Business Question:**  
-*What does revenue concentration look like across the full category range?*
-
-**Answer:**  
-- **Computers + Home Appliances = ~54%** of total revenue  
-- Smaller categories contribute only marginally  
-- Portfolio breadth is limited, reflecting heavy top-end dependence
-
----
-
-### **2. Profit Margin % by Brand (Bottom 5)** *(Bar Chart)*  
-**Business Question:**  
-*Which brands underperform on margin?*
-
-**Answer:**  
-- The bottom 2 brands (**Tailspin Toys** and **The Phone Company**) fall considerably below the average of **~58.59% margin**  
-- Reasonable but materially below top-tier brands (60%+) 
-- Signals inefficiencies in:  
-  - Cost structure  
-  - Supplier terms  
-  - Discount dependency  
-  - Market alignment  
-
----
-
-### **3. Least Sold Products** *(Bar Chart)*  
-**Business Question:**  
-*Which SKUs reduce inventory efficiency?*
-
-**Answer:**  
-- Home Appliances dominate the slow-moving SKU list  
-- SKU saturation and misaligned assortment  
-- Long-tail products increase storage and handling costs
-
----
-
-### 🎯 Action Items
-
-- Promote under-indexed categories to rebalance revenue  
-- Audit low-margin brands for supply chain, pricing, or assortment issues  
-- Rationalize or delist weak Home Appliance SKUs  
-- Push high-performing brands through placement and bundling initiatives  
-
----
-
-# 📸 Detailed Product Metrics & Regional Breakdown
-
-<p align="center">
-  <img src="Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_3.jpg" width="900">
-</p>
-
----
-
-# 🔍 Detailed Insights (Matrix-by-Matrix)
-
----
-
-### **1. Detailed Product Metrics Matrix** *(Matrix Table)*  
-**Business Question:**  
-*How do revenue, cost, margin, and units vary across products?*
-
-**Answer:**  
-- Computers lead on revenue and profit but fall a little behind the average profit margin. 
-- Home Appliances perform well but inconsistently at SKU level  
-- Categories like Games, Audio, Toys lag severely  
-- High margin variation within categories suggests inconsistent procurement or discounting practices
-
----
-
-### **2. Regional Product Revenue Breakdown** *(Drillable Matrix)*  
-**Business Question:**  
-*Which categories perform best in different regions?*
-
-**Answer:**  
-- Developed markets: Computers & Home Appliances dominate  
-- Emerging markets: TV and Video, Cameras and camcoders,and Cell phones show stronger relative traction  
-- Uniform assortment strategy will underperform globally
-
----
-
-### 🎯 Action Items
-
-- **Stars:** Expand variants, protect availability, increase marketing  
-- **Cash Cows:** Maintain pricing discipline and optimize costs  
-- **Question Marks:** Test for scalability before deeper investment  
-- **Dogs:** Reduce exposure via SKU rationalization, bundling, or clearance  
-- Tailor assortments and pricing to each region’s strengths  
-- Fix internal margin variability by improving procurement and discount policies  
-
----
-
-# 📝 Act 1 Summary
-
-Act 1 reveals a product portfolio heavily concentrated in two categories and driven by a limited set of SKUs. While profitability is strong, margin leakage and inventory inefficiencies persist across several subcategories and brands. Balanced growth requires diversification, regional tailoring, SKU rationalization, and scaling high-performing product families.
-
----
-
-# **ACT 2 — Sales Performance Over Time**
-Understanding how revenue, margin, order volume, and operational efficiency evolved between 2016 and 2021 is critical to diagnosing Global Electronics’ post-2019 decline.  
-This section walks through the business questions using a top-down storyline: **overall performance → category shifts → seasonal cycles → regional trends → operations.**
-
----
-
-## 📸 **Screenshot 1 — Macro Performance Dashboard**
-
-![Sales Performance Over Time](Dashboard_Screenshots/08_Time_Trends_1.jpg)
-
----
-
-## **KPI Summary**
-
-| **KPI** | **Value / Insight** | **Recommended Action** |
-|--------|----------------------|--------------------------|
-| **Total Revenue (YTD)** | **$1.04M**, +1.9% YoY | Leverage early-year momentum to rebuild revenue. |
-| **Total Profit (YTD)** | **$606.57K**, Avg Margin **58.59%** | Maintain cost controls and protect stable margins during recovery. |
-| **Average Delivery Days** | **4.60 days**, 0.4% improvement YoY | Sustain fast delivery as a key competitive advantage. |
-| **Total Orders (YTD)** | **494 orders** | Boost volume through campaigns and product focus. |
-
----
-
-# **A. Macro Performance Analysis**
-
-### **1. Revenue, Profit & Margin Over Time (Line Chart)**  
-**Business Question:** *How did overall financial performance evolve year-to-year?*
-
-**Insights**
-- Revenue and profit **peaked sharply in 2019** before collapsing in 2020.  
-- Despite volume losses, **profit margin remained stable at ~58%**, showing resilient pricing and cost control.  
-- 2021 is artificially low because only two months of data are available.
-
-**Actions**
-- Investigate **what specific events or segments drove the 2020 collapse**.  
-- Replicate **2018–2019 growth drivers** (campaigns, product launches, regional expansion).  
-- Maintain tight margin discipline as revenue rebounds.
-
----
-
-### **2. Year-over-Year Revenue Growth (%) (Bar Chart)**  
-**Business Question:** *When did growth accelerate and when did it break?*
-
-**Insights**
-- Explosive YoY growth in **2018 (+71.9%)** and **2019 (+42.6%)**.  
-- Severe crash in **2020 (-49.2%)**, the clear turning point in performance.
-
-**Actions**
-- Reverse-engineer what drove the **2018–2019 momentum** (price strategy, promos, category mix).  
-- Build resilience plans to prevent 2020-style collapses.
-
----
-
-### **3. Order Volume & Delivery Speed Over Time (Bar + Line Chart)**  
-**Business Question:** *Is operational performance improving despite sales volatility?*
-
-**Insights**
-- Average delivery days improved drastically from **7.3 days → 4.6 days**.  
-- Operational efficiency improved *even during revenue decline*.
-
-**Actions**
-- Continue optimizing logistics to retain customers.  
-- Monitor delivery spikes during seasonal peaks to avoid delays.
-
----
-
-### **4. Operational Health Trends (Orders, AOV & Margin)**  
-**Business Question:** *How did order behavior change relative to margin and value?*
-
-**Insights**
-- Highest order value occurred in **2019**.  
-- Orders, revenue, and AOV deteriorated after 2019, yet **margins stayed relatively stable**.  
-- Margin dips were smaller than order/revenue drops.
-
-**Actions**
-- Increase **AOV** through bundling and targeted upsells.  
-- Track cost structures that influence margin against shifting order mix.
-
----
-
-### **5. Cumulative Sales Progress by Year (Line Chart)**  
-**Business Question:** *How does current year performance track against prior years?*
-
-**Insights**
-- 2019 remains the “benchmark peak year.”  
-- Early 2020 initially tracked above 2019 before falling sharply.  
-- 2021 starts significantly below all prior years.
-
-**Actions**
-- Use trajectory gaps to set **realistic forecasts**.  
-- Recreate **mid-year acceleration patterns** seen in previous years via campaigns.
+## 💡 **Action Items**
+
+### **Invest Heavily in Stars**
+- Expand lines  
+- Stabilize supply chain  
+- Drive marketing  
+
+### **Optimize Cash Cows**
+- Improve efficiencies  
+- Upsell warranties/accessories  
+
+### **Test & Scale Question Marks**
+- Try campaigns  
+- Bundle offerings  
+- Pilot micro-expansion  
+
+### **Rationalize Dogs**
+- Phase out weak SKUs  
+- Sell via bundles  
+- Switch to online-only distribution  
 
 ---
 
 ---
 
-# **B. Screenshot 2 — Product Category Profit Contribution Over Time**
+# ## **D. SKU-Level Performance — Top vs Least Selling Products**
 
-![Category Profit Trends](Dashboard_Screenshots/09_Time_Trends_2.jpg)
-
-### **6. Product Category Profit Contribution (Area Chart)**  
-**Business Question:** *Which categories consistently drive profitability?*
-
-**Insights**
-- **Computers** and **Home Appliances** dominate profitability across all years.  
-- Smaller categories like Audio, Games, and Movies/Books show **minimal but stable contributions**.  
-- Profit share patterns remained predictable except during 2020 volatility.
-
-**Actions**
-- Protect core categories (Computers, Home Appliances) with adequate inventory and promotions.  
-- Identify niches where smaller categories may offer **low-investment growth opportunities**.
+![Top Products](Dashboard_Screenshots/03_Product_Dashboard/Top_Products.png)  
+![Least Products](Dashboard_Screenshots/03_Product_Dashboard/Least_Products.png)
 
 ---
 
-# **C. Monthly Sales Heatmap (Applicable to Screenshots 2 & 3)**
+## ⭐ **Insights — Least Sold Products**
 
-![Monthly Sales Heatmap](Dashboard_Screenshots/09_Time_Trends_2.jpg)
+### **1. Entire Bottom List is Home Appliances**
+Lamps and chandeliers dominate the “least sold” list, indicating a systemic category issue.
 
-### **7. Monthly Sales Heatmap (Matrix)**  
-**Business Question:** *What seasonal cycles or disruptions shape monthly sales volumes?*
+### **2. Extremely Low Traction**
+Several SKUs sold **only one unit**, suggesting:
+- Zero demand  
+- Wrong pricing  
+- Mismatched consumer taste  
 
-**Insights**
-- **December–February** are consistent peak months.  
-- **March–April** show repeated slowdowns across all years.  
-- **2019** stands out as the strongest year in every month.  
-- **2020** collapses sharply after March, likely due to pandemic-era disruption.
-
-**Actions**
-- Boost inventory and promotions for high-volume winter months.  
-- Stabilize low-volume spring months via targeted offers or product launches.  
-- Adjust forecasts and stock planning based on these clear seasonal cycles.
-
----
-
-# **D. Screenshot 3 — Regional Profit Contribution Over Time**
-
-![Regional Profit Trends](Dashboard_Screenshots/10_Time_Trends_3.jpg)
-
-### **8. Regional Profit Contribution (Area Chart)**  
-**Business Question:** *Which markets contribute most to profitability?*
-
-**Insights**
-- The **United States** consistently contributes the largest share of total profit.  
-- A few developed markets (Canada, Germany, UK) form the mid-tier contribution band.  
-- Smaller markets remain relatively stable but contribute little.
-
-**Actions**
-- Diversify revenue risk by investing in **underrepresented regions**.  
-- Localize promotions based on region-specific category strengths.  
-- Study high-performing markets to replicate success elsewhere.
+### **3. Likely Causes**
+- Weak visibility online/in-store  
+- Outdated designs  
+- Uncompetitive pricing  
+- Seasonal mismatch  
 
 ---
 
-# **E. Screenshot 4 — Monthly Order Volume by Shipping Speed**
+## ⭐ **Insights — Top Sold Products**
 
-![Shipping Speed Trends](Dashboard_Screenshots/11_Time_Trends_4.jpg)
+### **1. Computers Completely Dominate**
+All top 8 SKUs belong to desktop PCs.
 
-### **9. Monthly Order Volume by Shipping Speed (Stacked Bar Chart)**  
-**Business Question:** *How do shipping preferences change across months?*
+### **2. Strong Volume Consistency**
+Sales range: **507 → 550 units** across brands/models.
 
-**Insights**
-- Fast shipping spikes heavily in **February** and **December**, when time-sensitive purchases increase.  
-- Standard shipping remains the **dominant overall volume** tier.  
-- March–April again show overall weakness, consistent with heatmap patterns.
-
-**Actions**
-- Increase **fast-shipping capacity** during seasonal peaks.  
-- Deploy **shipping-based promotions** in mid-year months to stimulate demand.  
-- Evaluate whether slow-shipping tiers can be phased out or re-priced.
+### **3. Clear Product-Market Fit**
+The PC segment shows repeatable demand across variants.
 
 ---
 
-# **Act 2 Summary**
+## 💡 **Action Items**
 
-Across 2016–2021, Global Electronics shows a **classic boom → peak → crash** pattern.  
-2019 was a historic high driven by strong category mix and robust operations.  
-2020 created a severe shock across all performance areas except margins, which held surprisingly firm.  
-Category contributions, seasonal cycles, and regional patterns remained structurally consistent, confirming that **the decline was driven by external disruption rather than internal product fatigue**.
+### **For Least Sellers**
+- Re-evaluate product-market fit  
+- Discount or bundle  
+- Consider discontinuation  
 
-Operational efficiencies (delivery days, shipping mix) improved steadily, offering a strong foundation for recovery.
+### **For Top Sellers**
+- Prioritize inventory  
+- Develop bundles (keyboards, monitors, protection plans)  
+- Increase marketing exposure  
 
 ---
 
+---
+
+# ## **E. Detailed Metrics & Regional Product Performance**
+
+![Detailed Matrix](Dashboard_Screenshots/03_Product_Dashboard/Detailed_Matrix.png)  
+![Regional Matrix](Dashboard_Screenshots/03_Product_Dashboard/Regional_Matrix.png)
+
+---
+
+## ⭐ **Insights — Product Metrics Matrix**
+
+### **1. Revenue & Volume Powerhouses**
+- **Computers**: 43,954 units, \$19.2M, 58.44% margin  
+- **Home Appliances**: 18,361 units, \$10.8M
+
+### **2. High-Margin Hidden Gems**
+- Cameras & Camcorders: **60.12%**  
+- Music/Movies/Audiobooks: **60.98%**  
+High margins but small-scale → expansion potential.
+
+### **3. Laggards Needing Review**
+- Cell Phones: **56.58%**  
+- Games & Toys: **54.73%**  
+Lower margin, lower impact.
+
+---
+
+## ⭐ **Insights — Regional Product Matrix**
+
+### **1. U.S. Drives the Business**
+Dominates Computers, Cell Phones, Home Appliances, TV & Video.
+
+### **2. UK & Canada Are Strong Secondary Markets**
+Good performance across major categories.
+
+### **3. France, Italy, Netherlands Underperform**
+Low revenue and weak category penetration.
+
+---
+
+## 💡 **Action Items**
+
+### **1. Scale Strength Markets**
+- U.S., UK, Canada  
+- Allocate inventory & promotions accordingly  
+
+### **2. Grow High-Margin Categories**
+Push Cameras/Camcorders and Music/Audiobooks where local demand exists.
+
+### **3. Improve Weak Regions**
+Conduct market research, adjust channels, run pilot campaigns.
+
+---
+
+# **Act 1 Summary**
+
+Global Electronics’ product portfolio demonstrates **strong concentration in Computers and Home Appliances**, excellent margin stability, and consistent category performance.  
+However, low-volume SKUs, underpenetrated regions, and long-tail inefficiencies offer clear opportunities for strategic optimization and future growth.
+
+---
