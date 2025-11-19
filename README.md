@@ -506,3 +506,187 @@ Subcategories fall into clear BCG quadrants:
 Act 1 reveals a product portfolio heavily concentrated in two categories and driven by a limited set of SKUs. While profitability is strong, margin leakage and inventory inefficiencies persist across several subcategories and brands. Balanced growth requires diversification, regional tailoring, SKU rationalization, and scaling high-performing product families.
 
 ---
+
+# **ACT 2 — Sales Performance Over Time**
+Understanding how revenue, margin, order volume, and operational efficiency evolved between 2016 and 2021 is critical to diagnosing Global Electronics’ post-2019 decline.  
+This section walks through the business questions using a top-down storyline: **overall performance → category shifts → seasonal cycles → regional trends → operations.**
+
+---
+
+## 📸 **Screenshot 1 — Macro Performance Dashboard**
+
+![Sales Performance Over Time](Dashboard_Screenshots/08_Time_Trends_1.jpg)
+
+---
+
+## **KPI Summary**
+
+| **KPI** | **Value / Insight** | **Recommended Action** |
+|--------|----------------------|--------------------------|
+| **Total Revenue (YTD)** | **$1.04M**, +1.9% YoY | Leverage early-year momentum to rebuild revenue. |
+| **Total Profit (YTD)** | **$606.57K**, Avg Margin **58.59%** | Maintain cost controls and protect stable margins during recovery. |
+| **Average Delivery Days** | **4.60 days**, 0.4% improvement YoY | Sustain fast delivery as a key competitive advantage. |
+| **Total Orders (YTD)** | **494 orders** | Boost volume through campaigns and product focus. |
+
+---
+
+# **A. Macro Performance Analysis**
+
+### **1. Revenue, Profit & Margin Over Time (Line Chart)**  
+**Business Question:** *How did overall financial performance evolve year-to-year?*
+
+**Insights**
+- Revenue and profit **peaked sharply in 2019** before collapsing in 2020.  
+- Despite volume losses, **profit margin remained stable at ~58%**, showing resilient pricing and cost control.  
+- 2021 is artificially low because only two months of data are available.
+
+**Actions**
+- Investigate **what specific events or segments drove the 2020 collapse**.  
+- Replicate **2018–2019 growth drivers** (campaigns, product launches, regional expansion).  
+- Maintain tight margin discipline as revenue rebounds.
+
+---
+
+### **2. Year-over-Year Revenue Growth (%) (Bar Chart)**  
+**Business Question:** *When did growth accelerate and when did it break?*
+
+**Insights**
+- Explosive YoY growth in **2018 (+71.9%)** and **2019 (+42.6%)**.  
+- Severe crash in **2020 (-49.2%)**, the clear turning point in performance.
+
+**Actions**
+- Reverse-engineer what drove the **2018–2019 momentum** (price strategy, promos, category mix).  
+- Build resilience plans to prevent 2020-style collapses.
+
+---
+
+### **3. Order Volume & Delivery Speed Over Time (Bar + Line Chart)**  
+**Business Question:** *Is operational performance improving despite sales volatility?*
+
+**Insights**
+- Average delivery days improved drastically from **7.3 days → 4.6 days**.  
+- Operational efficiency improved *even during revenue decline*.
+
+**Actions**
+- Continue optimizing logistics to retain customers.  
+- Monitor delivery spikes during seasonal peaks to avoid delays.
+
+---
+
+### **4. Operational Health Trends (Orders, AOV & Margin)**  
+**Business Question:** *How did order behavior change relative to margin and value?*
+
+**Insights**
+- Highest order value occurred in **2019**.  
+- Orders, revenue, and AOV deteriorated after 2019, yet **margins stayed relatively stable**.  
+- Margin dips were smaller than order/revenue drops.
+
+**Actions**
+- Increase **AOV** through bundling and targeted upsells.  
+- Track cost structures that influence margin against shifting order mix.
+
+---
+
+### **5. Cumulative Sales Progress by Year (Line Chart)**  
+**Business Question:** *How does current year performance track against prior years?*
+
+**Insights**
+- 2019 remains the “benchmark peak year.”  
+- Early 2020 initially tracked above 2019 before falling sharply.  
+- 2021 starts significantly below all prior years.
+
+**Actions**
+- Use trajectory gaps to set **realistic forecasts**.  
+- Recreate **mid-year acceleration patterns** seen in previous years via campaigns.
+
+---
+
+---
+
+# **B. Screenshot 2 — Product Category Profit Contribution Over Time**
+
+![Category Profit Trends](Dashboard_Screenshots/09_Time_Trends_2.jpg)
+
+### **6. Product Category Profit Contribution (Area Chart)**  
+**Business Question:** *Which categories consistently drive profitability?*
+
+**Insights**
+- **Computers** and **Home Appliances** dominate profitability across all years.  
+- Smaller categories like Audio, Games, and Movies/Books show **minimal but stable contributions**.  
+- Profit share patterns remained predictable except during 2020 volatility.
+
+**Actions**
+- Protect core categories (Computers, Home Appliances) with adequate inventory and promotions.  
+- Identify niches where smaller categories may offer **low-investment growth opportunities**.
+
+---
+
+# **C. Monthly Sales Heatmap (Applicable to Screenshots 2 & 3)**
+
+![Monthly Sales Heatmap](Dashboard_Screenshots/09_Time_Trends_2.jpg)
+
+### **7. Monthly Sales Heatmap (Matrix)**  
+**Business Question:** *What seasonal cycles or disruptions shape monthly sales volumes?*
+
+**Insights**
+- **December–February** are consistent peak months.  
+- **March–April** show repeated slowdowns across all years.  
+- **2019** stands out as the strongest year in every month.  
+- **2020** collapses sharply after March, likely due to pandemic-era disruption.
+
+**Actions**
+- Boost inventory and promotions for high-volume winter months.  
+- Stabilize low-volume spring months via targeted offers or product launches.  
+- Adjust forecasts and stock planning based on these clear seasonal cycles.
+
+---
+
+# **D. Screenshot 3 — Regional Profit Contribution Over Time**
+
+![Regional Profit Trends](Dashboard_Screenshots/10_Time_Trends_3.jpg)
+
+### **8. Regional Profit Contribution (Area Chart)**  
+**Business Question:** *Which markets contribute most to profitability?*
+
+**Insights**
+- The **United States** consistently contributes the largest share of total profit.  
+- A few developed markets (Canada, Germany, UK) form the mid-tier contribution band.  
+- Smaller markets remain relatively stable but contribute little.
+
+**Actions**
+- Diversify revenue risk by investing in **underrepresented regions**.  
+- Localize promotions based on region-specific category strengths.  
+- Study high-performing markets to replicate success elsewhere.
+
+---
+
+# **E. Screenshot 4 — Monthly Order Volume by Shipping Speed**
+
+![Shipping Speed Trends](Dashboard_Screenshots/11_Time_Trends_4.jpg)
+
+### **9. Monthly Order Volume by Shipping Speed (Stacked Bar Chart)**  
+**Business Question:** *How do shipping preferences change across months?*
+
+**Insights**
+- Fast shipping spikes heavily in **February** and **December**, when time-sensitive purchases increase.  
+- Standard shipping remains the **dominant overall volume** tier.  
+- March–April again show overall weakness, consistent with heatmap patterns.
+
+**Actions**
+- Increase **fast-shipping capacity** during seasonal peaks.  
+- Deploy **shipping-based promotions** in mid-year months to stimulate demand.  
+- Evaluate whether slow-shipping tiers can be phased out or re-priced.
+
+---
+
+# **Act 2 Summary**
+
+Across 2016–2021, Global Electronics shows a **classic boom → peak → crash** pattern.  
+2019 was a historic high driven by strong category mix and robust operations.  
+2020 created a severe shock across all performance areas except margins, which held surprisingly firm.  
+Category contributions, seasonal cycles, and regional patterns remained structurally consistent, confirming that **the decline was driven by external disruption rather than internal product fatigue**.
+
+Operational efficiencies (delivery days, shipping mix) improved steadily, offering a strong foundation for recovery.
+
+---
+
