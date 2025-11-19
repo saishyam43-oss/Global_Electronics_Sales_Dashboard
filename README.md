@@ -595,7 +595,7 @@ Global Electronics’ product portfolio shows strong revenue and margin concentr
 
 ---
 
-# **ACT 2 — Sales Performance Over Time**
+# 🟦 **ACT 2 — Sales Performance Over Time**
 
 This section analyzes the **trajectory of Global Electronics’ business from 2016–2021**.  
 We break down how revenue, profit, margin, order volume, delivery speed, category mix, and regional profit contributions evolved over time.  
