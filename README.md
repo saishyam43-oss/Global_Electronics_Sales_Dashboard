@@ -610,7 +610,7 @@ This narrative exposes the true drivers behind GE’s rise to a 2019 peak and it
 - **📄 Page 1:** [Open Image](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_1.jpg)
 - **📄 Page 2:** [Open Image](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_2.jpg)
 - **📄 Page 3:** [Open Image](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_3.jpg)
-- **📄 Page 3:** [Open Image](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_4.jpg)
+- **📄 Page 4:** [Open Image](Dashboard_Screenshots/04_Time_Dashboard/Time_Trends_4.jpg)
 
 ---
 ---
