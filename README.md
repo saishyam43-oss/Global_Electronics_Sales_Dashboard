@@ -320,7 +320,7 @@ This section analyzes **what Global Electronics sells**, **which categories driv
 
 <p align="center">
   <img src="Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_1.png" width="45%">
-  <img src="Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_2.png" width="44%">
+  <img src="Dashboard_Screenshots/03_Product_Dashboard/Pie_Chart_2.png" width="45%">
 </p>
 
 
