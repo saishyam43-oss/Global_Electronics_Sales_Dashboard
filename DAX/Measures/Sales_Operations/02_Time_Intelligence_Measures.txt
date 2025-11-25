@@ -137,8 +137,15 @@ DIVIDE([New Customers YTD] - [New Customers Last Year], [New Customers Last Year
     Old Name: Customer Lifetime Value YoY %
     Purpose: YoY % change in customer lifetime value.
 */
-CLTV YoY % Change :=
-DIVIDE([Customer Lifetime Value] - [CLTV Last Year], [CLTV Last Year])
+CLTV YoY % Change = 
+VAR CurrentAvg = [Avg CLTV]
+VAR PreviousAvg = 
+    CALCULATE(
+        [Avg CLTV], 
+        SAMEPERIODLASTYEAR('Calendar'[Date])
+    )
+RETURN
+    DIVIDE(CurrentAvg - PreviousAvg, PreviousAvg)
 
 /*
     Measure: Average Delivery Days Last Year
@@ -193,3 +200,4 @@ VAR GrowthUSD = [USD Revenue YoY % Change]
 VAR GrowthLocal = [Local Revenue YoY % Change]
 RETURN
 GrowthUSD - GrowthLocal
+
