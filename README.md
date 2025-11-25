@@ -995,3 +995,203 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 
 ---
 
+## 🟦 ACT 3 — Customer Insights & Retention Analysis
+
+### 🔗 **View Full Dashboard**
+[Click here to view all Customer Insights dashboard screenshots](Dashboard_Screenshots/05_Customer_Dashboard/)
+
+---
+
+## 🔢 **KPI Cards Overview**
+
+| **KPI** | **Value & Insight** | **Action Recommendation** |
+|--------|----------------------|---------------------------|
+| **Active Customers (YTD)** | **485 active customers**, extremely low compared to **15K total customers**, highlighting severe retention and engagement gaps. | Launch reactivation, loyalty, and lifecycle engagement campaigns to revive inactive users. |
+| **Average Order Value (AOV)** | **$2.12K**, high-value purchases but potentially limiting repeat frequency due to premium ticket size. | Introduce smaller bundles, segmented offers, and frequency-boosting promotions. |
+| **Customer Lifetime Value (CLTV)** | **$4.69K**, strong per-customer value but suppressed by declining active users. | Strengthen upsell, cross-sell, and personalization to increase lifetime value. |
+| **New Customers (YTD)** | Only **66 new customers**, showing a weakened acquisition pipeline post-2019. | Invest in stronger acquisition campaigns, digital outreach, and top-of-funnel improvements. |
+
+---
+
+---
+
+### 👥 1. Customer Demographics by Age & Gender
+
+<p align="center">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Customer_Demographics.png" width="70%">
+</p>
+
+#### ❓ Business Question  
+**Which age and gender segments form the core customer base, and where should targeting and engagement efforts focus?**
+
+#### ⭐ Key Insights
+- **65+ age group is the largest segment**, exceeding **4.5K customers**, making seniors the primary revenue base.
+- **Gender split is nearly balanced** across all age ranges, showing no major gender skew.
+- **36–65 age groups** form a strong middle-aged customer backbone with high stability.
+- **18–25 segment is the smallest**, indicating weak youth acquisition or limited product fit.
+
+#### 💡 Action Recommendations
+- Prioritize **senior-focused experiences**, accessibility improvements, and tailored communication.
+- Maintain retention programs for **middle-aged cohorts**, who form the long-term stable base.
+- Launch **youth awareness campaigns** targeting the 18–35 range to diversify the customer mix.
+
+---
+
+---
+
+### 💰 2. Revenue & Profit by Age & Gender
+
+<p align="center">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Revenue_Profit.png" width="70%">
+</p>
+
+#### ❓ Business Question  
+**Which demographic segments generate the highest financial contribution?**
+
+#### ⭐ Key Insights
+- **65+ customers deliver the highest revenue and profit**:  
+  - Female: **$7.9M**  
+  - Male: **$8.6M**  
+  - Total Profit: **$9.6M**
+- **36–65 age brackets** produce stable, mid-to-high revenue levels.
+- **18–35 cohorts** generate the lowest revenue and profit.
+- Profit curves closely match revenue curves, indicating consistent margin structure across demographics.
+
+#### 💡 Action Recommendations
+- Deepen product expansion and loyalty strategies for **senior customers**, who dominate profit contribution.
+- Maintain retention and engagement focus on **core middle-aged customers**.
+- Create **younger-segment offerings, digital outreach, and tailored marketing** to improve 18–35 performance.
+
+---
+
+---
+
+### 💳 3. CLTV & AOV by Age Group & Gender
+
+<p align="center">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/CLTV_AOV.png" width="78%">
+</p>
+
+#### ❓ Business Question  
+**Which demographic groups have the highest lifetime value and spending potential?**
+
+#### ⭐ Key Insights
+- **Females aged 26–35** exhibit the **highest CLTV (> $5,500)** and highest AOV.
+- **Male CLTV increases sharply in older groups**, peaking at **56–65** and **65+**.
+- Both genders show **midlife dips** (36–55) in CLTV and AOV.
+- AOV remains **consistent** across demographics (~$2,100–$2,250), supporting stable forecasting.
+
+#### 💡 Action Recommendations
+- Prioritize premium retention and upsell strategies for the **26–35 female group**.
+- Nurture senior male customers with **loyalty and exclusive value programs**.
+- Investigate causes behind midlife CLTV dips and adjust product mix or engagement accordingly.
+- Use stable AOV to **optimize pricing, bundling, and promotion strategy**.
+
+---
+
+---
+
+### ⏳ 4. Customer Value Decay by Recency
+
+<p align="center">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Customer_Value_Decay.png" width="78%">
+</p>
+
+#### ❓ Business Question  
+**How does customer value deteriorate as customers become inactive?**
+
+#### ⭐ Key Insights
+- **CLTV drops sharply** from active to dormant customers, confirming strong dependency on recent engagement.
+- AOV remains **high in the dormant segment**, likely driven by a small number of large purchases.
+- The **largest customer group is dormant (>365 days)**, signaling substantial reactivation opportunity.
+- Recent and active customers form the **smallest but highest-value** segments.
+
+#### 💡 Action Recommendations
+- Launch **reactivation campaigns** for dormant and at-risk customers with segmented incentives.
+- Maintain strong engagement with **active and recent customers** to maximize retention.
+- Use **recency-based automation** (email, SMS, app triggers) to prevent early customer decay.
+
+---
+
+---
+
+### 🔄 5. Customer Acquisition & Retention Trends (2016–2021)
+
+<p align="center">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Acquisition_Retention.png" width="78%">
+</p>
+
+#### ❓ Business Question  
+**How have acquisition, active users, and returning customers evolved over time?**
+
+#### ⭐ Key Insights
+- **2019 was the all-time high** for active, new, and returning customers.
+- 2020–2021 show a **sharp contraction**, with 2021 dropping to near-baseline levels.
+- Active customers fell from **6,500 → 400** in two years.
+- New customer acquisition crashed from **3,000 → 200**.
+- Returning customers followed a similar decline pattern, indicating weakened loyalty.
+
+#### 💡 Action Recommendations
+- Prioritize **reactivation** and win-back campaigns.
+- Rebuild the top-funnel through **digital ads, partnerships, and targeted acquisition channels**.
+- Relaunch loyalty initiatives to **boost repeat purchase behavior**.
+
+---
+
+---
+
+### 📊 6. Customer Retention Cohort Analysis
+
+<p align="center">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Cohort_Analysis.png" width="78%">
+</p>
+
+#### ❓ Business Question  
+**How well do customer cohorts retain over time, and which periods show the strongest/worst retention?**
+
+#### ⭐ Key Insights
+- Retention decays rapidly across almost all cohorts beyond early months.
+- **2016–2018 cohorts** show several high-retention streaks (**7–14%** in some periods).
+- **2020–2021 cohorts perform weakest**, with most cells in red.
+- High-performing cohorts correlate with **successful campaigns or releases**.
+
+#### 💡 Action Recommendations
+- Analyze strong cohorts to identify repeatable **success drivers**.
+- Strengthen **onboarding flows, lifecycle messaging, and loyalty programs** to slow churn.
+- Closely track newer cohorts and intervene early to prevent ongoing decay.
+
+---
+
+---
+
+### 🔍 7. RFM Segmentation (Recency–Frequency–Monetary)
+
+<p align="center">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/RFM_Segmentation.png" width="78%">
+</p>
+
+#### ❓ Business Question  
+**Which customer clusters hold the highest potential for retention, reactivation, and value growth?**
+
+#### ⭐ Key Insights
+- **Dormant customers (>365 days)** form the largest segment, mostly with **1–3 lifetime purchases**.
+- **Active and Recent** customers show the highest frequency and highest monetary scores.
+- High-frequency buyers (10+ orders) are rare and **clustered exclusively** among Active/Recent groups.
+- Median customer recency is **427 days**, confirming portfolio-wide engagement challenges.
+
+#### 💡 Action Recommendations
+- Double down on **Active/Recent** users with loyalty perks and premium engagement.
+- Use **win-back campaigns** for Lapsed and At-Risk customers.
+- Develop reactivation flows for Dormant users based on AOV-based incentives.
+- Integrate **RFM scoring** into CRM to trigger automated retention journeys.
+
+---
+
+---
+
+## 🏁 **Act 3 Summary**
+
+Customer analysis shows a business heavily reliant on **senior and middle-aged customers**, with **shrinking active users**, strong **AOV and CLTV**, but significant **acquisition and retention weaknesses**.  
+The biggest growth levers lie in **reactivation**, **youth-segment outreach**, **lifecycle marketing**, and strengthening **high-value cohorts**.
+
+---
