@@ -1064,13 +1064,13 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
   - Male: **$8.6M**  
   - Total Profit: **$9.6M**
 - **36–65 age brackets** produce stable, mid-to-high revenue levels.
-- **18–35 cohorts** generate the lowest revenue and profit.
+- **18–25 cohort** generates the lowest revenue and profit.
 - Profit curves closely match revenue curves, indicating consistent margin structure across demographics.
 
 #### 💡 Action Recommendations
 - Deepen product expansion and loyalty strategies for **senior customers**, who dominate profit contribution.
 - Maintain retention and engagement focus on **core middle-aged customers**.
-- Create **younger-segment offerings, digital outreach, and tailored marketing** to improve 18–35 performance.
+- Create **younger-segment offerings, digital outreach, and tailored marketing** to improve 18–25 performance.
 
 ---
 
@@ -1088,13 +1088,13 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 #### ⭐ Key Insights
 - **Females aged 26–35** exhibit the **highest CLTV (> $5,500)** and highest AOV.
 - **Male CLTV increases sharply in older groups**, peaking at **56–65** and **65+**.
-- Both genders show **midlife dips** (36–55) in CLTV and AOV.
+- CLTV for females shows a clear **midlife dip**. CLTV for males is more stable and increases, peaking at 56–65.
 - AOV remains **consistent** across demographics (~$2,100–$2,250), supporting stable forecasting.
 
 #### 💡 Action Recommendations
 - Prioritize premium retention and upsell strategies for the **26–35 female group**.
 - Nurture senior male customers with **loyalty and exclusive value programs**.
-- Investigate causes behind midlife CLTV dips and adjust product mix or engagement accordingly.
+- Investigate causes behind midlife CLTV dip for females and adjust product mix or engagement accordingly.
 - Use stable AOV to **optimize pricing, bundling, and promotion strategy**.
 
 ---
@@ -1135,7 +1135,7 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 **How have acquisition, active users, and returning customers evolved over time?**
 
 #### ⭐ Key Insights
-- **2019 was the all-time high** for active, new, and returning customers.
+- **2019 was the all-time high** for active and returning customers. Number of new customers peaked in 2018 and almost matched it in 2019.
 - 2020–2021 show a **sharp contraction**, with 2021 dropping to near-baseline levels.
 - Active customers fell from **6,500 → 400** in two years.
 - New customer acquisition crashed from **3,000 → 200**.
