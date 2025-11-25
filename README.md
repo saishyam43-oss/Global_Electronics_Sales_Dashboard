@@ -879,6 +879,11 @@ These operational KPIs provide a top-level view of business health across revenu
 
 ## **E. Cumulative Sales Progress by Year**
 
+### ❓ **Business Question**  
+**How do yearly sales trajectories compare, and which years demonstrate the strongest and weakest cumulative revenue momentum?**
+
+---
+
 <p align="center">
   <img src="Dashboard_Screenshots/04_Time_Dashboard/Cumulative_Sales_Progress.png">
 </p>
@@ -921,6 +926,11 @@ These operational KPIs provide a top-level view of business health across revenu
 
 ## **F. Product Category Profit Contribution Over Time**
 
+### ❓ **Business Question**  
+**Which product categories consistently drive profit over time, and how has the category mix shifted during periods of growth and decline?**
+
+---
+
 <p align="center">
   <img src="Dashboard_Screenshots/04_Time_Dashboard/Stacked_Area_Category.png">
 </p>
@@ -960,6 +970,11 @@ These operational KPIs provide a top-level view of business health across revenu
 
 ## **G. Regional Profit Contribution Over Time**
 
+### ❓ **Business Question**  
+**Which geographic regions contribute most to profitability, and how stable or volatile are these contributions over time?**
+
+---
+
 <p align="center">
   <img src="Dashboard_Screenshots/04_Time_Dashboard/Stacked_Area_Region.png">
 </p>
@@ -997,6 +1012,11 @@ These operational KPIs provide a top-level view of business health across revenu
 ---
 
 ## **H. Monthly Sales Heatmap**
+
+### ❓ **Business Question**  
+**Which months drive peak performance, where do seasonal slowdowns occur, and how did external disruptions affect monthly sales patterns?**
+
+---
 
 <p align="center">
   <img src="Dashboard_Screenshots/04_Time_Dashboard/Monthly_Sales_Heatmap.png">
@@ -1094,9 +1114,10 @@ A quick overview of customer base health, value metrics, and acquisition perform
 - **18–25 segment is the smallest**, indicating weak youth acquisition or limited product fit.
 
 ### 💡 Action Recommendations
-- Prioritize **senior-focused experiences**, accessibility improvements, and tailored communication.
-- Maintain retention programs for **middle-aged cohorts**, who form the long-term stable base.
-- Launch **youth awareness campaigns** targeting the 18–35 range to diversify the customer mix.
+- Build **senior-focused engagement programs**, emphasizing ease of use, support, and relevant offers.
+- Strengthen **mid-life customer retention** with loyalty rewards and recurring purchase incentives.
+- Launch **youth awareness campaigns** targeting the 18–35 range to diversify the customer mix (student discounts, digital-first messaging, influencer tie-ins).
+- Conduct **product-fit analysis** for younger demographics to identify missing offerings or UX gaps.
 
 ---
 
@@ -1123,9 +1144,10 @@ A quick overview of customer base health, value metrics, and acquisition perform
 - Profit curves closely match revenue curves, indicating consistent margin structure across demographics.
 
 ### 💡 Action Recommendations
-- Deepen product expansion and loyalty strategies for **senior customers**, who dominate profit contribution.
-- Maintain retention and engagement focus on **core middle-aged customers**.
-- Create **younger-segment offerings, digital outreach, and tailored marketing** to improve 18–25 performance.
+- Double down on **senior-targeted product bundles** and services to sustain high-margin contribution.
+- Reinforce **mid-life retention programs** with lifecycle messaging and targeted cross-sell.
+- Develop **youth-oriented SKUs**, entry-price products, or digital services to increase penetration among younger users.
+- Use **profit curve consistency** to confidently scale demographic-targeted pricing strategies.
 
 ---
 
@@ -1149,10 +1171,10 @@ A quick overview of customer base health, value metrics, and acquisition perform
 - AOV remains **consistent** across demographics (~$2,100–$2,250), supporting stable forecasting.
 
 ### 💡 Action Recommendations
-- Prioritize premium retention and upsell strategies for the **26–35 female group**.
-- Nurture senior male customers with **loyalty and exclusive value programs**.
-- Investigate causes behind midlife CLTV dip for females and adjust product mix or engagement accordingly.
-- Use stable AOV to **optimize pricing, bundling, and promotion strategy**.
+- Target older male customers with **renewal programs, extended warranties, premium bundles, loyalty and exclusive value programs**.
+- Create **exclusive subscription plans or VIP programs** for 26–35 female customers to maximize their high CLTV.
+- Investigate causes behind midlife CLTV dip for females → refine product recommendations, adjust pricing, or personalize lifecycle messaging.
+- Use stable AOV to develop **predictive revenue models, personalized offers, and bundle recommendations**.
 
 ---
 
@@ -1176,9 +1198,10 @@ A quick overview of customer base health, value metrics, and acquisition perform
 - Recent and active customers form the **smallest but highest-value** segments.
 
 ### 💡 Action Recommendations
-- Launch **reactivation campaigns** for dormant and at-risk customers with segmented incentives.
-- Maintain strong engagement with **active and recent customers** to maximize retention.
-- Use **recency-based automation** (email, SMS, app triggers) to prevent early customer decay.
+- Launch **tiered win-back campaigns** (email, SMS, incentives) for dormant/lapsed customers.
+- Build **automated recency-triggered journeys** to reduce decay in the 31–180 day segments.
+- Identify **dormant high-AOV outliers** and target them with premium offers to reactivate high-value potential.
+- Use CLTV decay curves to **prioritize retention resources** toward customers with higher predicted lifetime value.
 
 ---
 
@@ -1203,9 +1226,10 @@ A quick overview of customer base health, value metrics, and acquisition perform
 - Returning customers followed a similar decline pattern, indicating weakened loyalty.
 
 ### 💡 Action Recommendations
-- Prioritize **reactivation** and win-back campaigns.
-- Rebuild the top-funnel through **digital ads, partnerships, and targeted acquisition channels**.
-- Relaunch loyalty initiatives to **boost repeat purchase behavior**.
+- Rebuild the acquisition engine with **paid ads, referrals, partnerships, and SEO-content funnels**.
+- Deploy **win-back and loyalty programs** to restore retention among mid-life and senior users.
+- Audit **what worked in 2018–2019** and revive best-performing campaigns.
+- Create **personalized remarketing journeys** to improve returning customer conversion rates.
 
 ---
 
@@ -1223,13 +1247,14 @@ A quick overview of customer base health, value metrics, and acquisition perform
 </p>
 
 ### ⭐ Key Insights
-- Retention decays rapidly across almost all cohorts beyond early months.
+- Most cohorts decline below **2% retention after early periods**, indicating weak long-term engagement.
 - **2016–2018 cohorts** show several high-retention streaks (**7–14%** in some periods).
-- **2020–2021 cohorts perform weakest**, with most cells in red.
+- **2020–2021 cohorts are the weakest**, heavily impacted by business disruptions or poor onboarding.
 - High-performing cohorts correlate with **successful campaigns or releases**.
+- Retention decay is consistent across periods, confirming systemic lifecycle gaps.
 
 ### 💡 Action Recommendations
-- Analyze strong cohorts to identify repeatable **success drivers**.
+- Analyze strong cohorts to identify repeatable **success drivers** (products, campaigns, onboarding).
 - Strengthen **onboarding flows, lifecycle messaging, and loyalty programs** to slow churn.
 - Closely track newer cohorts and intervene early to prevent ongoing decay.
 
@@ -1256,9 +1281,10 @@ A quick overview of customer base health, value metrics, and acquisition perform
 
 ### 💡 Action Recommendations
 - Double down on **Active/Recent** users with loyalty perks and premium engagement.
-- Use **win-back campaigns** for Lapsed and At-Risk customers.
+- Launch **win-back campaigns** for Lapsed and At-Risk customers (free shipping, discounts).
 - Develop reactivation flows for Dormant users based on AOV-based incentives.
-- Integrate **RFM scoring** into CRM to trigger automated retention journeys.
+- Create **frequency acceleration campaigns** (add-on bundles, product reminders).
+- Integrate **RFM scoring** into CRM to enable automated hyper-targeted retention, reducing churn.
 
 ---
 
