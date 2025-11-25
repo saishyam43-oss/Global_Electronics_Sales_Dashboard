@@ -314,7 +314,7 @@ This section analyzes **what Global Electronics sells**, **which categories driv
 
 ---
 
-### 📌 KPI Summary
+### 📌 **KPI Summary**
 
 Below is a snapshot of the key product-level performance indicators that anchor the Product dashboard. These KPIs set the context before diving into category- and brand-level visuals.
 
@@ -606,7 +606,7 @@ Conduct market research, adjust channels, run pilot campaigns.
 
 ---
 
-# **Act 1 Summary**
+# 🏁 **Act 1 Summary**
 
 Global Electronics’ product portfolio shows strong revenue and margin concentration in Computers and Home Appliances, with these categories serving as core business drivers. While overall margin stability is maintained, performance across categories is mixed: some segments (like Cameras, Audio, Games, and Media) deliver lower volume or profit margins and require targeted intervention. In addition, underpenetrated regions and long-tail SKUs present clear opportunities for strategic portfolio optimization and international growth.
 
@@ -631,7 +631,7 @@ This narrative exposes the true drivers behind GE’s rise to a 2019 peak and it
 
 ---
 
-### 📌 KPI Summary
+### 📌 **KPI Summary**
 
 These operational KPIs provide a top-level view of business health across revenue, profitability, customer experience, and order volume before drilling into multi-year trends.
 
@@ -987,7 +987,7 @@ These operational KPIs provide a top-level view of business health across revenu
 
 ---
 
-# **Act 2 Summary**
+# 🏁 **Act 2 Summary**
 
 GE experienced a **strong rise to a 2019 peak** driven by solid category mix and operational efficiency.  
 A severe downturn in 2020–21 hit volume and revenue hard, but **margins, AOV, and cost control held steady**, proving strong internal resilience.  
@@ -995,14 +995,22 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 
 ---
 
-## 🟦 ACT 3 — Customer Insights & Retention Analysis
-
-### 🔗 **View Full Dashboard**
-[Click here to view all Customer Insights dashboard screenshots](Dashboard_Screenshots/05_Customer_Dashboard/)
+# 🟦 ACT 3 — Customer Insights & Retention Analysis
 
 ---
 
-## 🔢 **KPI Cards Overview**
+# 📸 **Customer Insights Dashboard — Full View**
+
+> **🔎 Click a link below to view each full dashboard page:**
+
+- **📄 Page 1:** [Open Image](Dashboard_Screenshots/05_Time_Dashboard/Customer_Insights_1.jpg)
+- **📄 Page 2:** [Open Image](Dashboard_Screenshots/05_Time_Dashboard/Customer_Insights_2.jpg)
+- **📄 Page 3:** [Open Image](Dashboard_Screenshots/05_Time_Dashboard/Customer_Insights_3.jpg)
+- **📄 Page 4:** [Open Image](Dashboard_Screenshots/05_Time_Dashboard/Customer_Insights_4.jpg)
+
+---
+
+### 📌 **KPI Summary**
 
 | **KPI** | **Value & Insight** | **Action Recommendation** |
 |--------|----------------------|---------------------------|
@@ -1013,12 +1021,10 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 
 ---
 
----
-
 ### 👥 1. Customer Demographics by Age & Gender
 
 <p align="center">
-  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Customer_Demographics.png" width="70%">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Customer_Demographics.png">
 </p>
 
 #### ❓ Business Question  
@@ -1042,7 +1048,7 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 ### 💰 2. Revenue & Profit by Age & Gender
 
 <p align="center">
-  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Revenue_Profit.png" width="70%">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Revenue_Profit.png">
 </p>
 
 #### ❓ Business Question  
@@ -1069,7 +1075,7 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 ### 💳 3. CLTV & AOV by Age Group & Gender
 
 <p align="center">
-  <img src="Dashboard_Screenshots/05_Customer_Dashboard/CLTV_AOV.png" width="78%">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/CLTV_AOV.png">
 </p>
 
 #### ❓ Business Question  
@@ -1094,7 +1100,7 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 ### ⏳ 4. Customer Value Decay by Recency
 
 <p align="center">
-  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Customer_Value_Decay.png" width="78%">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Customer_Value_Decay.png">
 </p>
 
 #### ❓ Business Question  
@@ -1118,7 +1124,7 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 ### 🔄 5. Customer Acquisition & Retention Trends (2016–2021)
 
 <p align="center">
-  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Acquisition_Retention.png" width="78%">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Acquisition_Retention.png">
 </p>
 
 #### ❓ Business Question  
@@ -1143,7 +1149,7 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 ### 📊 6. Customer Retention Cohort Analysis
 
 <p align="center">
-  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Cohort_Analysis.png" width="78%">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/Cohort_Analysis.png">
 </p>
 
 #### ❓ Business Question  
@@ -1167,7 +1173,7 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 ### 🔍 7. RFM Segmentation (Recency–Frequency–Monetary)
 
 <p align="center">
-  <img src="Dashboard_Screenshots/05_Customer_Dashboard/RFM_Segmentation.png" width="78%">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/RFM_Segmentation.png">
 </p>
 
 #### ❓ Business Question  
