@@ -1294,3 +1294,36 @@ Customer analysis shows a business heavily reliant on **senior and middle-aged c
 The biggest growth levers lie in **reactivation**, **youth-segment outreach**, **lifecycle marketing**, and strengthening **high-value cohorts**.
 
 ---
+
+# 🟦 **ACT 4 — Regional Performance Analysis (Initial Section)**
+
+---
+
+## 📸 Region Dashboard — Full View  
+
+> **🔎 Click a link below to view each full dashboard page:**
+
+- **📄 Page 1:** [Open Image](Dashboard_Screenshots/06_Region_Dashboard/Regional_Performance_1.jpg)
+- **📄 Page 2:** [Open Image](Dashboard_Screenshots/06_Region_Dashboard/Regional_Performance_2.jpg)
+- **📄 Page 3:** [Open Image](Dashboard_Screenshots/06_Region_Dashboard/Regional_Performance_3.jpg)
+- **📄 Page 4:** [Open Image](Dashboard_Screenshots/06_Region_Dashboard/Regional_Performance_4.jpg)
+- **📄 Page 5:** [Open Image](Dashboard_Screenshots/06_Region_Dashboard/Regional_Performance_5.jpg)
+
+---
+
+## 📌 KPI Summary
+
+<p align="center">
+  <img src="Dashboard_Screenshots/06_Region_Dashboard/KPI_Cards_2021_Region.png">
+</p>
+
+| **KPI** | **Value / Insight** | **Recommended Action** |
+|--------|----------------------|--------------------------|
+| **Total Revenue (YTD)** | **$1.04M**, **–88.8% vs PY**, severe market-wide drop. | Diagnose region-level collapse; target recovery zones. |
+| **Total Profit (YTD)** | **$606.57K**, **58.56% margin**, stable. | Focus on volume rebuild. |
+| **Revenue per sq meter** | **$10.28** (2021), down from **$551.09** when all years selected. | Review space utilization and store-level productivity. |
+| **Revenue per store** | **$15.01K** (2021), vs **$805.06K** historically. | Deep-dive underperforming store clusters. |
+| **Local Revenue Growth** | **–89.01%**, heavy contraction. | Rebuild local demand and channel presence. |
+| **Currency Impact** | **0.21%**, negligible FX effect. | FX not a contributor to downturn. |
+
+---
