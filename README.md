@@ -1010,6 +1010,10 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 
 ### 📌 **KPI Summary**
 
+<p align="center">
+  <img src="Dashboard_Screenshots/05_Customer_Dashboard/KPI_Cards.png">
+</p>
+
 | **KPI** | **Value & Insight** | **Action Recommendation** |
 |--------|----------------------|---------------------------|
 | **Active Customers (YTD)** | **485 active customers**, extremely low compared to **15K total customers**, highlighting severe retention and engagement gaps. | Launch reactivation, loyalty, and lifecycle engagement campaigns to revive inactive users. |
