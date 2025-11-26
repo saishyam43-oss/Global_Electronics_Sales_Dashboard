@@ -292,7 +292,7 @@ The structure mirrors the four core business pillars of the Global Electronics n
 
 ---
 
-## 🔵 Act 1 — Product Performance & Portfolio Diagnosis
+## 🟪 Act 1 — Product Performance & Portfolio Diagnosis
   
   How categories, brands, and SKUs contribute to revenue, profit, and margin. 
 
@@ -366,7 +366,7 @@ The structure mirrors the four core business pillars of the Global Electronics n
 
 ---
 
-# 🔵 **ACT 1 — Product Performance & Portfolio Diagnosis**
+# 🟪 **ACT 1 — Product Performance & Portfolio Diagnosis**
 
 This section analyzes **what Global Electronics sells**, **which categories drive growth**, and **which product segments drain performance**. The goal is to understand portfolio strengths and weaknesses through a combination of **revenue concentration**, **margin distribution**, **SKU performance**, and **subcategory positioning**.
 
@@ -1867,6 +1867,131 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 
 Regional and store performance analysis shows a business that is **structurally healthy in North America**, **moderately strong in Europe**, and **weak in Australia**, with **store efficiency varying substantially by location but only slightly by margin**.  
 The path forward lies in **defending and growing core regions**, **fixing or exiting chronic underperformers**, and **replicating high-efficiency store and state best practices across the wider network**.
+
+---
+
+---
+
+# 📌 **Insights → Recommendations Summary Sheet**
+
+This section consolidates all major findings across the four acts of the project and converts them into clear, actionable business recommendations for Global Electronics (GE). It also outlines a strategic roadmap answering the most important question:
+
+## 🎯 **What Should GE Do Next?**
+
+---
+
+## 🧭 **1. Consolidated Recommendation Summary**
+
+#### 🟦 **Product & Portfolio Strategy**
+- **Double-down on core revenue drivers** (Computers, Home Appliances).  
+- **Revitalize underperforming subcategories** through price correction, bundling, or repositioning.  
+- **Phase out or repurpose “Dog” SKUs** with persistent low demand.  
+- **Expand high-margin “hidden gem” categories**, especially Cameras & Media.
+
+---
+
+#### 🟩 **Sales & Operational Strategy**
+- **Restore pre-2020 volume levels** by replicating 2018–2019 campaign and category strategy.  
+- **Use delivery performance as a differentiator**, highlighting fast SLAs.  
+- **Exploit seasonal peaks** (Jan–Feb, Nov–Dec) with inventory planning and promotions.  
+- **Introduce mid-year stabilisation offers** to mitigate March–April slowdowns.
+
+---
+
+#### 🟧 **Customer & Retention Strategy**
+- **Reactivation is the biggest opportunity**. Dormant customers (>365 days) form the largest segment.  
+- **Rebuild acquisition funnels** with digital ads, referral programs, and partnerships.  
+- **Personalize lifecycle engagement** based on CLTV, AOV and RFM scoring.  
+- **Target high-value demographics** (senior customers, 26–35 female group, high-spend cohorts).
+
+---
+
+#### 🟪 **Regional Expansion Strategy**
+- **Defend and scale North America**, the anchor region.  
+- **Invest selectively in Europe** (France, Germany, UK) where margins are strong.  
+- **Fix or reposition Australia**, which underperforms across almost every metric.  
+- **Pilot small-format or online-first entry** into Asia and Latin America for long-term growth.  
+- **Benchmark country-level best practices** from US, France, Germany.
+
+---
+
+## 🚀 **2. Strategic Roadmap for the Next 12 Months**
+
+Below is a prioritised roadmap translating insights into execution.
+
+---
+
+### **Q1 — Stabilisation & Diagnostic Phase**
+#### 🔍 **Immediate Priorities**
+- Perform **root-cause analysis** of 2020–2021 volume collapse.  
+- Audit underperforming **regions (Australia), states, and low-ROI SKUs**.  
+- Build automated **early-warning dashboards** for sudden revenue/order drops.
+
+#### ⚙️ **Foundational Fixes**
+- Clean up SKU catalog (retire, consolidate, reclassify).  
+- Standardise pricing and margin monitoring across categories/regions.  
+
+---
+
+### **Q2 — Customer & Volume Recovery Phase**
+#### 🧲 **Retention & Reactivation**
+- Launch reactivation campaigns targeting **Dormant** and **At-Risk** segments.  
+- Introduce personalised **email/SMS/app flows** based on RFM and recency.
+
+#### 📈 **Demand Generation**
+- Run theme-based promotions in slow months (March–April).  
+- Launch acquisition campaigns tailored to younger demographics.
+
+---
+
+### **Q3 — Expansion & Growth Phase**
+#### 🌍 **Regional Expansion**
+- Scale proven playbooks from US & France into mid-tier European regions.  
+- Pilot **online-first market entry** into 1–2 new regions.
+
+#### 🛒 **Product & Category Growth**
+- Expand high-margin categories and bundles.  
+- Introduce premium add-ons to lift CLTV.
+
+---
+
+### **Q4 — Performance Optimisation Phase**
+#### 📊 **Operational Excellence**
+- Implement best practices from top stores into national rollouts.  
+- Fine-tune inventory allocation using seasonal patterns.
+
+#### 🎁 **Holiday Peak Execution**
+- Bulk up inventory for Computers & Home Appliances—biggest Q4 winners.  
+- Push fast-shipping incentives and limited-time bundles.
+
+---
+
+## 🟦 **3. Executive-Level Summary (One-Liner Answers)**
+
+### **✓ How can GE grow revenue?**  
+Recover volume through targeted campaigns, fix weak regions, and invest in high-margin categories.
+
+### **✓ How can GE grow profit?**  
+Maintain margin discipline, eliminate low-ROI SKUs, and double-down on profitable product/region pairs.
+
+### **✓ How can GE improve customer retention?**  
+Activate dormant customers, personalize engagement flows, and build loyalty among senior/high-value segments.
+
+### **✓ How should GE prioritise regions?**  
+North America first, Europe second, Australia fix-or-restructure, and pilot emerging markets.
+
+### **✓ What is GE’s biggest missed opportunity?**  
+Re-engaging dormant customers and expanding profitable category verticals.
+
+---
+
+# 🏁 **Final Takeaway**
+Global Electronics’ path back to growth is clear:  
+**recover volume, protect margins, activate customers, and expand strategically.**  
+The business fundamentals are strong, the customer value is high, and the operational model is resilient.  
+What GE needs now is **focused execution** guided by data.
+
+---
 
 ---
 
