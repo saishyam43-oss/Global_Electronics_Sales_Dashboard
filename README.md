@@ -1327,3 +1327,273 @@ The biggest growth levers lie in **reactivation**, **youth-segment outreach**, *
 | **Currency Impact** | **0.21%**, negligible FX effect. | FX not a contributor to downturn. |
 
 ---
+
+# 🟦 ACT 4 — Regional & Store Performance
+
+This section analyzes **where Global Electronics makes its money** and **how efficiently stores convert space into revenue and profit**.  
+We move from global regions down to countries, states, and finally store-level performance to identify **high-performing markets**, **underperforming regions**, and **store efficiency gaps**.
+
+---
+
+## 📸 Regional Performance Dashboard — Full View
+
+> **🔎 Click a link below to view each full dashboard page:**
+
+- **📄 Page 1:** [Open Image](Dashboard_Screenshots/06_Region_Dashboard/Region_Performance_1.jpg)  
+- **📄 Page 2:** [Open Image](Dashboard_Screenshots/06_Region_Dashboard/Region_Performance_2.jpg)  
+- **📄 Page 3:** [Open Image](Dashboard_Screenshots/06_Region_Dashboard/Region_Performance_3.jpg)  
+- **📄 Page 4:** [Open Image](Dashboard_Screenshots/06_Region_Dashboard/Region_Performance_4.jpg)  
+
+---
+
+## 📌 KPI Summary
+
+These KPIs summarize **regional and store-level performance for 2021 (YTD)** with the **Year slicer set to 2021**, giving a consistent basis for interpreting the visuals.
+
+<p align="center">
+  <img src="Dashboard_Screenshots/06_Region_Dashboard/KPI_Cards_2021_Region.png">
+</p>
+
+| **KPI** | **Value & Insight** | **Recommended Action** |
+|--------|----------------------|------------------------|
+| **Total Revenue (YTD)** | **$1.04M**, with **–88.8% vs prior year**, reflecting a dramatic revenue collapse in 2021 relative to 2020. | Prioritize regional and store-level actions that restore volume in proven markets (North America, key European countries). |
+| **Total Profit (YTD)** | **$606.57K**, with an average margin of **58.56%**, consistent with historical levels despite the revenue crash. | Leverage margin stability to support aggressive but controlled growth plans without resorting to heavy discounting. |
+| **Revenue per Sq. Meter (YTD)** | **$10.28/sqm** in 2021 vs **$551.09/sqm** when all years are selected, highlighting how underutilized current store capacity is. | Reassess store footprint, optimize floor space productivity, and consider consolidation in chronically underperforming locations. |
+| **Revenue per Store (YTD)** | **$15.01K per store** vs **$805.06K per store** across all years, reinforcing the scale of 2021 underperformance. | Focus on turning around low-productivity stores and reallocating resources to high-efficiency locations. |
+| **Revenue Growth (Local)** | **–89.01% local revenue growth**, with **currency impact only ~0.21%**, confirming that performance issues are operational/market-driven, not FX-driven. | Address demand, channel, and execution problems directly; FX is not the main story. |
+
+---
+
+---
+
+## 🌍 A. Regional Revenue Distribution Map
+
+### ❓ Business Question  
+**Which regions drive the bulk of revenue today, and where are the underpenetrated opportunities?**
+
+---
+
+<p align="center">
+  <img src="Dashboard_Screenshots/06_Region_Dashboard/Regional_Revenue_Distribution_Map.png">
+</p>
+
+### ⭐ Key Insights
+1. **North America clearly dominates the map**, with the largest bubbles and highest revenue contribution.  
+2. **Europe forms the second-strongest cluster**, with multiple active countries but lower total revenue than North America.  
+3. **Australia appears as a small, isolated bubble**, highlighting a marginal presence versus North America and Europe.  
+4. There is **minimal or no footprint in Asia, Africa, or South America**, signalling huge white-space regions for the business.
+
+### 💡 Action Recommendations
+1. **Defend and deepen North America & Europe**, as they are the core revenue engines.  
+2. Conduct **market entry and feasibility studies** for priority underpenetrated regions (e.g., select Asia/South America markets).  
+3. Build a **regional diversification roadmap** to reduce overdependence on a few geographies.  
+4. Use this map routinely to track **expansion progress** and adjust go-to-market strategies by region.
+
+---
+
+---
+
+## 🇺🇸 B. Revenue, Profit & Margin by Country
+
+### ❓ Business Question  
+**Which countries deliver the most revenue and profit, and where are margins strongest?**
+
+---
+
+<p align="center">
+  <img src="Dashboard_Screenshots/06_Region_Dashboard/RPM_Country.png">
+</p>
+
+### ⭐ Key Insights
+1. The **United States is the clear leader** in both revenue and profit, more than doubling most other countries.  
+2. The **Online “country”/channel** contributes a significant revenue share but operates with **slightly lower margins**, suggesting price competition or higher fulfillment costs.  
+3. **France and Australia display some of the highest profit margins (~59%+)**, even if their total revenue is lower, indicating very efficient local operations.  
+4. Other European markets like **UK, Germany, and Canada** contribute meaningfully but lag the US in both scale and efficiency.
+
+### 💡 Action Recommendations
+1. Use the **US as the primary benchmark** for scaling, but aim to **close the gap** by elevating UK, Canada, and Germany.  
+2. Study **France and Australia** to understand what drives their high margins (pricing, cost structure, mix) and **apply learnings elsewhere**.  
+3. Improve the **Online channel margin** by optimizing logistics, pricing, and basket composition.  
+4. Prioritize incremental investment in **profitable mid-tier countries** (e.g., UK, Germany) before pushing into entirely new markets.
+
+---
+
+---
+
+## 🌐 C. Regional Performance Summary (Matrix)
+
+### ❓ Business Question  
+**How do continents and regions compare across revenue, profit, CLTV, and store efficiency metrics?**
+
+---
+
+<p align="center">
+  <img src="Dashboard_Screenshots/06_Region_Dashboard/Regional_Performance_Summary.png">
+</p>
+
+### ⭐ Key Insights
+1. **North America leads across almost every metric**: revenue, profit, orders, CLTV, revenue per store, and sales per sq. meter.  
+2. **Europe shows solid margins and AOV**, but trails North America in absolute revenue and CLTV.  
+3. **Australia underperforms on all fronts**: revenue, orders, CLTV, and store utilization, suggesting structural issues in that market.  
+4. Data bars reveal **significant performance gaps** in revenue per store and sales per sq. meter between continents.
+
+### 💡 Action Recommendations
+1. Treat **North America as the primary growth platform**, doubling down on product, channel, and customer initiatives there.  
+2. Launch **targeted uplift programs in Europe**, focusing on growing CLTV and order volumes, given their sound margin base.  
+3. Reassess **Australia’s strategy end-to-end**: product assortment, store locations, channel mix, and marketing.  
+4. Use this matrix as a **portfolio steering tool** when deciding where to invest, sustain, or restructure.
+
+---
+
+---
+
+## 🏛️ D. Top 6 States by Revenue
+
+### ❓ Business Question  
+**Which states are the biggest revenue contributors, and how concentrated is state-level performance?**
+
+---
+
+<p align="center">
+  <img src="Dashboard_Screenshots/06_Region_Dashboard/Top_6_States_Revenue.png">
+</p>
+
+### ⭐ Key Insights
+1. **Nevada, Kansas, Nebraska, and Northwest Territories** sit at the top of the revenue ranking, all **above the average revenue line**.  
+2. The **gap between top states is relatively small**, indicating **healthy spread** rather than extreme concentration in just one or two locations.  
+3. Both **US and Canadian states/provinces** appear among the top contributors, confirming cross-country strength.  
+4. Top states combine **solid revenue with stable margins**, indicating sustainable performance rather than pure volume pushes.
+
+### 💡 Action Recommendations
+1. Maintain strong **account management and localized programs** in these top states to protect share.  
+2. Use the **playbook from top states** (campaigns, partnerships, in-store practices) to uplift the next tier of states.  
+3. Explore **incremental revenue opportunities** such as partnerships, events, or localized promotions in these leading states.  
+4. Monitor top-state performance trends for **early warning signs** of saturation or decline.
+
+---
+
+---
+
+## 🟥 E. Bottom 6 States by Revenue
+
+### ❓ Business Question  
+**Which states are underperforming, and are they worth fixing, restructuring, or exiting?**
+
+---
+
+<p align="center">
+  <img src="Dashboard_Screenshots/06_Region_Dashboard/Bottom_6_States_Revenue.png">
+</p>
+
+### ⭐ Key Insights
+1. **Franche-Comté (France) and Northern Territory (Australia)** sit at the bottom, with very low revenue relative to peers.  
+2. The bottom 6 includes states from **multiple countries**, suggesting **local execution or demand issues** rather than a single region problem.  
+3. Revenue in these states is **sub-$6K**, an order of magnitude below company/state averages, raising serious questions about viability.  
+4. Margins may still look reasonable on a percentage basis, but **absolute value created is negligible**.
+
+### 💡 Action Recommendations
+1. Perform **viability assessments** for each bottom-tier state: is there a strategic reason to stay?  
+2. Run **time-limited recovery experiments** (promos, channel tweaks) in these markets and measure uplift.  
+3. If uplift is minimal, **reallocate marketing and operational resources** to higher-performing regions.  
+4. Where strategic, retain a **lightweight presence** (e.g., online-only) instead of full physical footprint.
+
+---
+
+---
+
+## 🏪 F. Top 6 Stores by Sales Efficiency
+
+### ❓ Business Question  
+**Which stores make the best use of their floor space and margin profile?**
+
+---
+
+<p align="center">
+  <img src="Dashboard_Screenshots/06_Region_Dashboard/Top_6_Stores_Sales.png">
+</p>
+
+### ⭐ Key Insights
+1. Stores in **Hawaii, Montana, and New Hampshire** top the list, with **sales per sq. meter well above the average**.  
+2. Some of these high-efficiency stores also post **profit margins above 59%**, indicating best-in-class operations.  
+3. A few top-revenue-per-sqm stores show **good revenue but only average margins**, pointing to cost or discounting issues.  
+4. Top stores are **geographically diverse**, suggesting store success is driven more by local execution than just macro location.
+
+### 💡 Action Recommendations
+1. Use these top stores as **benchmarks for operational excellence**, studying layout, staff practices, and assortment.  
+2. Design **recognition and incentive programs** for high-performing store teams to reinforce success behaviors.  
+3. Investigate **cost drag in high-revenue but lower-margin stores**, and fix controllable factors (labor mix, discounting, shrink).  
+4. Use top stores as **pilot locations** for new initiatives before rolling them out network-wide.
+
+---
+
+---
+
+## 📉 G. Bottom 6 Stores by Sales Efficiency
+
+### ❓ Business Question  
+**Which stores are underutilizing their space, and what should be done about them?**
+
+---
+
+<p align="center">
+  <img src="Dashboard_Screenshots/06_Region_Dashboard/Bottom_6_Stores_Sales.png">
+</p>
+
+### ⭐ Key Insights
+1. Among the bottom 6, **Bavaria (Germany)** still shows **relatively better efficiency**, but the remaining stores (New Brunswick, Northern Territory, South Australia, Rhode Island, Mississippi) are **extremely low on sales per sq. meter**.  
+2. Some of these stores show **decent profit margins despite low revenue**, suggesting niche pricing or very lean operations.  
+3. Low sales per sq. meter often coincide with **low revenue per store**, highlighting structural profitability issues.  
+4. Performance issues appear **store-specific rather than systemic**, pointing to execution or local demand challenges.
+
+### 💡 Action Recommendations
+1. Conduct **store-level operational audits**: traffic, conversion, assortment, local competition.  
+2. Experiment with **layout changes, staff retraining, and localized assortments** in these locations.  
+3. Set **clear turnaround thresholds**; if stores remain unprofitable, consider **closure, relocation, or conversion** (e.g., pickup hub).  
+4. Where margins are high but revenue is low, explore **niche focus or online-driven hybrid models**.
+
+---
+
+---
+
+## 📊 H. Store Profitability Matrix (Revenue vs Margin)
+
+### ❓ Business Question  
+**How do stores balance revenue scale and margin, and which ones are true “stars” vs candidates for restructuring?**
+
+---
+
+<p align="center">
+  <img src="Dashboard_Screenshots/06_Region_Dashboard/Store_Profit_Matrix_1.png" width="75%">
+</p>
+
+<p align="center">
+  <img src="Dashboard_Screenshots/06_Region_Dashboard/Store_Profit_Matrix_2.png" width="85%">
+</p>
+
+### ⭐ Key Insights
+1. Most stores cluster around **average revenue and margin**, forming a stable core.  
+2. A subset of stores in the **upper-right quadrant** (high revenue, high margin) are true **“star” locations** that significantly outperform the portfolio.  
+3. Some stores show **high revenue but only average or low margins**, indicating volume without adequate profitability.  
+4. A tail of stores in the **lower-left quadrant** combines low revenue and low margin, contributing little to overall value.
+
+### 💡 Action Recommendations
+1. Prioritize **investment and expansion options** for high-revenue, high-margin “star” stores.  
+2. For **high-revenue, low-margin stores**, focus on margin repair: pricing discipline, cost structure optimization, and mix improvements.  
+3. Use the **low-revenue, low-margin cluster** as a candidate list for **closure, consolidation, or radical restructuring**.  
+4. Refresh this matrix regularly as a **network health view** to guide store-level capital allocation decisions.
+
+---
+
+## 🏁 Act 4 Summary
+
+Regional and store-level analysis shows that **North America and key European countries** remain the backbone of Global Electronics’ business, while **Australia and several smaller states/stores underperform significantly**.  
+Store productivity, measured through **revenue per sq. meter and revenue per store**, has collapsed in 2021 relative to historical levels, even though **margins remain strong**.  
+
+The strategic priority is to:
+
+- **Defend and grow** in core regions (North America, leading European markets),  
+- **Turn around or rationalize** chronically weak states and stores, and  
+- Use regional and store-level data to **systematically guide footprint decisions, investment, and exit strategies**.
+
+---
+
