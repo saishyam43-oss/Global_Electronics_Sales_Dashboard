@@ -2168,7 +2168,6 @@ The project uses **import mode**, so refreshing is straightforward.
 │
 
 ├── PBIX/ → Final Power BI report
-  
   └── Global_Electronics_Dashboard.pbix
 
 ├── Datasets/ → Raw CSV data used in the model
