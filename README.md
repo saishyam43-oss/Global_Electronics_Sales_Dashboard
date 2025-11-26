@@ -1374,7 +1374,7 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 
 ### ⭐ Key Insights
 1. The **United States is the clear leader** in both revenue and profit, more than doubling most other countries.  
-2. The **Online “country”/channel** contributes a significant revenue share but operates with **slightly lower margins**, suggesting price competition or higher fulfillment costs.  
+2. The **Online channel** contributes a significant revenue share but operates with **slightly lower margins**, suggesting price competition or higher fulfillment costs.  
 3. **France and Australia display some of the highest profit margins (~59%+)**, even if their total revenue is lower, indicating very efficient local operations.  
 4. Other European markets like **UK, Germany, and Canada** contribute meaningfully but lag the US in both scale and efficiency.
 
