@@ -1678,7 +1678,7 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 ### ⭐ Key Insights
 
 #### 1. **High-performing stores achieve strong sales density**  
-   Stores in locations like **Hawaii, Montana, and New Hampshire** deliver **top-tier revenue per sqm**, positioning them as **efficiency leaders** in the network.
+   Stores in locations like **Wyoming, Alaska and Hawaii** deliver **top-tier revenue per sqm**, positioning them as **efficiency leaders** in the network.
 
 #### 2. **Margins differ only slightly**  
    All top stores hover around **58–59% margin**, indicating that **efficiency differences are driven mainly by revenue density**, not by structurally different margins.
@@ -1797,14 +1797,8 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 
 ## 🏁 Act 4 Summary
 
-Regional and store-level analysis shows that **North America and key European countries** remain the backbone of Global Electronics’ business, while **Australia and several smaller states/stores underperform significantly**.  
-Store productivity, measured through **revenue per sq. meter and revenue per store**, has collapsed in 2021 relative to historical levels, even though **margins remain strong**.  
-
-The strategic priority is to:
-
-- **Defend and grow** in core regions (North America, leading European markets),  
-- **Turn around or rationalize** chronically weak states and stores, and  
-- Use regional and store-level data to **systematically guide footprint decisions, investment, and exit strategies**.
+Regional and store performance analysis shows a business that is **structurally healthy in North America**, **moderately strong in Europe**, and **weak in Australia**, with **store efficiency varying substantially by location but only slightly by margin**.  
+The path forward lies in **defending and growing core regions**, **fixing or exiting chronic underperformers**, and **replicating high-efficiency store and state best practices across the wider network**.
 
 ---
 
