@@ -1987,7 +1987,7 @@ Re-engaging dormant customers and expanding profitable category verticals.
 
 # 🏁 **Final Takeaway**
 Global Electronics’ path back to growth is clear:  
-**recover volume, protect margins, activate customers, and expand strategically.**  
+**Recover volume, protect margins, activate customers, and expand strategically.**  
 The business fundamentals are strong, the customer value is high, and the operational model is resilient.  
 What GE needs now is **focused execution** guided by data.
 
