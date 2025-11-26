@@ -1870,3 +1870,157 @@ The path forward lies in **defending and growing core regions**, **fixing or exi
 
 ---
 
+## 🛠️ Project Setup & How to Use This Dashboard
+
+This section explains how to open the project, refresh the data, and understand the repository structure.
+
+---
+
+## 📥 1. Opening the Power BI File
+
+1. Go to the **PBIX/** folder.
+2. Download the file:  
+   **`Global_Electronics_Dashboard.pbix`**
+3. Open it using **Microsoft Power BI Desktop**.
+
+### ✔ Required Power BI Version
+- **Power BI Desktop – December 2023 or later**
+- Earlier versions may fail to load objects such as:
+  - Field parameters  
+  - Small multiples  
+  - New card visual  
+  - Optimization engine features  
+
+---
+
+## 🔄 2. Refreshing the Data
+
+The project uses **import mode**, so refreshing is straightforward.
+
+### Steps:
+1. Open the PBIX file.
+2. Go to the **Home** tab.
+3. Click **Refresh**.
+4. Power BI will read the CSV files from the **Datasets/** folder.
+
+> ⚠️ **Important:**  
+> Do not rename or move the CSV files inside `Datasets/`.  
+> Power BI uses relative folder paths and will break if the structure changes.
+
+---
+
+## 📂 3. Repository Folder Structure
+
+## 🛠️ Project Setup & How to Use This Dashboard
+
+This section explains how to open the project, refresh the data, and understand the repository structure.
+
+---
+
+## 📥 1. Opening the Power BI File
+
+1. Go to the [`/PBIX`](PBIX/)  folder.
+2. Download the file:  
+   **`Global_Electronics_Dashboard.pbix`**
+3. Open it using **Microsoft Power BI Desktop**.
+
+### ✔ Required Power BI Version
+- **Power BI Desktop – December 2023 or later**
+- Earlier versions may fail to load objects such as:
+  - Field parameters  
+  - Small multiples  
+  - New card visual  
+  - Optimization engine features  
+
+---
+
+## 🔄 2. Refreshing the Data
+
+The project uses **import mode**, so refreshing is straightforward.
+
+### Steps:
+1. Open the PBIX file.
+2. Go to the **Home** tab.
+3. Click **Refresh**.
+4. Power BI will read the CSV files from the **Datasets/** folder.
+
+> ⚠️ **Important:**  
+> Do not rename or move the CSV files inside [`/Datasets`](Datasets/).  
+> Power BI uses relative folder paths and will break if the structure changes.
+
+---
+
+## 📂 3. Repository Folder Structure
+
+📦 Project Root
+│
+├── PBIX/ → Final Power BI report
+│ └── Global_Electronics_Dashboard.pbix
+│
+├── Datasets/ → Raw CSV data used in the model
+│
+├── Data_Cleaning_SQL/ → All SQL scripts used for preprocessing
+│
+├── Data_Cleaning_Tables/ → Table-wise cleaned outputs (if applicable)
+│
+├── Data_Model/ → Schema diagrams, relationships, notes
+│
+├── Dashboard_Screenshots/ → All images used in the README (Acts 1–4)
+│
+├── DAX/ → Key calculated measures and supporting DAX logic
+│
+├── Technical_Appendix/ → Documentation, logic breakdowns, helper notes
+│
+├── Images/ → Supplementary images (logos, icons, assets)
+│
+└── README.md → Full project documentation
+
+---
+
+## 🧰 4. SQL Scripts Usage (Data_Cleaning_SQL)
+
+All preprocessing SQL scripts are located in:
+[`/Data_Cleaning_SQL`](Data_Cleaning_SQL/) 
+
+Use these scripts to:
+- Reproduce the cleaned tables  
+- Validate transformations  
+- Understand schema changes  
+- Trace column-level modifications  
+
+### When to use these scripts?
+- Rebuilding the pipeline  
+- Migrating to another database  
+- Re-running the ETL workflow  
+- Validating numeric transformations (dates, null handling, joins)
+
+---
+
+## 🔁 5. Refresh Process Summary
+
+1. Load all CSVs from the **[`/Datasets`](Datasets/)** folder.
+2. Power BI applies:
+   - Relationship model  
+   - Data transformations  
+   - DAX measures  
+   - Calculation groups (if any)
+3. Dashboard visuals update automatically.
+
+### Common refresh issues:
+| Issue | Reason | Solution |
+|-------|--------|----------|
+| Missing files | CSV deleted or renamed | Restore file name & location |
+| Load errors | Using older Power BI Desktop | Update Power BI |
+| Wrong numbers | Editing CSV headers | Keep headers exactly as in repo |
+
+---
+
+## ✔ You’re All Set
+
+Once loaded, the dashboard will automatically compute:
+- Product performance (Act 1)  
+- Time trends (Act 2)  
+- Customer insights (Act 3)  
+- Regional analysis (Act 4)  
+
+Use slicers for **Year, Category, Region** to explore the dataset interactively.
