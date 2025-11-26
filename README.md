@@ -15,7 +15,7 @@
 
 </div>
 
-### 1. Client Background & Project Context
+# 1. Client Background & Project Context
 
 Global Electronics is a (fictional) multinational retailer specializing in high-end consumer electronics. Founded in 2010, the company expanded rapidly from its North American roots, establishing a significant physical presence across Europe and Australia with over 70 stores, complemented by a robust e-commerce ("Online") platform.
 
@@ -25,7 +25,9 @@ The primary stakeholders—the **VP of Sales** and the **Director of Marketing**
 
 ---
 
-### 2. Business Problem & Objective
+---
+
+# 2. Business Problem & Objective
 
 The core business problem was a **lack of visibility**. The leadership team was "flying blind" and could not answer critical, data-driven questions:
 
@@ -38,7 +40,9 @@ The **objective** of this project was to clean, model, and analyze five years of
 
 ---
 
-### 3. North-Star Metrics (Key Business Goals)
+---
+
+# 3. North-Star Metrics (Key Business Goals)
 
 To provide actionable answers, the analysis was focused on a set of "North-Star" KPIs that measure the complete health of the business:
 
@@ -52,7 +56,9 @@ To provide actionable answers, the analysis was focused on a set of "North-Star"
 
 ---
 
-## 📈 4. Executive Summary
+---
+
+# 📈 4. Executive Summary
 
 > *A holistic overview of Global Electronics’ performance between 2016–2021, revealing a steep post-2019 decline in revenue and profitability, with retention challenges across key customer segments.*
 
@@ -171,7 +177,9 @@ Short-term focus should include:
 
 ---
 
-## 🧹 5. Data Cleaning Summary
+---
+
+# 🧹 5. Data Cleaning Summary
 
 > *Before analysis, over 5 years of raw data (2016–2021) from five independent CSV files were audited, cleaned, and standardized in SQL.  
 This process transformed the dataset from inconsistent and unreliable into a **99.6% geo-validated, analytics-ready model**.*
@@ -273,6 +281,8 @@ Model notes:
 - Data Audit Tables (Excel) → [`/Data_Cleaning_Tables`](Data_Cleaning_Tables/)  
 
 </details>
+
+---
 
 ---
 
@@ -1872,7 +1882,7 @@ The path forward lies in **defending and growing core regions**, **fixing or exi
 
 ---
 
-# 📌 **Insights → Recommendations Summary Sheet**
+# 📌 **7. Insights → Recommendations Summary Sheet**
 
 This section consolidates all major findings across the four acts of the project and converts them into clear, actionable business recommendations for Global Electronics (GE). It also outlines a strategic roadmap answering the most important question:
 
@@ -1995,7 +2005,7 @@ What GE needs now is **focused execution** guided by data.
 
 ---
 
-# 🛑 Limitations & Future Improvements
+# 🛑 **8. Limitations & Future Improvements**
 
 Even though this project covers a full end-to-end business intelligence workflow, several constraints limit the depth and scalability of insights.
 
@@ -2053,7 +2063,7 @@ Even though this project covers a full end-to-end business intelligence workflow
 
 ---
 
-# 🛠️ Technical Stack
+# 🛠️ **9. Technical Stack**
 
 A complete view of the technologies used across data cleaning, modelling, analysis and dashboarding.
 
@@ -2086,7 +2096,7 @@ A complete view of the technologies used across data cleaning, modelling, analys
 
 ---
 
-# 🏗️ Final Project Architecture Diagram
+# 🏗️ **10. Final Project Architecture Diagram**
 
 ```mermaid
 flowchart LR
@@ -2123,7 +2133,7 @@ flowchart LR
 
 ---
 
-## 🛠️ Project Setup & How to Use This Dashboard
+# 🛠️ **11. Project Setup & How to Use This Dashboard**
 
 This section explains how to open the project, refresh the data, and understand the repository structure.
 
@@ -2239,7 +2249,7 @@ Use slicers for **Year, Category, Region** to explore the dataset interactively.
 
 ---
 
-## ⭐ **Call-to-Action**
+# ⭐ **12. Call-to-Action**
 
 ```markdown
 # 📢 Call to Action
