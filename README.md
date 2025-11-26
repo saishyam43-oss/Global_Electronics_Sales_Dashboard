@@ -2088,18 +2088,18 @@ A complete view of the technologies used across data cleaning, modelling, analys
 
 # 🏗️ Final Project Architecture Diagram
 
-```
-flowchart LR
+```mermaid
+flowchart LR;
 
-A[Raw CSV Files<br>(Datasets/)] --> B[Power Query<br>Cleaning & Transformation]
-B --> C[SQL Cleaning Scripts<br>(Data_Cleaning_SQL/)]
-C --> D[Cleaned Tables<br>(Data_Cleaning_Tables/)]
+A[Raw CSV Files<br>(Datasets/)] --> B[Power Query<br>Cleaning & Transformation];
+B --> C[SQL Cleaning Scripts<br>(Data_Cleaning_SQL/)];
+C --> D[Cleaned Tables<br>(Data_Cleaning_Tables/)];
 
-D --> E[Power BI Data Model<br>(Star Schema)]
-E --> F[DAX Calculations<br>(Measures, KPIs, Time Intelligence)]
+D --> E[Power BI Data Model<br>(Star Schema)];
+E --> F[DAX Calculations<br>(Measures, KPIs, Time Intelligence)];
 
-F --> G[Interactive Dashboards<br>(Product, Time, Customer, Region)]
-G --> H[Insights & Recommendations<br>(README Documentation)]
+F --> G[Interactive Dashboards<br>(Product, Time, Customer, Region)];
+G --> H[Insights & Recommendations<br>(README Documentation)];
 ```
 
 ---
@@ -2226,7 +2226,7 @@ Use slicers for **Year, Category, Region** to explore the dataset interactively.
 
 ## ⭐ **Call-to-Action**
 
-```
+```markdown
 # 📢 Call to Action
 
 If you would like to:
