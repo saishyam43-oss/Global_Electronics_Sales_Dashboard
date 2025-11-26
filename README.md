@@ -334,8 +334,8 @@ The structure mirrors the four core business pillars of the Global Electronics n
 | Section | Description | Link |
 |--------|-------------|------|
 | **KPI Summary** | Active customers, AOV, CLTV, new customers | [Jump to KPI Summary](#-kpi-summary-2) |
-| **A. Customer Demographics** | Age & gender distribution | [View Section](#a-customer-demographics-by-age-gender) |
-| **B. Revenue & Profit by Demographics** | Customer value drivers | [View Section](#b-revenue--profit-by-age-gender) |
+| **A. Customer Demographics** | Age & gender distribution | [View Section](#a-customer-demographics-by-age--gender) |
+| **B. Revenue & Profit by Demographics** | Customer value drivers | [View Section](#b-revenue--profit-by-age--gender) |
 | **C. CLTV & AOV Analysis** | High-value customer segments | [View Section](#c-cltv--aov-by-age-group--gender) |
 | **D. Customer Value Decay** | Value deterioration by recency | [View Section](#d-customer-value-decay-by-recency) |
 | **E. Acquisition & Retention Trends** | New, active, and returning users | [View Section](#e-customer-acquisition--retention-trends-20162021) |
