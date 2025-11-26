@@ -352,14 +352,14 @@ The structure mirrors the four core business pillars of the Global Electronics n
 | Section | Description | Link |
 |--------|-------------|------|
 | **KPI Summary** | Revenue, margin, sales per sqm, store performance | [Jump to KPI Summary](#-kpi-summary-3) |
-| **A. Regional Revenue Map** | Revenue + YoY growth by geography | [View Section](#a-regional-revenue-distribution-map) |
-| **B. Country RPM** | Revenue, profit, margin across countries | [View Section](#b-revenue-profit--margin-by-country) |
-| **C. Regional Matrix** | Region-level comparison (CLTV, profit, store density) | [View Section](#c-regional-performance-summary-matrix) |
-| **D. Top 6 States** | Best performing states by revenue | [View Section](#d-top-6-states-by-revenue) |
-| **E. Bottom 6 States** | Weakest revenue contributors | [View Section](#e-bottom-6-states-by-revenue) |
-| **F. Top Stores by Efficiency** | Best sales-per-sqm stores | [View Section](#f-top-6-stores-by-sales-efficiency) |
-| **G. Bottom Stores by Efficiency** | Underperforming stores by density | [View Section](#g-bottom-6-stores-by-sales-efficiency) |
-| **H. Store Profitability Matrix** | Revenue vs margin clustering | [View Section](#h-store-profitability-matrix-revenue-vs-margin) |
+| **A. Regional Revenue Map** | Revenue + YoY growth by geography | [View Section](#-a-regional-revenue-distribution-map) |
+| **B. Country RPM** | Revenue, profit, margin across countries | [View Section](#-b-revenue-profit--margin-by-country) |
+| **C. Regional Matrix** | Region-level comparison (CLTV, profit, store density) | [View Section](#-c-regional-performance-summary-matrix) |
+| **D. Top 6 States** | Best performing states by revenue | [View Section](#-d-top-6-states-by-revenue) |
+| **E. Bottom 6 States** | Weakest revenue contributors | [View Section](#-e-bottom-6-states-by-revenue) |
+| **F. Top Stores by Efficiency** | Best sales-per-sqm stores | [View Section](#-f-top-6-stores-by-sales-efficiency) |
+| **G. Bottom Stores by Efficiency** | Underperforming stores by density | [View Section](#-g-bottom-6-stores-by-sales-efficiency) |
+| **H. Store Profitability Matrix** | Revenue vs margin clustering | [View Section](#-h-store-profitability-matrix-revenue-vs-margin) |
 | **Act Summary** | Regional strategy and store optimisation | [Jump](#-act-4-summary) |
 
 ---
