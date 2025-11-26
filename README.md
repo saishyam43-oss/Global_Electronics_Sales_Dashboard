@@ -1063,6 +1063,8 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 
 # 🟦 ACT 3 — Customer Insights & Retention Analysis
 
+This section focuses on **who Global Electronics’ customers are**, **which segments drive value**, and **how engagement and lifetime value evolve over time**. The goal is to translate customer demographics, value metrics, recency, and cohort behavior into a clear **retention and reactivation strategy**.
+
 ---
 
 ## 📸 **Customer Insights Dashboard — Full View**
@@ -1078,18 +1080,18 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 
 ## 📌 **KPI Summary**
 
-A quick overview of customer base health, value metrics, and acquisition performance.
+These KPIs summarize **2021 year-to-date** customer performance, with comparisons to the prior year based on the KPI card reference labels.
 
 <p align="center">
   <img src="Dashboard_Screenshots/05_Customer_Dashboard/KPI_Cards_2021_Customer.png">
 </p>
 
-| **KPI** | **Value & Insight** | **Action Recommendation** |
-|--------|----------------------|---------------------------|
-| **Active Customers (YTD)** | **485 active vs 15K total**, major retention decline. | Launch reactivation campaigns. |
-| **AOV** | **$2.10K**, **+4.6% YoY**. | Introduce smaller bundles to boost frequency. |
-| **CLTV** | **$2.14K**, **–11.1% YoY**. | Improve cross-sell & lifecycle engagement. |
-| **New Customers (YTD)** | **66**, **–93% YoY**. | Rebuild acquisition pipeline. |
+| **KPI** | **Value & Insight (2021, YTD)** | **Action Recommendation** |
+|--------|----------------------------------|---------------------------|
+| **Active Customers (YTD)** | **485 active customers** out of **15K total**, reflecting a very small engaged base relative to the full customer file. | Prioritize reactivation and engagement programs to bring lapsed and dormant customers back into the active pool. |
+| **Average Order Value (AOV)** | **$2.10K**, with **+4.6% vs prior year**, indicating customers who remain active still spend slightly more per transaction. | Protect this high-value behavior while designing smaller-ticket or add-on offers to increase order frequency. |
+| **Customer Lifetime Value (CLTV)** | **$2.14K**, with **–11.1% vs prior year**, suggesting lifetime value is slipping as fewer customers stay active long-term. | Introduce CLTV-boosting strategies: tailored upsell paths, post-purchase journeys, and loyalty rewards. |
+| **New Customers (YTD)** | **66 new customers**, with **–93.0% vs prior year**, showing a severely weakened acquisition funnel post-2019. | Rebuild acquisition with targeted campaigns, better audience targeting, and refreshed messaging/positioning. |
 
 ---
 
@@ -1108,17 +1110,34 @@ A quick overview of customer base health, value metrics, and acquisition perform
 
 
 ### ⭐ Key Insights
-- **65+ age group is the largest segment**, exceeding **4.5K customers**, making seniors the primary revenue base.
-- **Gender split is nearly balanced** across all age ranges, showing no major gender skew.
-- **36–65 age groups** form a strong middle-aged customer backbone with high stability.
-- **18–25 segment is the smallest**, indicating weak youth acquisition or limited product fit.
 
+#### 1. **Senior-heavy customer base**  
+   The **65+ age group is the single largest segment** (over 4.5K customers), making older customers the primary foundation of the portfolio.
+
+#### 2. **Balanced gender split**  
+   Male and female counts are relatively balanced in every age group, meaning **performance is driven more by age and lifecycle than by gender bias**.
+
+#### 3. **Middle-aged customers form the stable core**  
+   Age groups **26–65** contribute a broad, stable customer base, representing long-term, repeat buyers.
+
+#### 4. **Young customers are underrepresented**  
+   The **18–25 cohort is the smallest**, signaling limited penetration into younger demographics and potential future growth risk.
+   
 ### 💡 Action Recommendations
-- Build **senior-focused engagement programs**, emphasizing ease of use, support, and relevant offers.
-- Strengthen **mid-life customer retention** with loyalty rewards and recurring purchase incentives.
-- Launch **youth awareness campaigns** targeting the 18–35 range to diversify the customer mix (student discounts, digital-first messaging, influencer tie-ins).
-- Conduct **product-fit analysis** for younger demographics to identify missing offerings or UX gaps.
 
+#### 1. **Design for seniors first**  
+   - Tailor communication, UX, and service offerings for **65+ customers**.
+   - Build **senior-focused engagement programs**, emphasizing ease of use, support, and relevant offers.
+
+#### 2. **Protect and nurture the 26–65 core**  
+   - Invest in evergreen retention programs and cross-sell campaigns for **mid-life cohorts**, who form a dependable revenue backbone.
+   - Strengthen **mid-life customer retention** with loyalty rewards and recurring purchase incentives.
+
+#### 3. **Develop a youth acquisition strategy**  
+   - Experiment with campaigns, offers, and channels aimed at **18–25 customers** to diversify the age mix and secure future demand.
+   - Launch **youth awareness campaigns** targeting the 18–25 range (student discounts, digital-first messaging, influencer tie-ins).
+   - Conduct **product-fit analysis** for younger demographics to identify missing offerings or UX gaps.
+   
 ---
 
 ---
@@ -1135,20 +1154,27 @@ A quick overview of customer base health, value metrics, and acquisition perform
 </p>
 
 ### ⭐ Key Insights
-- **65+ customers deliver the highest revenue and profit**:  
-  - Female: **$7.9M**  
-  - Male: **$8.6M**  
-  - Total Profit: **$9.6M**
-- **36–65 age brackets** produce stable, mid-to-high revenue levels.
-- **18–25 cohort** generates the lowest revenue and profit.
-- Profit curves closely match revenue curves, indicating consistent margin structure across demographics.
+#### 1. **Seniors are the strongest financial engine**  
+   The **65+ segment** delivers the **highest revenue and profit for both genders**, with male seniors slightly ahead of female seniors.
+
+#### 2. **26–65 segments are strong but plateaued**  
+   Revenue from **26–65 groups** is steady and substantial but does not accelerate, suggesting maturity rather than growth.
+
+#### 3. **Younger segment is structurally weaker**  
+   **18–25** shows materially lower revenue and profit. This is consistent with demographic underrepresentation and indicates a **strategic blind spot**.
+
+#### 4. **Profit tracks revenue predictably**  
+   The profit line closely follows the revenue distribution across age groups, implying **margin consistency by age** and simplifying prioritization by revenue impact.
 
 ### 💡 Action Recommendations
-- Double down on **senior-targeted product bundles** and services to sustain high-margin contribution.
-- Reinforce **mid-life retention programs** with lifecycle messaging and targeted cross-sell.
-- Develop **youth-oriented SKUs**, entry-price products, or digital services to increase penetration among younger users.
-- Use **profit curve consistency** to confidently scale demographic-targeted pricing strategies.
+#### 1. **Double down on senior-focused value propositions**  
+   Senior customers respond well to the current offering; reinforce with loyalty tiers, service guarantees, and tailored bundles.
 
+#### 2. **Stabilize and modestly upgrade 26–65 performance**  
+   Focus on **CLTV growth** (upsell, cross-sell, warranties) rather than aggressive acquisition in already-penetrated age groups.
+
+#### 3. **Create a targeted plan for 18–25**  
+   Develop product packs, digital campaigns, and messaging that resonate with **younger professionals and first-time buyers**.
 ---
 
 ---
@@ -1165,17 +1191,33 @@ A quick overview of customer base health, value metrics, and acquisition perform
 </p>
 
 ### ⭐ Key Insights
-- **Females aged 26–35** exhibit the **highest CLTV (> $5,500)** and highest AOV.
-- **Male CLTV increases sharply in older groups**, peaking at **56–65** and **65+**.
-- CLTV for females shows a clear **midlife dip**. CLTV for males is more stable and increases, peaking at 56–65.
-- AOV remains **consistent** across demographics (~$2,100–$2,250), supporting stable forecasting.
+
+#### 1. **Females 26–35 show the highest CLTV**  
+   This group stands out with **peak CLTV (> $5.5K)** and slightly higher AOV, marking them as a **high-potential premium segment**.
+
+#### 2. **Male CLTV improves with age**  
+   Male CLTV **climbs in 56–65 and 65+ groups**, suggesting **loyalty and repeat purchases increase with age** among male customers.
+
+#### 3. **Mid-life CLTV dips for females**  
+   Female CLTV dips in **36–55** age bands pointing to **retention or engagement issues** rather than spending power.
+
+#### 4. **AOV is stable across segments**  
+   Both genders maintain AOV around **$2.1K–$2.25K**, indicating **transaction size is predictable**, and differences in CLTV are mainly driven by frequency and tenure.
 
 ### 💡 Action Recommendations
-- Target older male customers with **renewal programs, extended warranties, premium bundles, loyalty and exclusive value programs**.
-- Create **exclusive subscription plans or VIP programs** for 26–35 female customers to maximize their high CLTV.
-- Investigate causes behind midlife CLTV dip for females → refine product recommendations, adjust pricing, or personalize lifecycle messaging.
-- Use stable AOV to develop **predictive revenue models, personalized offers, and bundle recommendations**.
 
+#### 1. **Maximize value from 26–35 females**  
+   Offer **premium bundles, members-only perks, and targeted communications** to deepen loyalty in this high-CLTV group.
+
+#### 2. **Build structured loyalty programs for senior males**  
+   Senior male customers respond with higher CLTV, so design **tiered rewards, service upgrades, and long-term engagement** paths.
+
+#### 3. **Fix mid-life female retention gaps**  
+   Investigate experience, product relevance, and communication quality for **36–55 females**, then plug churn drivers with better journeys and offers.
+
+#### 4. **Use stable AOV in forecasting and offer design**  
+   Since AOV is consistent, focus experimentation on **frequency and lifecycle triggers**, not aggressive discounting that may erode margins.
+   
 ---
 
 ---
@@ -1192,16 +1234,32 @@ A quick overview of customer base health, value metrics, and acquisition perform
 </p>
 
 ### ⭐ Key Insights
-- **CLTV drops sharply** from active to dormant customers, confirming strong dependency on recent engagement.
-- AOV remains **high in the dormant segment**, likely driven by a small number of large purchases.
-- The **largest customer group is dormant (>365 days)**, signaling substantial reactivation opportunity.
-- Recent and active customers form the **smallest but highest-value** segments.
+
+#### 1. **CLTV erodes quickly with recency**  
+   Customers in the **0–30 day (Active)** bucket show the **highest CLTV**, which decays steadily as customers move into **Recent, Lapsed, At Risk, and Dormant**.
+
+#### 2. **Dormant segment is huge but underproductive**  
+   The **Dormant (>365 days)** segment has the **largest customer count** but the **lowest CLTV**, meaning most of the database is not actively contributing revenue.
+
+#### 3. **AOV is volatile at the extremes**  
+   AOV is high for **Active** customers, dips in **middle recency buckets**, and can spike in **Dormant** due to occasional large, one-off purchases.
+
+#### 4. **Healthiest economics are tightly linked to recency**  
+   The combination of **high CLTV + high AOV + low customer count** in the Active segment confirms **engagement is the primary driver of value**.
 
 ### 💡 Action Recommendations
-- Launch **tiered win-back campaigns** (email, SMS, incentives) for dormant/lapsed customers.
-- Build **automated recency-triggered journeys** to reduce decay in the 31–180 day segments.
-- Identify **dormant high-AOV outliers** and target them with premium offers to reactivate high-value potential.
-- Use CLTV decay curves to **prioritize retention resources** toward customers with higher predicted lifetime value.
+
+#### 1. **Protect and nurture Active customers obsessively**  
+   Use **post-purchase journeys, exclusive offers, and proactive communication** to keep 0–30 day customers engaged and prevent early lapse.
+
+#### 2. **Deploy structured win-back flows for At Risk and Dormant**  
+   Create **tiered reactivation campaigns** (e.g., soft reminder → stronger incentive → “last-chance” offer) based on recency buckets.
+
+#### 3. **Test high-impact reactivation offers**  
+   For high-AOV Dormant customers, consider **personalized offers**, VIP reactivation messages, or category-specific nudges.
+
+#### 4. **Integrate recency into CRM/marketing automation**  
+   Make recency a first-class segmentation dimension in all lifecycle campaigns.
 
 ---
 
@@ -1219,17 +1277,32 @@ A quick overview of customer base health, value metrics, and acquisition perform
 </p>
 
 ### ⭐ Key Insights
-- **2019 was the all-time high** for active and returning customers. Number of new customers peaked in 2018 and almost matched it in 2019.
-- 2020–2021 show a **sharp contraction**, with 2021 dropping to near-baseline levels.
-- Active customers fell from **6,500 → 400** in two years.
-- New customer acquisition crashed from **3,000 → 200**.
-- Returning customers followed a similar decline pattern, indicating weakened loyalty.
+
+#### 1. **2019 is the engagement peak**  
+   Active and returning customers **peak in 2019**, confirming this as the high-water mark of customer health. Number of new customers peaked in 2018 and almost matched it in 2019.
+
+#### 2. **Post-2019 collapse across all segments**  
+   From 2019 to 2021, **active customers fall from ~6,500 to ~400**, and **new customers fall from ~3,000 to ~200**. Returning customers mirror this drop.
+
+#### 3. **Acquisition and retention failed together**  
+   The synchronized decline of new and returning customers indicates **a systemic shock**, not just one weak area.
+
+#### 4. **2021 is a structural low point**  
+   2021 levels are close to or below early 2016 baseline, effectively **undoing multiple years of customer base growth**.
 
 ### 💡 Action Recommendations
-- Rebuild the acquisition engine with **paid ads, referrals, partnerships, and SEO-content funnels**.
-- Deploy **win-back and loyalty programs** to restore retention among mid-life and senior users.
-- Audit **what worked in 2018–2019** and revive best-performing campaigns.
-- Create **personalized remarketing journeys** to improve returning customer conversion rates.
+
+#### 1. **Design a full-funnel recovery plan**  
+   Address both **top-of-funnel (new customers)** and **mid-funnel (returning customers)** with dedicated acquisition and retention strategies.
+
+#### 2. **Reactivate lapsed 2018–2019 cohorts**  
+   Target customers acquired in **peak years** who have since gone quiet with **“We miss you” and “win-back” campaigns**.
+
+#### 3. **Rebuild acquisition with new channels**  
+   Test new paid channels, partnerships, and referral programs to re-open the acquisition pipeline.
+
+#### 4. **Track customer health as a core KPI**  
+   Elevate active / new / returning customer trends to **executive-level dashboards**.
 
 ---
 
@@ -1247,16 +1320,32 @@ A quick overview of customer base health, value metrics, and acquisition perform
 </p>
 
 ### ⭐ Key Insights
-- Most cohorts decline below **2% retention after early periods**, indicating weak long-term engagement.
-- **2016–2018 cohorts** show several high-retention streaks (**7–14%** in some periods).
-- **2020–2021 cohorts are the weakest**, heavily impacted by business disruptions or poor onboarding.
-- High-performing cohorts correlate with **successful campaigns or releases**.
-- Retention decay is consistent across periods, confirming systemic lifecycle gaps.
+
+#### 1. **Classic retention decay pattern**  
+   Most cohorts start with decent early retention, then **decay quickly** over subsequent months.
+
+#### 2. **2016–2018 contain the strongest cohorts**  
+   Several cohorts from these years maintain **7–14% retention over many periods**, reflecting strong product-market resonance.
+
+#### 3. **Recent cohorts are weaker and more fragile**  
+   **2020–2021 cohorts** show mostly red cells (low retention), suggesting onboarding and engagement issues in more recent years.
+
+#### 4. **Few long-lasting “evergreen” cohorts**  
+   Only a limited number of cohorts maintain strong retention beyond **12–18 months**, making them valuable examples for best-practice analysis.
 
 ### 💡 Action Recommendations
-- Analyze strong cohorts to identify repeatable **success drivers** (products, campaigns, onboarding).
-- Strengthen **onboarding flows, lifecycle messaging, and loyalty programs** to slow churn.
-- Closely track newer cohorts and intervene early to prevent ongoing decay.
+
+#### 1. **Study high-retention cohorts in detail**  
+   Deep dive into what was different in **2016–2018**: offers, product mix, channel strategy, or onboarding campaigns.
+
+#### 2. **Improve onboarding and early lifecycle experiences**  
+   Focus on the first **90 days** of the customer journey with educational, value-focused communication.
+
+#### 3. **Use cohort performance as a success metric**  
+   Treat cohort retention as a **core KPI** when evaluating new campaigns or launches.
+
+#### 4. **Prioritize structural fixes over one-off pushes**  
+   Rather than short-term boosts, design **systemic retention levers** (loyalty, subscription, service programs).
 
 ---
 
@@ -1274,17 +1363,32 @@ A quick overview of customer base health, value metrics, and acquisition perform
 </p>
 
 ### ⭐ Key Insights
-- **Dormant customers (>365 days)** form the largest segment, mostly with **1–3 lifetime purchases**.
-- **Active and Recent** customers show the highest frequency and highest monetary scores.
-- High-frequency buyers (10+ orders) are rare and **clustered exclusively** among Active/Recent groups.
-- Median customer recency is **427 days**, confirming portfolio-wide engagement challenges.
+
+#### 1. **Dormant customers dominate by volume but not value**  
+   The **Dormant (>365 days)** cluster holds the **largest headcount**, mostly with low frequency and modest value.
+
+#### 2. **Active and Recent segments contain the true “VIPs”**  
+   High-frequency, high-value customers are almost exclusively in **Active (0–30 days)** and **Recent (31–90 days)** buckets.
+
+#### 3. **Median recency is 427 days**  
+   This means the median customer is effectively **dormant**, reinforcing the earlier insight about a very small active core.
+
+#### 4. **Frequency is the scarce asset**  
+   Very few customers exceed **10 orders**, and those who do are disproportionately valuable; losing them would severely impact CLTV.
 
 ### 💡 Action Recommendations
-- Double down on **Active/Recent** users with loyalty perks and premium engagement.
-- Launch **win-back campaigns** for Lapsed and At-Risk customers (free shipping, discounts).
-- Develop reactivation flows for Dormant users based on AOV-based incentives.
-- Create **frequency acceleration campaigns** (add-on bundles, product reminders).
-- Integrate **RFM scoring** into CRM to enable automated hyper-targeted retention, reducing churn.
+
+#### 1. **Concentrate premium programs on Active/Recent clusters**  
+   Provide **exclusive benefits, early access, and priority support** to keep high-value clusters engaged.
+
+#### 2. **Build targeted win-back for Lapsed and At Risk**  
+   Use **RFM thresholds** to trigger campaigns before customers fall fully into Dormant.
+
+#### 3. **Segment Dormant customers by historical value**  
+   Treat high-Monetary dormant customers differently from low-Monetary ones: **personal outreach vs. scaled campaigns**.
+
+#### 4. **Operationalize RFM in CRM systems**  
+   Bake RFM scores into your CRM and marketing automation stack so retention logic is **continuous, not manual**.
 
 ---
 
@@ -1337,7 +1441,7 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 ## 🌍 A. Regional Revenue Distribution Map
 
 ### ❓ Business Question  
-**Which regions drive the bulk of revenue today, and where are the underpenetrated opportunities?**
+**Which regions drive revenue today, and how is revenue growth distributed geographically?**
 
 ---
 
@@ -1346,16 +1450,40 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 </p>
 
 ### ⭐ Key Insights
-1. **North America clearly dominates the map**, with the largest bubbles and highest revenue contribution.  
-2. **Europe forms the second-strongest cluster**, with multiple active countries but lower total revenue than North America.  
-3. **Australia appears as a small, isolated bubble**, highlighting a marginal presence versus North America and Europe.  
-4. There is **minimal or no footprint in Asia, Africa, or South America**, signalling huge white-space regions for the business.
+
+#### 1. **North America Is the Global Stronghold**
+- Highest revenue concentration, especially the **United States and Canada**.
+- Strong existing penetration, mature customer base, and high store density.
+
+#### 2. **Europe Shows Mixed Strength**
+- UK, Germany, France, Netherlands, and Italy generate meaningful revenue.
+- Growth coloring (yellow/orange/red) indicates mostly **flat or declining YoY growth**.
+
+#### 3. **Australia Is a Small but Stable Contributor**
+- Low total revenue but relatively consistent performance.
+- Represents niche but steady demand.
+
+#### 4. **Growth Hotspots Are Minimal**
+- Green zones (positive YoY growth) are rare.
+- Most regions show **negative or weak YoY growth**, likely tied to post-2019 downturn.
+
+#### 5. **Massive Untapped Opportunity in Asia, South America, Africa**
+- Almost no footprint.
+- Represents potential future expansion zones.
 
 ### 💡 Action Recommendations
-1. **Defend and deepen North America & Europe**, as they are the core revenue engines.  
-2. Conduct **market entry and feasibility studies** for priority underpenetrated regions (e.g., select Asia/South America markets).  
-3. Build a **regional diversification roadmap** to reduce overdependence on a few geographies.  
-4. Use this map routinely to track **expansion progress** and adjust go-to-market strategies by region.
+
+#### 1. **Defend large but weakening markets**  
+   For big red/yellow regions, focus on **retention, pricing, and local competitive strategy** to stabilize demand.
+
+#### 2. **Invest in green, growing pockets**  
+   Explore whether **smaller but green markets** can be scaled with targeted investments.
+
+#### 3. **Explore underpenetrated continents**  
+   Build a **longer-term expansion roadmap** for Asia, South America, and parts of Africa where product fit may be strong but presence is limited today.
+
+#### 4. **Align regional playbooks with growth signals**  
+   Use the **growth color coding** to prioritize where to push aggressively vs where to optimize and defend.
 
 ---
 
@@ -1373,16 +1501,32 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 </p>
 
 ### ⭐ Key Insights
-1. The **United States is the clear leader** in both revenue and profit, more than doubling most other countries.  
-2. The **Online channel** contributes a significant revenue share but operates with **slightly lower margins**, suggesting price competition or higher fulfillment costs.  
-3. **France and Australia display some of the highest profit margins (~59%+)**, even if their total revenue is lower, indicating very efficient local operations.  
-4. Other European markets like **UK, Germany, and Canada** contribute meaningfully but lag the US in both scale and efficiency.
+
+#### 1. **US is the primary profit and revenue engine**  
+   The US stands far above other countries in both revenue and profit, providing the **core economic base** for the business.
+
+#### 2. **Online is meaningful but lower margin**  
+   The “Online” channel contributes significantly to revenue but operates at a **slightly lower margin** than the physical leaders, hinting at different cost or pricing structures.
+
+#### 3. **France and Australia show relatively high margins**  
+   Some European markets (e.g., France) and Australia exhibit **slightly higher margins (~59%+)** compared to peers, though the absolute differences are small (within ~1–2%).
+
+#### 4. **Margin spread is narrow across countries**  
+   Most countries sit within a **tight 1–2% margin band** around 58–59%, meaning **performance differences are driven more by revenue scale than margin gaps**.
 
 ### 💡 Action Recommendations
-1. Use the **US as the primary benchmark** for scaling, but aim to **close the gap** by elevating UK, Canada, and Germany.  
-2. Study **France and Australia** to understand what drives their high margins (pricing, cost structure, mix) and **apply learnings elsewhere**.  
-3. Improve the **Online channel margin** by optimizing logistics, pricing, and basket composition.  
-4. Prioritize incremental investment in **profitable mid-tier countries** (e.g., UK, Germany) before pushing into entirely new markets.
+
+#### 1. **Use the US as a strategic anchor**  
+   Maintain strong execution in the US: **assortment, service, and store operations** should remain best-in-class.
+
+#### 2. **Leverage learnings from high-margin countries**  
+   Study **France and Australia** to understand subtle process or pricing advantages, and transfer applicable practices to similar markets.
+
+#### 3. **Optimize Online unit economics**  
+   Examine **fulfillment, discounting, and marketing costs** in the Online channel to move its margin closer to the physical network.
+
+#### 4. **Set country targets based on scale potential**  
+   Since margins are fairly uniform, **growth priorities should follow revenue headroom and addressable market size**, not just current profitability.
 
 ---
 
@@ -1400,16 +1544,32 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 </p>
 
 ### ⭐ Key Insights
-1. **North America leads across almost every metric**: revenue, profit, orders, CLTV, revenue per store, and sales per sq. meter.  
-2. **Europe shows solid margins and AOV**, but trails North America in absolute revenue and CLTV.  
-3. **Australia underperforms on all fronts**: revenue, orders, CLTV, and store utilization, suggesting structural issues in that market.  
-4. Data bars reveal **significant performance gaps** in revenue per store and sales per sq. meter between continents.
+
+#### 1. **North America leads across all major metrics**  
+   North America dominates in **revenue, profit, order count, CLTV, and sales per sqm**, making it the **core strategic region**.
+
+#### 2. **Europe is solid but structurally smaller**  
+   European regions show **respectable margins and AOV**, but lower totals in revenue and orders, reflecting a **smaller scale footprint**.
+
+#### 3. **Australia significantly lags**  
+   Australia sits at the **bottom across most metrics**, highlighting an underperforming region that either needs **a new strategy or a reconsideration of its role**.
+
+#### 4. **Store metrics reinforce geographic gaps**  
+   Sales per sqm and revenue per store mirror the broader pattern: **North America strongest, Europe mid-tier, Australia weakest**.
 
 ### 💡 Action Recommendations
-1. Treat **North America as the primary growth platform**, doubling down on product, channel, and customer initiatives there.  
-2. Launch **targeted uplift programs in Europe**, focusing on growing CLTV and order volumes, given their sound margin base.  
-3. Reassess **Australia’s strategy end-to-end**: product assortment, store locations, channel mix, and marketing.  
-4. Use this matrix as a **portfolio steering tool** when deciding where to invest, sustain, or restructure.
+
+#### 1. **Continue aggressive optimization and growth in North America**  
+   Use North America as the **testing ground for new initiatives** and as the main engine for revenue recovery.
+
+#### 2. **Run targeted uplift programs in key European countries**  
+   Focus on **improving CLTV and order frequency** in Europe to increase total contribution without over-expanding footprint.
+
+#### 3. **Re-evaluate the long-term strategy for Australia**  
+   Decide whether Australia should be **fixed, repositioned, or gradually deprioritized**, based on updated market and profitability analysis.
+
+#### 4. **Use the matrix as a strategic control panel**  
+   Treat this view as a **top-level portfolio management tool** guiding where to invest, where to optimize, and where to consider exiting.
 
 ---
 
@@ -1427,16 +1587,32 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 </p>
 
 ### ⭐ Key Insights
-1. **Nevada, Kansas, Nebraska, and Northwest Territories** sit at the top of the revenue ranking, all **above the average revenue line**.  
-2. The **gap between top states is relatively small**, indicating **healthy spread** rather than extreme concentration in just one or two locations.  
-3. Both **US and Canadian states/provinces** appear among the top contributors, confirming cross-country strength.  
-4. Top states combine **solid revenue with stable margins**, indicating sustainable performance rather than pure volume pushes.
+
+#### 1. **A mix of US and Canadian leaders**  
+   States like **Nevada, Kansas, Nebraska, and Northwest Territories** dominate the top positions, showing that **both US and Canada contribute significantly** at the state/territory level.
+
+#### 2. **All top states sit comfortably above the average line**  
+   The built-in average line shows that **all top-6 states outperform the network average**, indicating a well-defined high-performing cluster.
+
+#### 3. **Revenue concentration risk is moderate, not extreme**  
+   The gaps between these top states are meaningful but not extreme, so **revenue is shared across multiple strong states rather than hinging on a single outlier**.
+
+#### 4. **States pattern may reflect store clustering or demographic fit**  
+   The leading states likely reflect **both store density and strong local product-market fit**.
 
 ### 💡 Action Recommendations
-1. Maintain strong **account management and localized programs** in these top states to protect share.  
-2. Use the **playbook from top states** (campaigns, partnerships, in-store practices) to uplift the next tier of states.  
-3. Explore **incremental revenue opportunities** such as partnerships, events, or localized promotions in these leading states.  
-4. Monitor top-state performance trends for **early warning signs** of saturation or decline.
+
+#### 1. **Protect and support top states with dedicated account management**  
+   Ensure **inventory priority, local marketing, and strong store leadership** in these regions.
+
+#### 2. **Use top states as playbook templates**  
+   Analyze what makes these states successful (demographics, channel mix, assortment), and **adapt those patterns in next-tier states**.
+
+#### 3. **Monitor for early plateau or saturation**  
+   Track **growth trends** in top states; if they're flattening, explore new levers (e.g., new categories, services, or micro-markets).
+
+#### 4. **Look for adjacent state expansion opportunities**  
+   Use these states as hubs from which to **expand to neighboring regions** with similar customer profiles.
 
 ---
 
@@ -1454,16 +1630,32 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 </p>
 
 ### ⭐ Key Insights
-1. **Franche-Comté (France) and Northern Territory (Australia)** sit at the bottom, with very low revenue relative to peers.  
-2. The bottom 6 includes states from **multiple countries**, suggesting **local execution or demand issues** rather than a single region problem.  
-3. Revenue in these states is **sub-$6K**, an order of magnitude below company/state averages, raising serious questions about viability.  
-4. Margins may still look reasonable on a percentage basis, but **absolute value created is negligible**.
+
+#### 1. **Four states with extremely low revenue (< $6K)**  
+   **New Brunswick, Rhode Island, Mississippi, and South Australia** sit clearly at the bottom, with **sub-$6K revenue**, indicating extremely weak performance.
+
+#### 2. **Franche-Comté and Northern Territory are low but not catastrophic**  
+   **Franche-Comté (France)** and **Northern Territory (Australia)** are part of the bottom six but **sit above the absolute laggards**, with higher revenue levels, especially on the log-scale axis.
+
+#### 3. **Geographic diversification of weak states**  
+   The bottom six are spread across **multiple countries**, showing that underperformance is **not confined to one geography** and is likely driven by local factors.
+
+#### 4. **Bottom states fall well below the network average**  
+   The average revenue line is significantly above all six, underscoring how far these states lag behind the rest of the network.
 
 ### 💡 Action Recommendations
-1. Perform **viability assessments** for each bottom-tier state: is there a strategic reason to stay?  
-2. Run **time-limited recovery experiments** (promos, channel tweaks) in these markets and measure uplift.  
-3. If uplift is minimal, **reallocate marketing and operational resources** to higher-performing regions.  
-4. Where strategic, retain a **lightweight presence** (e.g., online-only) instead of full physical footprint.
+
+#### 1. **Perform viability assessments for the bottom four**  
+   For **New Brunswick, Rhode Island, Mississippi, and South Australia**, evaluate whether to **fix, re-position, or gradually exit**.
+
+#### 2. **Test targeted interventions where there is some traction**  
+   For **Franche-Comté and Northern Territory**, pilot **local campaigns, assortment tweaks, or channel adjustments** before considering more drastic action.
+
+#### 3. **Use top-state learnings to uplift selected weak markets**  
+   Where demographics and channels are comparable, apply **top-state best practices** to see if bottom states respond before reallocating capital.
+
+#### 4. **Make state-level performance part of governance**  
+   Use these state charts as a **regular dashboard for portfolio decisions** (closures, remodels, investments).
 
 ---
 
@@ -1481,16 +1673,32 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 </p>
 
 ### ⭐ Key Insights
-1. Stores in **Hawaii, Montana, and New Hampshire** top the list, with **sales per sq. meter well above the average**.  
-2. Some of these high-efficiency stores also post **profit margins above 59%**, indicating best-in-class operations.  
-3. A few top-revenue-per-sqm stores show **good revenue but only average margins**, pointing to cost or discounting issues.  
-4. Top stores are **geographically diverse**, suggesting store success is driven more by local execution than just macro location.
+
+#### 1. **High-performing stores achieve strong sales density**  
+   Stores in locations like **Hawaii, Montana, and New Hampshire** deliver **top-tier revenue per sqm**, positioning them as **efficiency leaders** in the network.
+
+#### 2. **Margins differ only slightly**  
+   All top stores hover around **58–59% margin**, indicating that **efficiency differences are driven mainly by revenue density**, not by structurally different margins.
+
+#### 3. **Geographic diversity among top stores**  
+   The top 6 are **spread across multiple states**, suggesting store-level management, local competition, and micro-market dynamics matter as much as national context.
+
+#### 4. **Consistency in margin suggests scalable economics**  
+   Since margins are similar, replicating **traffic and conversion drivers** from top stores can produce similar economics elsewhere.
 
 ### 💡 Action Recommendations
-1. Use these top stores as **benchmarks for operational excellence**, studying layout, staff practices, and assortment.  
-2. Design **recognition and incentive programs** for high-performing store teams to reinforce success behaviors.  
-3. Investigate **cost drag in high-revenue but lower-margin stores**, and fix controllable factors (labor mix, discounting, shrink).  
-4. Use top stores as **pilot locations** for new initiatives before rolling them out network-wide.
+
+#### 1. **Benchmark store operations and behaviors**  
+   Analyze **staffing models, store layouts, local marketing, and assortment decisions** at top stores, then codify them into best practices.
+
+#### 2. **Promote top stores as pilot locations**  
+   Use these stores to **test new concepts, merchandising, and in-store experiences** before rolling out to the wider network.
+
+#### 3. **Support top stores with growth initiatives**  
+   Help them expand category penetration, upsell attachment rates, and cross-sell to **fully exploit their strong traffic base**.
+
+#### 4. **Set sales-per-sqm targets informed by these leaders**  
+   Use top store performance as a **benchmark, not an anomaly**, when setting sales efficiency goals.
 
 ---
 
@@ -1508,16 +1716,32 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 </p>
 
 ### ⭐ Key Insights
-1. Among the bottom 6, **Bavaria (Germany)** still shows **relatively better efficiency**, but the remaining stores (New Brunswick, Northern Territory, South Australia, Rhode Island, Mississippi) are **extremely low on sales per sq. meter**.  
-2. Some of these stores show **decent profit margins despite low revenue**, suggesting niche pricing or very lean operations.  
-3. Low sales per sq. meter often coincide with **low revenue per store**, highlighting structural profitability issues.  
-4. Performance issues appear **store-specific rather than systemic**, pointing to execution or local demand challenges.
+
+#### 1. **Very low revenue per sqm in the bottom group**  
+   Stores in **New Brunswick, Northern Territory, South Australia, Rhode Island, Mississippi**, and **Bavaria** deliver **far lower sales per sqm** than the network average.
+
+#### 2. **Margins are not significantly worse**  
+   Profit margins generally remain in the **same 58–59% band**, implying that **pricing and product economics are not the main issue**.
+
+#### 3. **The problem is demand and throughput, not unit economics**  
+   With margins in line but sales density low, the key constraint appears to be **footfall, local demand, or conversion**, not cost structure.
+
+#### 4. **These stores span different countries and regions**  
+   Weak store performance is **localized** and not simply tied to one country or region.
 
 ### 💡 Action Recommendations
-1. Conduct **store-level operational audits**: traffic, conversion, assortment, local competition.  
-2. Experiment with **layout changes, staff retraining, and localized assortments** in these locations.  
-3. Set **clear turnaround thresholds**; if stores remain unprofitable, consider **closure, relocation, or conversion** (e.g., pickup hub).  
-4. Where margins are high but revenue is low, explore **niche focus or online-driven hybrid models**.
+
+#### 1. **Run detailed store diagnostics**  
+   Assess **traffic, local competition, product relevance, staff capability, and marketing intensity** at each of these locations.
+
+#### 2. **Pilot corrective actions before deciding on closure**  
+   Test **layout changes, assortment adjustments, local campaigns, and staffing optimization** to see if performance can be salvaged.
+
+#### 3. **Set clear performance thresholds and timelines**  
+   If, after interventions, stores still underperform, **consider consolidation or closure** to free up capital.
+
+#### 4. **Use bottom stores to understand structural vs fixable issues**  
+   Distinguish between **location-driven constraints** (hard to fix) and **execution-driven issues** (fixable with better operations).
 
 ---
 
@@ -1526,7 +1750,7 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 ## 📊 H. Store Profitability Matrix (Revenue vs Margin)
 
 ### ❓ Business Question  
-**How do stores balance revenue scale and margin, and which ones are true “stars” vs candidates for restructuring?**
+**How do stores cluster by revenue and margin, and what does this imply at a country level about store network health?**
 
 ---
 
@@ -1539,16 +1763,32 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 </p>
 
 ### ⭐ Key Insights
-1. Most stores cluster around **average revenue and margin**, forming a stable core.  
-2. A subset of stores in the **upper-right quadrant** (high revenue, high margin) are true **“star” locations** that significantly outperform the portfolio.  
-3. Some stores show **high revenue but only average or low margins**, indicating volume without adequate profitability.  
-4. A tail of stores in the **lower-left quadrant** combines low revenue and low margin, contributing little to overall value.
+
+#### 1. **US and Canadian stores tend to cluster in the higher-revenue band**  
+   The matrix shows many **US and Canada stores in the upper ranges of revenue**, often with margins in the **58–59% range**, making them the **backbone of the store network**.
+
+#### 2. **European stores are more scattered in revenue**  
+   European stores (e.g., Germany, France, UK) display **more dispersion in revenue**, though margins remain fairly homogeneous.
+
+#### 3. **Australian stores cluster toward the lower revenue end**  
+   Australian stores tend to fall **closer to the lower-revenue region** of the matrix, suggesting **underutilized potential**.
+
+#### 4. **Margin is tightly clustered; revenue is the main differentiator**  
+   Because margins sit within a **narrow 1–2% band**, store performance differences are **primarily driven by volume and sales per sqm**, not structural profitability per order.
 
 ### 💡 Action Recommendations
-1. Prioritize **investment and expansion options** for high-revenue, high-margin “star” stores.  
-2. For **high-revenue, low-margin stores**, focus on margin repair: pricing discipline, cost structure optimization, and mix improvements.  
-3. Use the **low-revenue, low-margin cluster** as a candidate list for **closure, consolidation, or radical restructuring**.  
-4. Refresh this matrix regularly as a **network health view** to guide store-level capital allocation decisions.
+
+#### 1. **Use country-level clustering to prioritize network strategy**  
+   Focus **expansion, remodels, and capital allocation** on countries whose stores cluster in the **upper revenue bands**.
+
+#### 2. **Design targeted uplift plans for under-clustered countries**  
+   For countries where most stores are **low-revenue**, build **country-specific initiatives** (pricing, assortment, partnership, or marketing) to lift the entire cluster.
+
+#### 3. **Treat store-level variability as an execution lever**  
+   With margins stable, focus on **traffic, conversion, and basket size** as key levers, not cost realignment.
+
+#### 4. **Integrate this matrix into ongoing portfolio reviews**  
+   Make **store cluster health** part of quarterly or annual strategic reviews to guide openings, refurbishments, and closures.
 
 ---
 
