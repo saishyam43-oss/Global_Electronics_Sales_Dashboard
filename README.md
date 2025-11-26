@@ -1361,7 +1361,7 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 
 ---
 
-## 🇺🇸 B. Revenue, Profit & Margin by Country
+## 💰 B. Revenue, Profit & Margin by Country
 
 ### ❓ Business Question  
 **Which countries deliver the most revenue and profit, and where are margins strongest?**
