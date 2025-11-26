@@ -2088,7 +2088,7 @@ A complete view of the technologies used across data cleaning, modelling, analys
 
 # 🏗️ Final Project Architecture Diagram
 
-```mermaid
+```
 flowchart LR
 
 A[Raw CSV Files<br>(Datasets/)] --> B[Power Query<br>Cleaning & Transformation]
