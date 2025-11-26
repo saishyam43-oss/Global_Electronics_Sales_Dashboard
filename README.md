@@ -1995,6 +1995,117 @@ What GE needs now is **focused execution** guided by data.
 
 ---
 
+# 🛑 Limitations & Future Improvements
+
+Even though this project covers a full end-to-end business intelligence workflow, several constraints limit the depth and scalability of insights.
+
+---
+
+## 🔹 Current Limitations
+
+### **1. Static Snapshot (Not Connected to a Live Database)**
+- The dashboards currently use flat CSV files.  
+- No real-time or scheduled refresh from a transactional source.
+
+### **2. Limited Historical Context**
+- Some metrics (e.g., AOV, CLTV, YoY changes) are influenced by missing months in 2021 and incomplete transactional attributes.
+
+### **3. No Row-Level Security (RLS)**
+- Dataset is not configured for secure stakeholder-specific views.
+
+### **4. Some Attributes Require Stronger Standardisation**
+- Product, customer and store tables required extensive cleaning.  
+- Additional metadata fields would improve segmentation/forecasting.
+
+### **5. No Predictive/ML Layer Yet**
+- Churn prediction, demand forecasting and recommender systems are not implemented.
+
+---
+
+## 🔹 Future Improvements
+
+### **1. Connect to a SQL/Staging Layer**
+- Use incremental refresh and Power BI pipelines.  
+- Enable 24/7 scheduled refresh and scalable analytics.
+
+### **2. Add Machine Learning Models**
+- Customer churn prediction  
+- AOV uplift modelling  
+- Inventory optimization  
+- Forecasting for revenue, orders and demand
+
+### **3. Implement Row-Level Security**
+- Region-specific dashboards  
+- Store-manager views  
+- Leadership vs. analyst access control
+
+### **4. Expand Customer Behaviour Analytics**
+- Session-level data (web tracking)  
+- Cohorts based on acquisition channels  
+- Attribution modelling
+
+### **5. Build Automated Data Quality Framework**
+- Validation scripts  
+- Anomaly detection on ingestion  
+- Automated alerts for missing/incorrect data
+
+---
+
+---
+
+# 🛠️ Technical Stack
+
+A complete view of the technologies used across data cleaning, modelling, analysis and dashboarding.
+
+---
+
+## 🔹 **Data Storage**
+- CSV datasets
+- Power BI import mode
+
+## 🔹 **Data Cleaning**
+- SQL (Data_Cleaning_SQL/)
+- Excel validation
+- Power Query (M transformations)
+
+## 🔹 **Data Modelling**
+- Star schema design
+- DAX measures and calculated tables
+- Custom time intelligence functions
+
+## 🔹 **Analytics & Visualization**
+- Microsoft Power BI Desktop (Version 2023+ recommended)
+- DAX Studio (for performance checks)
+- Power Query Editor
+
+## 🔹 **Supporting Tools**
+- GitHub (source control + versioning)
+- Markdown + Mermaid (documentation and diagrams)
+
+---
+
+---
+
+# 🏗️ Final Project Architecture Diagram
+
+```mermaid
+flowchart LR
+
+A[Raw CSV Files<br>(Datasets/)] --> B[Power Query<br>Cleaning & Transformation]
+B --> C[SQL Cleaning Scripts<br>(Data_Cleaning_SQL/)]
+C --> D[Cleaned Tables<br>(Data_Cleaning_Tables/)]
+
+D --> E[Power BI Data Model<br>(Star Schema)]
+E --> F[DAX Calculations<br>(Measures, KPIs, Time Intelligence)]
+
+F --> G[Interactive Dashboards<br>(Product, Time, Customer, Region)]
+G --> H[Insights & Recommendations<br>(README Documentation)]
+```
+
+---
+
+---
+
 ## 🛠️ Project Setup & How to Use This Dashboard
 
 This section explains how to open the project, refresh the data, and understand the repository structure.
@@ -2109,3 +2220,22 @@ Once loaded, the dashboard will automatically compute:
 - Regional analysis (Act 4)  
 
 Use slicers for **Year, Category, Region** to explore the dataset interactively.
+
+
+---
+
+## ⭐ **Call-to-Action**
+
+```
+# 📢 Call to Action
+
+If you would like to:
+- Explore the dataset in detail  
+- Request a walkthrough of the dashboard  
+- Discuss how to build similar BI solutions  
+- Collaborate on analytics or portfolio projects  
+
+Feel free to reach out or open an issue in the repository.
+
+🚀 **Happy analyzing!**
+```
