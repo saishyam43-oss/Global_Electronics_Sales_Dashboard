@@ -1154,6 +1154,7 @@ These KPIs summarize **2021 year-to-date** customer performance, with comparison
 </p>
 
 ### ⭐ Key Insights
+
 #### 1. **Seniors are the strongest financial engine**  
    The **65+ segment** delivers the **highest revenue and profit for both genders**, with male seniors slightly ahead of female seniors.
 
@@ -1167,6 +1168,7 @@ These KPIs summarize **2021 year-to-date** customer performance, with comparison
    The profit line closely follows the revenue distribution across age groups, implying **margin consistency by age** and simplifying prioritization by revenue impact.
 
 ### 💡 Action Recommendations
+
 #### 1. **Double down on senior-focused value propositions**  
    Senior customers respond well to the current offering; reinforce with loyalty tiers, service guarantees, and tailored bundles.
 
@@ -1175,6 +1177,7 @@ These KPIs summarize **2021 year-to-date** customer performance, with comparison
 
 #### 3. **Create a targeted plan for 18–25**  
    Develop product packs, digital campaigns, and messaging that resonate with **younger professionals and first-time buyers**.
+   
 ---
 
 ---
