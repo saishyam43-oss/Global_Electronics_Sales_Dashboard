@@ -2089,17 +2089,34 @@ A complete view of the technologies used across data cleaning, modelling, analys
 # 🏗️ Final Project Architecture Diagram
 
 ```mermaid
-flowchart LR;
+flowchart LR
+    %% Data flow: Raw CSV -> SQL cleaning -> Clean tables -> Power BI model -> Dashboards / Docs
 
-A[Raw CSV Files<br>(Datasets/)] --> B[Power Query<br>Cleaning & Transformation];
-B --> C[SQL Cleaning Scripts<br>(Data_Cleaning_SQL/)];
-C --> D[Cleaned Tables<br>(Data_Cleaning_Tables/)];
+    subgraph Source_Files[Source Files]
+        A[Raw CSV files<br/>Datasets folder]
+    end
 
-D --> E[Power BI Data Model<br>(Star Schema)];
-E --> F[DAX Calculations<br>(Measures, KPIs, Time Intelligence)];
+    subgraph Cleaning_SQL[SQL Cleaning]
+        B[SQLite database & SQL scripts<br/>Data_Cleaning_SQL]
+        C[Cleaned tables as CSV<br/>Data_Cleaning_Tables]
+    end
 
-F --> G[Interactive Dashboards<br>(Product, Time, Customer, Region)];
-G --> H[Insights & Recommendations<br>(README Documentation)];
+    subgraph PowerBI[Power BI Model & Reports]
+        D[Power BI data model<br/>PBIX file]
+        E[Dashboards & visuals<br/>Dashboard_Screenshots, Images]
+        F[DAX measures & calculated columns<br/>DAX folder]
+    end
+
+    subgraph Documentation[Documentation]
+        G[README, Technical notes<br/>Technical_Appendix]
+    end
+
+    %% Edges
+    A --> B --> C --> D --> E
+    D --> F
+    C --> G
+    F --> G
+
 ```
 
 ---
