@@ -1878,47 +1878,6 @@ This section explains how to open the project, refresh the data, and understand 
 
 ## 📥 1. Opening the Power BI File
 
-1. Go to the **PBIX/** folder.
-2. Download the file:  
-   **`Global_Electronics_Dashboard.pbix`**
-3. Open it using **Microsoft Power BI Desktop**.
-
-### ✔ Required Power BI Version
-- **Power BI Desktop – December 2023 or later**
-- Earlier versions may fail to load objects such as:
-  - Field parameters  
-  - Small multiples  
-  - New card visual  
-  - Optimization engine features  
-
----
-
-## 🔄 2. Refreshing the Data
-
-The project uses **import mode**, so refreshing is straightforward.
-
-### Steps:
-1. Open the PBIX file.
-2. Go to the **Home** tab.
-3. Click **Refresh**.
-4. Power BI will read the CSV files from the **Datasets/** folder.
-
-> ⚠️ **Important:**  
-> Do not rename or move the CSV files inside `Datasets/`.  
-> Power BI uses relative folder paths and will break if the structure changes.
-
----
-
-## 📂 3. Repository Folder Structure
-
-## 🛠️ Project Setup & How to Use This Dashboard
-
-This section explains how to open the project, refresh the data, and understand the repository structure.
-
----
-
-## 📥 1. Opening the Power BI File
-
 1. Go to the [`/PBIX`](PBIX/)  folder.
 2. Download the file:  
    **`Global_Electronics_Dashboard.pbix`**
@@ -1954,25 +1913,26 @@ The project uses **import mode**, so refreshing is straightforward.
 
 📦 Project Root
 │
+
 ├── PBIX/ → Final Power BI report
 │ └── Global_Electronics_Dashboard.pbix
-│
+
 ├── Datasets/ → Raw CSV data used in the model
-│
+
 ├── Data_Cleaning_SQL/ → All SQL scripts used for preprocessing
-│
+
 ├── Data_Cleaning_Tables/ → Table-wise cleaned outputs (if applicable)
-│
+
 ├── Data_Model/ → Schema diagrams, relationships, notes
-│
+
 ├── Dashboard_Screenshots/ → All images used in the README (Acts 1–4)
-│
+
 ├── DAX/ → Key calculated measures and supporting DAX logic
-│
+
 ├── Technical_Appendix/ → Documentation, logic breakdowns, helper notes
-│
+
 ├── Images/ → Supplementary images (logos, icons, assets)
-│
+
 └── README.md → Full project documentation
 
 ---
