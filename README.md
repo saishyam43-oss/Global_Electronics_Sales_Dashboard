@@ -285,20 +285,88 @@ The analysis is structured into four “Acts,” each representing a pillar of t
 
 ---
 
-## 📑 Analysis Table of Contents
+# 📚 Global Navigation Table
 
-- **Act 1: Product Performance Overview**  
-  How categories, brands, and SKUs contribute to revenue, profit, and margin.  
-- **Act 2: Sales Trends & Time Performance**  
-  How revenue, profit, orders, and seasonality evolved across 2016–2021.  
-- **Act 3: Customer Insights & Retention**  
-  How different customer segments behave across value, recency, and cohorts.  
-- **Act 4: Regional & Store Performance**  
-  Which regions and stores drive growth, efficiency, and margin.
+Use this table to jump across all dashboards, KPIs, analyses, and summaries in the project.  
+The structure mirrors the four core business pillars of the Global Electronics narrative.
 
 ---
 
-# 🟦 **ACT 1 — Product Performance & Portfolio Diagnosis**
+## 🔵 Act 1 — Product Performance & Portfolio Diagnosis
+  
+  How categories, brands, and SKUs contribute to revenue, profit, and margin. 
+
+| Section | Description | Link |
+|--------|-------------|------|
+| **KPI Summary** | Product-level revenue, profit, units, and category profitability | [Jump to KPI Summary](#-kpi-summary) |
+| **A. Category Revenue Contribution** | Top vs long-tail categories and portfolio concentration | [View Section](#a-category-revenue-contribution-pie-charts) |
+| **B. Profit Margin Distribution by Brand** | Margin stability and risk analysis | [View Section](#b-profit-margin-distribution-by-brand-top-5--bottom-5) |
+| **C. Subcategory BCG Matrix** | Stars, Cash Cows, Question Marks, Dogs | [View Section](#c-subcategory-positioning--revenue-vs-profit-margin-bcg-quadrant) |
+| **D. SKU-Level Performance** | Best and worst performing SKUs | [View Section](#d-sku-level-performance--top-vs-least-selling-products) |
+| **E. Product Metrics Matrix** | Revenue, units, margins by category | [View Section](#e-detailed-metrics--regional-product-performance) |
+| **Act Summary** | Portfolio strengths, weaknesses and optimisation actions | [Jump](#-act-1-summary) |
+
+---
+  
+## 🟦 Act 2 — Sales Performance Over Time
+
+  How revenue, profit, orders, and seasonality evolved across 2016–2021.  
+
+| Section | Description | Link |
+|--------|-------------|------|
+| **KPI Summary** | Volume, revenue, margin and delivery metrics for YTD | [Jump to KPI Summary](#-kpi-summary-1) |
+| **A. Revenue, Profit & Margin (RPM)** | Multi-year operating trajectory | [View Section](#a-revenue-profit--margin-over-time) |
+| **B. YoY Revenue Growth %** | Expansion and contraction phases | [View Section](#b-year-over-year-revenue-growth-) |
+| **C. Orders & Delivery Speed** | Demand vs operational efficiency | [View Section](#c-order-volume--delivery-speed-over-time) |
+| **D. Operational Health (AOV, Orders, Margin)** | Core economics health check | [View Section](#d-operational-health-trends-orders-aov-margin) |
+| **E. Cumulative Sales Progress** | Year-by-year sales trajectory comparison | [View Section](#e-cumulative-sales-progress-by-year) |
+| **F. Category Profit Contribution** | Long-term profitability by category | [View Section](#f-product-category-profit-contribution-over-time) |
+| **G. Regional Profit Contribution** | Profitability by region over time | [View Section](#g-regional-profit-contribution-over-time) |
+| **H. Monthly Sales Heatmap** | Seasonality and disruption patterns | [View Section](#h-monthly-sales-heatmap) |
+| **Act Summary** | Peak-to-decline narrative and market signals | [Jump](#-act-2-summary) |
+
+---
+  
+## 🟩 Act 3 — Customer Insights & Retention Analysis
+
+  How different customer segments behave across value, recency, and cohorts.  
+
+| Section | Description | Link |
+|--------|-------------|------|
+| **KPI Summary** | Active customers, AOV, CLTV, new customers | [Jump to KPI Summary](#-kpi-summary-2) |
+| **A. Customer Demographics** | Age & gender distribution | [View Section](#a-customer-demographics-by-age--gender) |
+| **B. Revenue & Profit by Demographics** | Customer value drivers | [View Section](#b-revenue--profit-by-age--gender) |
+| **C. CLTV & AOV Analysis** | High-value customer segments | [View Section](#c-cltv--aov-by-age-group--gender) |
+| **D. Customer Value Decay** | Value deterioration by recency | [View Section](#d-customer-value-decay-by-recency) |
+| **E. Acquisition & Retention Trends** | New, active, and returning users | [View Section](#e-customer-acquisition--retention-trends-20162021) |
+| **F. Cohort Analysis** | Longitudinal retention | [View Section](#f-customer-retention-cohort-analysis) |
+| **G. RFM Segmentation** | Actionable retention clusters | [View Section](#g-rfm-segmentation-recencyfrequencymonetary) |
+| **Act Summary** | Retention gaps and next-step strategy | [Jump](#-act-3-summary) |
+
+---
+  
+## 🟥 Act 4 — Regional & Store Performance
+
+  Which regions and stores drive growth, efficiency, and margin.
+
+| Section | Description | Link |
+|--------|-------------|------|
+| **KPI Summary** | Revenue, margin, sales per sqm, store performance | [Jump to KPI Summary](#-kpi-summary-3) |
+| **A. Regional Revenue Map** | Revenue + YoY growth by geography | [View Section](#a-regional-revenue-distribution-map) |
+| **B. Country RPM** | Revenue, profit, margin across countries | [View Section](#b-revenue-profit--margin-by-country) |
+| **C. Regional Matrix** | Region-level comparison (CLTV, profit, store density) | [View Section](#c-regional-performance-summary-matrix) |
+| **D. Top 6 States** | Best performing states by revenue | [View Section](#d-top-6-states-by-revenue) |
+| **E. Bottom 6 States** | Weakest revenue contributors | [View Section](#e-bottom-6-states-by-revenue) |
+| **F. Top Stores by Efficiency** | Best sales-per-sqm stores | [View Section](#f-top-6-stores-by-sales-efficiency) |
+| **G. Bottom Stores by Efficiency** | Underperforming stores by density | [View Section](#g-bottom-6-stores-by-sales-efficiency) |
+| **H. Store Profitability Matrix** | Revenue vs margin clustering | [View Section](#h-store-profitability-matrix-revenue-vs-margin) |
+| **Act Summary** | Regional strategy and store optimisation | [Jump](#act-4-summary) |
+
+---
+
+---
+
+# 🔵 **ACT 1 — Product Performance & Portfolio Diagnosis**
 
 This section analyzes **what Global Electronics sells**, **which categories drive growth**, and **which product segments drain performance**. The goal is to understand portfolio strengths and weaknesses through a combination of **revenue concentration**, **margin distribution**, **SKU performance**, and **subcategory positioning**.
 
@@ -1061,7 +1129,7 @@ Future strategy must prioritize **volume recovery**, **regional expansion**, and
 
 ---
 
-# 🟦 ACT 3 — Customer Insights & Retention Analysis
+# 🟩 ACT 3 — Customer Insights & Retention Analysis
 
 This section focuses on **who Global Electronics’ customers are**, **which segments drive value**, and **how engagement and lifetime value evolve over time**. The goal is to translate customer demographics, value metrics, recency, and cohort behavior into a clear **retention and reactivation strategy**.
 
@@ -1402,7 +1470,7 @@ The biggest growth levers lie in **reactivation**, **youth-segment outreach**, *
 
 ---
 
-# 🟦 **ACT 4 — Regional Performance Analysis (Initial Section)**
+# 🟥 **ACT 4 — Regional Performance Analysis (Initial Section)**
 
 This section analyzes **where Global Electronics makes its money** and **how efficiently stores convert space into revenue and profit**.  
 We move from global regions down to countries, states, and finally store-level performance to identify **high-performing markets**, **underperforming regions**, and **store efficiency gaps**.
