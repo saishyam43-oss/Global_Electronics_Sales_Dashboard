@@ -360,7 +360,7 @@ The structure mirrors the four core business pillars of the Global Electronics n
 | **F. Top Stores by Efficiency** | Best sales-per-sqm stores | [View Section](#f-top-6-stores-by-sales-efficiency) |
 | **G. Bottom Stores by Efficiency** | Underperforming stores by density | [View Section](#g-bottom-6-stores-by-sales-efficiency) |
 | **H. Store Profitability Matrix** | Revenue vs margin clustering | [View Section](#h-store-profitability-matrix-revenue-vs-margin) |
-| **Act Summary** | Regional strategy and store optimisation | [Jump](#act-4-summary) |
+| **Act Summary** | Regional strategy and store optimisation | [Jump](#-act-4-summary) |
 
 ---
 
