@@ -2168,7 +2168,8 @@ The project uses **import mode**, so refreshing is straightforward.
 │
 
 ├── PBIX/ → Final Power BI report
-│ └── Global_Electronics_Dashboard.pbix
+  
+  └── Global_Electronics_Dashboard.pbix
 
 ├── Datasets/ → Raw CSV data used in the model
 
@@ -2181,8 +2182,6 @@ The project uses **import mode**, so refreshing is straightforward.
 ├── Dashboard_Screenshots/ → All images used in the README (Acts 1–4)
 
 ├── DAX/ → Key calculated measures and supporting DAX logic
-
-├── Technical_Appendix/ → Documentation, logic breakdowns, helper notes
 
 ├── Images/ → Supplementary images (logos, icons, assets)
 
