@@ -29,7 +29,7 @@ The primary stakeholders—the **VP of Sales** and the **Director of Marketing**
 
 # 2. Business Problem & Objective
 
-The core business problem was a **lack of visibility**. The leadership team was "flying blind" and could not answer critical, data-driven questions:
+The core business problem was a **lack of visibility**. The leadership team lacked an integrated view across products, customers, regions, and time and could not answer critical, data-driven questions:
 
 * **Why** did our strong sales growth reverse after 2019?
 * **Are** we failing to acquire new customers, or are we losing our loyal ones?
