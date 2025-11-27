@@ -2174,6 +2174,7 @@ The project uses **import mode**, so refreshing is straightforward.
 
 ## 📂 3. Repository Folder Structure
 
+```markdown
 📦 Project Root
 │
 
@@ -2195,6 +2196,7 @@ The project uses **import mode**, so refreshing is straightforward.
 ├── Images/ → Supplementary images (logos, icons, assets)
 
 └── README.md → Full project documentation
+```
 
 ---
 
