@@ -25,7 +25,7 @@ After peaking in 2019, the business experienced a sharp revenue **decline of ~60
 - **It is a Volume Crisis, not a Margin Crisis**: The revenue decline is volume-driven, not margin-driven. Profit margins remained consistently stable (~58–59%) across products, regions, and stores, indicating strong cost control.
 - **The "Silent" Churn**: The customer base is structurally weak, **with over 60% of customers dormant and only ~5% actively contributing to current revenue**.
 - **Structural Imbalance**: **Revenue is highly concentrated** in a narrow set of product categories (Computers, Home Appliances) and regions (North America, Western Europe), increasing risk exposure.
-- **Australia consistently underperforms**:  Across revenue, growth, and store efficiency metrics, pointing to structural or market-specific issues rather than short-term volatility.
+- **Australia consistently underperforms**:  The Australian region is not doing well across revenue, growth, and store efficiency metrics, pointing to structural or market-specific issues rather than short-term volatility.
 
 **The Solution**
 - **Immediate Reactivation**: The fastest and highest-impact recovery lever is **customer reactivation and retention, not discounting or margin optimization**. Launch targeted win-back campaigns for the 60% dormant user base
