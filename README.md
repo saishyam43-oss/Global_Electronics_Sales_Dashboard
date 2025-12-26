@@ -301,7 +301,7 @@ This section analyzes **what Global Electronics sells**, **which categories driv
 > **🔎 Click a link below to view each full dashboard page:**
 
 - **📄 Page 1:** [Open Image](Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_1.png)
-- **📄 Page 2:** [Open Image](Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_2.jpg)
+- **📄 Page 2:** [Open Image](Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_2.png)
 - **📄 Page 3:** [Open Image](Dashboard_Screenshots/03_Product_Dashboard/Product_Performance_3.jpg)
 
 ---
