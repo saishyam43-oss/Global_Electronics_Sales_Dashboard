@@ -15,6 +15,28 @@
 
 </div>
 
+---
+
+## ⚡ Executive Snapshot
+
+**The Problem**
+After peaking in 2019, the business experienced a sharp revenue **decline of ~60% by 2021**. Despite stable pricing and margins, overall performance deteriorated, raising concerns about **demand sustainability, geographic exposure, and customer health**.
+
+**The Diagnosis**
+- The **revenue decline is volume-driven, not margin-driven**. Profit margins remained consistently stable (~58–59%) across products, regions, and stores, indicating strong cost control.
+- The customer base is structurally weak, **with over 60% of customers dormant and only ~5% actively contributing to current revenue**.
+- **Revenue is highly concentrated** in a narrow set of product categories (Computers, Home Appliances) and regions (North America, Western Europe), increasing risk exposure.
+- **Australia consistently underperforms** across revenue, growth, and store efficiency metrics, pointing to structural or market-specific issues rather than short-term volatility.
+
+**The Solution**
+- The fastest and highest-impact recovery lever is **customer reactivation and retention, not discounting or margin optimization**.
+- Growth should prioritize **scaling proven high-margin categories** and replicating execution playbooks from top-performing stores and regions.
+- Underperforming geographies such as Australia require **targeted intervention or strategic reassessment**, while core regions should be defended and optimized.
+
+This project consolidates five years of fragmented retail data into a single decision system to identify decline drivers and guide recovery strategy.
+
+---
+
 # 1. Client Background & Project Context
 
 Global Electronics is a (fictional) multinational retailer specializing in high-end consumer electronics. Founded in 2010, the company expanded rapidly from its North American roots, establishing a significant physical presence across Europe and Australia with over 70 stores, complemented by a robust e-commerce ("Online") platform.
@@ -182,7 +204,7 @@ Short-term focus should include:
 # 🧹 5. Data Cleaning Summary
 
 > *Before analysis, over 5 years of raw data (2016–2021) from five independent CSV files were audited, cleaned, and standardized in SQL.  
-This process transformed the dataset from inconsistent and unreliable into a **99.6% geo-validated, analytics-ready model**.*
+This process transformed the dataset from inconsistent and unreliable into a **99.6% geo-validated, analytics-ready model** and helped to ensure that all subsequent insights are based on a trusted, analytics-ready foundation rather than exploratory assumptions.*
 
 ---
 
