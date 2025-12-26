@@ -8,9 +8,7 @@
 
 <img src="Images/Logo_GE.png" alt="Global Electronics Logo" width="150"/>
 
-<h1>
-  $${\color{green}Global \space \color{yellow}Electronics}$$
-</h1>
+# GLOBAL ELECTRONICS
 <h3>Retail Sales Operations Dashboard</h3>
 
 </div>
