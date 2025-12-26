@@ -20,6 +20,7 @@
 ## ⚡ Executive Snapshot
 
 **The Problem**
+
 After peaking in 2019, the business experienced a sharp revenue **decline of ~60% by 2021**. Despite stable pricing and margins, overall performance deteriorated, raising concerns about **demand sustainability, geographic exposure, and customer health**.
 
 **The Diagnosis**
