@@ -22,15 +22,15 @@
 After peaking in 2019, the business experienced a sharp revenue **decline of ~60% by 2021**. Despite stable pricing and margins, overall performance deteriorated, raising concerns about **demand sustainability, geographic exposure, and customer health**.
 
 **The Diagnosis**
-- The **revenue decline is volume-driven, not margin-driven**. Profit margins remained consistently stable (~58–59%) across products, regions, and stores, indicating strong cost control.
-- The customer base is structurally weak, **with over 60% of customers dormant and only ~5% actively contributing to current revenue**.
-- **Revenue is highly concentrated** in a narrow set of product categories (Computers, Home Appliances) and regions (North America, Western Europe), increasing risk exposure.
-- **Australia consistently underperforms** across revenue, growth, and store efficiency metrics, pointing to structural or market-specific issues rather than short-term volatility.
+- **It is a Volume Crisis, not a Margin Crisis**: The revenue decline is volume-driven, not margin-driven. Profit margins remained consistently stable (~58–59%) across products, regions, and stores, indicating strong cost control.
+- **The "Silent" Churn**: The customer base is structurally weak, **with over 60% of customers dormant and only ~5% actively contributing to current revenue**.
+- **Structural Imbalance**: **Revenue is highly concentrated** in a narrow set of product categories (Computers, Home Appliances) and regions (North America, Western Europe), increasing risk exposure.
+- **Australia consistently underperforms**:  Across revenue, growth, and store efficiency metrics, pointing to structural or market-specific issues rather than short-term volatility.
 
 **The Solution**
-- The fastest and highest-impact recovery lever is **customer reactivation and retention, not discounting or margin optimization**. Launch targeted win-back campaigns for the 60% dormant user base
-- Growth should prioritize **scaling proven high-margin categories** and replicating execution playbooks from top-performing stores and regions.
-- Underperforming geographies such as Australia require **targeted intervention or strategic reassessment**, while core regions should be defended and optimized.
+- **Immediate Reactivation**: The fastest and highest-impact recovery lever is **customer reactivation and retention, not discounting or margin optimization**. Launch targeted win-back campaigns for the 60% dormant user base
+- **Replicate playbooks**: Growth should prioritize **scaling proven high-margin categories** and replicating execution playbooks from top-performing stores and regions.
+- **Defend the Core**: Underperforming geographies such as Australia require **targeted intervention or strategic reassessment**, while core regions should be defended and optimized.
 
 This project consolidates five years of fragmented retail data into a single decision system to identify decline drivers and guide recovery strategy.
 
