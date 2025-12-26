@@ -34,7 +34,7 @@ After peaking in 2019, the business experienced a sharp revenue **decline of ~60
 
 This project consolidates five years of fragmented retail data into a single decision system to identify decline drivers and guide recovery strategy.
 
-**How to Read This Project (2 minutes)**
+**💨 How to Read This Project (2 minutes)**
 
  - If you’re short on time: read Executive Snapshot + Act Summaries
 
