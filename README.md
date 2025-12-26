@@ -118,7 +118,7 @@ This dashboard consolidates company-wide performance metrics into a single, inte
 | **Total Revenue (YTD)** | \$9.24M | 🔻 -49.2% | Demand contraction post-2019 peak |
 | **Total Profit (YTD)** | \$5.42M | 🔻 -49.2% | Margin pressure across categories |
 | **Average Order Value (AOV)** | \$2.00K | 🔻 -0.40% | Remained resilient despite sales decline |
-| **Customer Lifetime Value (CLV)** | \$2.40K | 🔻 -49.2% | Customer loyalty erosion |
+| **Customer Lifetime Value (CLV)** | \$2.40K | 🔻 -14.7% | Customer loyalty erosion |
 | **Revenue Growth (local)** | -49.23% |🔻 -0.00% | Minimal Currency impact |
 
 📉 **Insight:**  
@@ -316,7 +316,7 @@ Below is a snapshot of the key product-level performance indicators that anchor 
 
 | **KPI** | **Value / Insight** | **Recommended Action** |
 |--------|----------------------|--------------------------|
-| **Total Revenue (YTD)** | **$1.04M**, **–88.8% vs PY**, reflecting severe contraction in 2021. | Address root causes of revenue collapse and rebuild category momentum. |
+| **Total Revenue (YTD)** | **$1.04M**, **–70.2% vs PY**, reflecting severe contraction in 2021. | Address root causes of revenue collapse and rebuild category momentum. |
 | **Total Profit (YTD)** | **$606.57K**, **58.56% margin**, margins remain stable despite revenue decline. | Maintain disciplined pricing, protect high-margin SKUs. |
 | **Units Sold (YTD)** | **3,770 units**, sharp drop in volume. | Review category-level demand loss and reactivate best-selling SKUs. |
 | **Top SKU Units (2021)** | **36 units**, dramatically lower than historical levels. | Investigate SKU visibility, pricing, and demand generation gaps. |
@@ -661,10 +661,10 @@ These operational KPIs provide a top-level view of business health across revenu
 
 | **KPI** | **Value / Insight** | **Recommendation** |
 |--------|----------------------|---------------------|
-| **Total Revenue (YTD)** | **$1.04M**, **–88.8% vs PY**. | Investigate category and region-level collapse. |
+| **Total Revenue (YTD)** | **$1.04M**, **–70.2% vs PY**. | Investigate category and region-level collapse. |
 | **Total Profit (YTD)** | **$606.57K**, **58.56% margin**, stable YoY. | Leverage stable margin to rebuild volume. |
-| **Avg Delivery Days** | **3.88 days**, **–6.0% YoY**. | Maintain speed, highlight in marketing comms. |
-| **Total Orders (YTD)** | **494 orders**, **–89.3% vs PY**. | Rebuild order momentum via campaigns and reactivation. |
+| **Avg Delivery Days** | **3.88 days**, **–4.3% YoY**. | Maintain speed, highlight in marketing comms. |
+| **Total Orders (YTD)** | **494 orders**, **–71.5% vs PY**. | Rebuild order momentum via campaigns and reactivation. |
 
 ---
 
@@ -1082,8 +1082,8 @@ These KPIs summarize **2021 year-to-date** customer performance, with comparison
 |--------|----------------------------------|---------------------------|
 | **Active Customers (YTD)** | **485 active customers** out of **15K total**, reflecting a very small engaged base relative to the full customer file. | Prioritize reactivation and engagement programs to bring lapsed and dormant customers back into the active pool. |
 | **Average Order Value (AOV)** | **$2.10K**, with **+4.6% vs prior year**, indicating customers who remain active still spend slightly more per transaction. | Protect this high-value behavior while designing smaller-ticket or add-on offers to increase order frequency. |
-| **Customer Lifetime Value (CLTV)** | **$2.14K**, with **–11.1% vs prior year**, suggesting lifetime value is slipping as fewer customers stay active long-term. | Introduce CLTV-boosting strategies: tailored upsell paths, post-purchase journeys, and loyalty rewards. |
-| **New Customers (YTD)** | **66 new customers**, with **–93.0% vs prior year**, showing a severely weakened acquisition funnel post-2019. | Rebuild acquisition with targeted campaigns, better audience targeting, and refreshed messaging/positioning. |
+| **Customer Lifetime Value (CLTV)** | **$2.14K**, with **–1.6% vs prior year**, suggesting lifetime value is slipping as fewer customers stay active long-term. | Introduce CLTV-boosting strategies: tailored upsell paths, post-purchase journeys, and loyalty rewards. |
+| **New Customers (YTD)** | **66 new customers**, with **–82.0% vs prior year**, showing a severely weakened acquisition funnel post-2019. | Rebuild acquisition with targeted campaigns, better audience targeting, and refreshed messaging/positioning. |
 
 ---
 
@@ -1423,11 +1423,11 @@ These KPIs summarize **regional and store-level performance for 2021 (YTD)** wit
 
 | **KPI** | **Value & Insight** | **Recommended Action** |
 |--------|----------------------|------------------------|
-| **Total Revenue (YTD)** | **$1.04M**, with **–88.8% vs prior year**, reflecting a dramatic revenue collapse in 2021 relative to 2020. | Prioritize regional and store-level actions that restore volume in proven markets (North America, key European countries). |
+| **Total Revenue (YTD)** | **$1.04M**, with **–70.2% vs prior year**, reflecting a dramatic revenue collapse in 2021 relative to 2020. | Prioritize regional and store-level actions that restore volume in proven markets (North America, key European countries). |
 | **Total Profit (YTD)** | **$606.57K**, with an average margin of **58.56%**, consistent with historical levels despite the revenue crash. | Leverage margin stability to support aggressive but controlled growth plans without resorting to heavy discounting. |
 | **Revenue per Sq. Meter (YTD)** | **$10.28/sqm** in 2021 vs **$551.09/sqm** when all years are selected, highlighting how underutilized current store capacity is. | Reassess store footprint, optimize floor space productivity, and consider consolidation in chronically underperforming locations. |
 | **Revenue per Store (YTD)** | **$15.01K per store** vs **$805.06K per store** across all years, reinforcing the scale of 2021 underperformance. | Focus on turning around low-productivity stores and reallocating resources to high-efficiency locations. |
-| **Revenue Growth (Local)** | **–89.01% local revenue growth**, with **currency impact only ~0.21%**, confirming that performance issues are operational/market-driven, not FX-driven. | Address demand, channel, and execution problems directly; FX is not the main story. |
+| **Revenue Growth (Local)** | **–89.01% local revenue growth**, with **currency impact only ~0.23%**, confirming that performance issues are operational/market-driven, not FX-driven. | Address demand, channel, and execution problems directly; FX is not the main story. |
 
 ---
 
