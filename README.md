@@ -30,7 +30,7 @@ After peaking in 2019, the business experienced a sharp revenue **decline of ~60
 - **Australia consistently underperforms** across revenue, growth, and store efficiency metrics, pointing to structural or market-specific issues rather than short-term volatility.
 
 **The Solution**
-- The fastest and highest-impact recovery lever is **customer reactivation and retention, not discounting or margin optimization**.
+- The fastest and highest-impact recovery lever is **customer reactivation and retention, not discounting or margin optimization**. Launch targeted win-back campaigns for the 60% dormant user base
 - Growth should prioritize **scaling proven high-margin categories** and replicating execution playbooks from top-performing stores and regions.
 - Underperforming geographies such as Australia require **targeted intervention or strategic reassessment**, while core regions should be defended and optimized.
 
@@ -202,114 +202,7 @@ Short-term focus should include:
 
 ---
 
-# 🧹 5. Data Cleaning Summary
-
-> *Before analysis, over 5 years of raw data (2016–2021) from five independent CSV files were audited, cleaned, and standardized in SQL.  
-This process transformed the dataset from inconsistent and unreliable into a **99.6% geo-validated, analytics-ready model** and helped to ensure that all subsequent insights are based on a trusted, analytics-ready foundation rather than exploratory assumptions.*
-
----
-
-### 🧭 Why SQL Instead of Excel?
-
-The Sales table alone contained **60,000+ rows**, and joining multiple tables in Excel led to slow processing and inconsistent transformations.  
-To ensure reproducibility and performance:
-
-- A **SQLite database** was created  
-- All raw CSVs were imported into SQL  
-- Cleaning, validation, and reconstruction of each table was done using structured queries  
-- The cleaned outputs were exported to Power BI for modeling
-
-All SQL scripts are available in:  
-📁 [`/Data_Cleaning_SQL`](Data_Cleaning_SQL/)
-
----
-
-### 📄 Page 1 — Data Quality Overview
-
-<div align="center">
-
-<img src="Dashboard_Screenshots/02_Data_Cleaning_Summary/Data_Cleaning_Summary_1.jpg"  
-     alt="Data Cleaning Summary Page 1" width="850"/>
-
-</div>
-
-#### 🔍 Key Insights
-
-- **461 invalid sales rows removed**, including duplicates, missing keys, impossible dates, and outliers.  
-- **100% clean City → State → Country mappings** achieved using SQL lookup tables.  
-- **19.54% duplicate keys** initially existed in the Sales table; all duplicates were flagged and resolved.  
-- **32k+ inconsistent date values** standardized from mixed formats (`DD-MM-YYYY`, `MM/DD/YYYY`, text dates).  
-- The **Sales and Customers tables accounted for over 70%** of all detected data issues.  
-- Primary error categories: invalid geography, impossible dates, duplicate rows, and product-key mismatches.
-
----
-
-### 🌍 Page 2 — Geographic Data Quality & Validation
-
-<div align="center">
-
-<img src="Dashboard_Screenshots/02_Data_Cleaning_Summary/Data_Cleaning_Summary_2.jpg"  
-     alt="Data Cleaning Summary Page 2" width="850"/>
-
-</div>
-
-#### 🔍 Key Insights
-
-- Early validation identified **255+ geographic mismatches** across 5 countries.  
-- After standardization, the dataset reached **100% state–country consistency**.  
-- **76.32%** of all detected issues were **correctable**, minimizing data loss.  
-- **Ambiguous or corrupted date formats** were documented and isolated as a final limitation.  
-- Cleaned and validated tables were exported into Power BI for modeling.
-
----
-
-### 📊 Cleaning Impact Summary
-
-| Cleaning Metric | Result |
-|-----------------|--------|
-| Invalid Sales Removed | **461 records** |
-| Geographic Mappings Corrected | **100% clean** (state → country) |
-| Duplicate Keys Flagged | **19.54% of Sales**, **3.25% of Products** |
-| Dates Standardized | **32,054 → 91,993** usable date values |
-| Data Reliability Score | **99.6%** |
-
----
-
-### 🧱 Final Output — Clean Data Model (Star Schema)
-
-<div align="center">
-
-![Data Model](https://github.com/saishyam43-oss/Global_Electronics_Sales_Dashboard/blob/main/Data_Model/Sales_Operations/Data_Model.jpg?raw=True)
-
-</div>
-
-The cleaned SQL tables were transformed into a **Power BI star schema**:
-
-- **FactSales** (central fact table)  
-- **DimProducts**, **DimCustomers**, **DimStores**, **DimExchangeRates**  
-- Optimized for DAX performance, filtering, and drilldowns
-
-Model notes:  
-📁 [`/Data_Model/Sales_Operations/readme.md`](/Data_Model/Sales_Operations/readme.md)
-
----
-
-### 📘 Technical Appendix
-
-<details>
-<summary><strong>SQL Scripts, DAX Measures, and Cleaning Tables</strong></summary>
-
-- SQL Cleaning Scripts → [`/Data_Cleaning_SQL`](Data_Cleaning_SQL/)  
-- DAX Measures & Calculated Columns → [`/DAX`](DAX/)  
-- Data Audit Tables (Excel) → [`/Data_Cleaning_Tables`](Data_Cleaning_Tables/)  
-
-</details>
-
----
-
----
-
-# 📘 6. Analytical Insights & Business Narrative
+# 📘 5. Analytical Insights & Business Narrative
 
 With the data now cleaned, validated, and modeled into a reliable star schema, the next section focuses on extracting **business-ready insights**.  
 Each dashboard has been designed to answer a specific strategic question faced by Global Electronics, moving from product health to customer behavior and regional performance.
@@ -1905,7 +1798,7 @@ The path forward lies in **defending and growing core regions**, **fixing or exi
 
 ---
 
-# 📌 **7. Insights → Recommendations Summary Sheet**
+# 📌 **6. Insights → Recommendations Summary Sheet**
 
 This section consolidates all major findings across the four acts of the project and converts them into clear, actionable business recommendations for Global Electronics (GE). It also outlines a strategic roadmap answering the most important question:
 
@@ -2023,6 +1916,113 @@ Global Electronics’ path back to growth is clear:
 **Recover volume, protect margins, activate customers, and expand strategically.**  
 The business fundamentals are strong, the customer value is high, and the operational model is resilient.  
 What GE needs now is **focused execution** guided by data.
+
+---
+
+---
+
+# 🧹 7. Data Cleaning Summary
+
+> *Before analysis, over 5 years of raw data (2016–2021) from five independent CSV files were audited, cleaned, and standardized in SQL.  
+This process transformed the dataset from inconsistent and unreliable into a **99.6% geo-validated, analytics-ready model** and helped to ensure that all subsequent insights are based on a trusted, analytics-ready foundation rather than exploratory assumptions. See Technical Appendix for details.*
+
+---
+
+### 🧭 Why SQL Instead of Excel?
+
+The Sales table alone contained **60,000+ rows**, and joining multiple tables in Excel led to slow processing and inconsistent transformations.  
+To ensure reproducibility and performance:
+
+- A **SQLite database** was created  
+- All raw CSVs were imported into SQL  
+- Cleaning, validation, and reconstruction of each table was done using structured queries  
+- The cleaned outputs were exported to Power BI for modeling
+
+All SQL scripts are available in:  
+📁 [`/Data_Cleaning_SQL`](Data_Cleaning_SQL/)
+
+---
+
+### 📄 Page 1 — Data Quality Overview
+
+<div align="center">
+
+<img src="Dashboard_Screenshots/02_Data_Cleaning_Summary/Data_Cleaning_Summary_1.jpg"  
+     alt="Data Cleaning Summary Page 1" width="850"/>
+
+</div>
+
+#### 🔍 Key Insights
+
+- **461 invalid sales rows removed**, including duplicates, missing keys, impossible dates, and outliers.  
+- **100% clean City → State → Country mappings** achieved using SQL lookup tables.  
+- **19.54% duplicate keys** initially existed in the Sales table; all duplicates were flagged and resolved.  
+- **32k+ inconsistent date values** standardized from mixed formats (`DD-MM-YYYY`, `MM/DD/YYYY`, text dates).  
+- The **Sales and Customers tables accounted for over 70%** of all detected data issues.  
+- Primary error categories: invalid geography, impossible dates, duplicate rows, and product-key mismatches.
+
+---
+
+### 🌍 Page 2 — Geographic Data Quality & Validation
+
+<div align="center">
+
+<img src="Dashboard_Screenshots/02_Data_Cleaning_Summary/Data_Cleaning_Summary_2.jpg"  
+     alt="Data Cleaning Summary Page 2" width="850"/>
+
+</div>
+
+#### 🔍 Key Insights
+
+- Early validation identified **255+ geographic mismatches** across 5 countries.  
+- After standardization, the dataset reached **100% state–country consistency**.  
+- **76.32%** of all detected issues were **correctable**, minimizing data loss.  
+- **Ambiguous or corrupted date formats** were documented and isolated as a final limitation.  
+- Cleaned and validated tables were exported into Power BI for modeling.
+
+---
+
+### 📊 Cleaning Impact Summary
+
+| Cleaning Metric | Result |
+|-----------------|--------|
+| Invalid Sales Removed | **461 records** |
+| Geographic Mappings Corrected | **100% clean** (state → country) |
+| Duplicate Keys Flagged | **19.54% of Sales**, **3.25% of Products** |
+| Dates Standardized | **32,054 → 91,993** usable date values |
+| Data Reliability Score | **99.6%** |
+
+---
+
+### 🧱 Final Output — Clean Data Model (Star Schema)
+
+<div align="center">
+
+![Data Model](https://github.com/saishyam43-oss/Global_Electronics_Sales_Dashboard/blob/main/Data_Model/Sales_Operations/Data_Model.jpg?raw=True)
+
+</div>
+
+The cleaned SQL tables were transformed into a **Power BI star schema**:
+
+- **FactSales** (central fact table)  
+- **DimProducts**, **DimCustomers**, **DimStores**, **DimExchangeRates**  
+- Optimized for DAX performance, filtering, and drilldowns
+
+Model notes:  
+📁 [`/Data_Model/Sales_Operations/readme.md`](/Data_Model/Sales_Operations/readme.md)
+
+---
+
+### 📘 Technical Appendix
+
+<details>
+<summary><strong>SQL Scripts, DAX Measures, and Cleaning Tables</strong></summary>
+
+- SQL Cleaning Scripts → [`/Data_Cleaning_SQL`](Data_Cleaning_SQL/)  
+- DAX Measures & Calculated Columns → [`/DAX`](DAX/)  
+- Data Audit Tables (Excel) → [`/Data_Cleaning_Tables`](Data_Cleaning_Tables/)  
+
+</details>
 
 ---
 
