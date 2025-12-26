@@ -1,6 +1,6 @@
 # 📊 Global Electronics: Retail Sales Operations Dashboard
 
-> *A complete end-to-end retail analytics project built using SQL and Power BI, focused on uncovering performance trends, product profitability, and customer retention insights.*
+> *In this end-to-end retail analytics project, I simulated the role of a Lead BI Consultant to diagnose a 60% revenue decline. I designed the entire workflow—from writing custom SQL scripts for data cleaning to architecting the Power BI star schema and formulating the final strategic recovery roadmap.*
 
 ---
 
@@ -34,6 +34,14 @@ After peaking in 2019, the business experienced a sharp revenue **decline of ~60
 
 This project consolidates five years of fragmented retail data into a single decision system to identify decline drivers and guide recovery strategy.
 
+**How to Read This Project (2 minutes)**
+
+ - If you’re short on time: read Executive Snapshot + Act Summaries
+
+ - If you want depth: jump to any Act using the navigation table
+
+ - Dashboards are designed for interactive exploration, screenshots are for context
+
 ---
 
 # 1. Client Background & Project Context
@@ -57,7 +65,7 @@ The core business problem was a **lack of visibility**. The leadership team lack
 * **Which** products and categories are our true profit drivers, and which are "cash cows" (high revenue, low margin)?
 * **Where** are our most (and least) efficient stores and regions?
 
-The **objective** of this project was to clean, model, and analyze five years of data (from 5 tables: `Sales`, `Products`, `Customers`, `Stores`, `Exchange Rates`) to build a "single source of truth" dashboard. This tool would diagnose the root causes of the sales decline and identify the most valuable opportunities for growth.
+My primary objective was to transform 5 years of fragmented raw data into a reliable decision-making system. I structured the analysis to specifically answer leadership's doubts about the 2021 decline, ensuring that every dashboard I built directly addressed a strategic question regarding profit, retention, or efficiency.
 
 ---
 
@@ -205,7 +213,7 @@ Short-term focus should include:
 With the data now cleaned, validated, and modeled into a reliable star schema, the next section focuses on extracting **business-ready insights**.  
 Each dashboard has been designed to answer a specific strategic question faced by Global Electronics, moving from product health to customer behavior and regional performance.
 
-The analysis is structured into four “Acts,” each representing a pillar of the business:
+To make the insights digestible for non-technical stakeholders, I designed the narrative around four "Acts." Instead of a generic report, I curated each dashboard to tell a specific part of the story—moving from the product portfolio health in Act 1 to the regional efficiency gaps in Act 4.
 
 ---
 
@@ -1841,7 +1849,7 @@ This section consolidates all major findings across the four acts of the project
 
 ## 🚀 **2. Strategic Roadmap for the Next 12 Months**
 
-Below is a prioritised roadmap translating insights into execution.
+Based on the "Volume vs. Margin" diagnosis I established in Act 2, I have developed the following 12-month strategic roadmap. I prioritized these actions to focus first on low-cost/high-impact retention levers before suggesting capital-intensive expansion.
 
 ---
 
@@ -1890,7 +1898,7 @@ Below is a prioritised roadmap translating insights into execution.
 
 ---
 
-## 🟦 **3. Executive-Level Summary (One-Liner Answers)**
+## 📝 **3. Executive-Level Summary (One-Liner Answers)**
 
 ### **✓ How can GE grow revenue?**  
 Recover volume through targeted campaigns, fix weak regions, and invest in high-margin categories.
@@ -1906,6 +1914,16 @@ North America first, Europe second, Australia fix-or-restructure, and pilot emer
 
 ### **✓ What is GE’s biggest missed opportunity?**  
 Re-engaging dormant customers and expanding profitable category verticals.
+
+## 🌐 **4. If This Were a Live Production System**
+
+ - Automated data refresh pipeline
+ 
+ - Alerting on retention and order volume
+ 
+ - Predictive churn scoring
+  
+ - Experiment tracking for reactivation campaigns
 
 ---
 
@@ -1928,7 +1946,7 @@ This process transformed the dataset from inconsistent and unreliable into a **9
 
 ### 🧭 Why SQL Instead of Excel?
 
-The Sales table alone contained **60,000+ rows**, and joining multiple tables in Excel led to slow processing and inconsistent transformations.  
+I deliberately chose SQL over Excel for the data processing layer to ensure scalability and reproducibility. Faced with **60,000+ rows** and inconsistent date formats, I wrote custom validation scripts to audit the data quality before importing it into Power BI, achieving a **99.6% reliability score**.
 To ensure reproducibility and performance:
 
 - A **SQLite database** was created  
@@ -2028,7 +2046,7 @@ Model notes:
 
 # 🛑 **8. Limitations & Future Improvements**
 
-Even though this project covers a full end-to-end business intelligence workflow, several constraints limit the depth and scalability of insights.
+While I successfully built a robust star schema and diagnostic dashboard, I identified several constraints in the dataset that limited the depth of my churn prediction model. In a live environment, I would recommend implementing Row-Level Security (RLS) and connecting to a live SQL warehouse to improve real-time decision-making. I've listed all current limitations and possible future improvements below.
 
 ---
 
