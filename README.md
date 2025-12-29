@@ -207,7 +207,7 @@ Short-term focus should include:
 
 # 📘 5. Analytical Insights & Business Narrative
 
-With the data cleaned, validated, and modeled into a reliable star schema, the next section focuses on extracting **business-ready insights**.  
+With the data cleaned, validated, and modeled into a reliable star schema [View Section](#-7-data-cleaning-summary), the next section focuses on extracting **business-ready insights**.  
 Each dashboard has been designed to answer a specific strategic question faced by Global Electronics, moving from product health to customer behavior and regional performance.
 
 To make the insights digestible for non-technical stakeholders, I designed the narrative around four "Acts." Instead of a generic report, I curated each dashboard to tell a specific part of the story—moving from the product portfolio health in Act 1 to the regional efficiency gaps in Act 4.
