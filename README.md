@@ -2109,7 +2109,7 @@ A complete view of the technologies used across data cleaning, modelling, analys
 - Power BI import mode
 
 ## 🔹 **Data Cleaning**
-- SQL (Data_Cleaning_SQL/)
+- SQL ([`/Data_Cleaning_SQL`](Data_Cleaning_SQL/))
 - Excel validation
 - Power Query (M transformations)
 
