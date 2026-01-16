@@ -1,7 +1,10 @@
 # 📊 Global Electronics: Retail Sales Operations Dashboard
 
+![Status: Strategic Diagnosis](https://img.shields.io/badge/Status-Strategic_Diagnosis-blue) ![Stack: Power BI & SQL](https://img.shields.io/badge/Stack-Power_BI_%26_SQL-orange) ![Focus: Profitability](https://img.shields.io/badge/Focus-Profitability_%26_Efficiency-green)
+
 > *In this end-to-end retail analytics project, I simulated the role of a Lead BI Consultant to diagnose a 60% revenue decline. I designed the entire workflow—from writing custom SQL scripts for data cleaning to architecting the Power BI star schema and formulating the final strategic recovery roadmap.*
 
+> **Business Intelligence | Data Modeling | Strategic Analysis**
 ---
 
 <div align="center">
